@@ -113,16 +113,16 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a
-                  href={`mailto:${siteConfig.links.email}`}
+                <Link
+                  href="/contact/"
                   className="inline-flex items-center gap-1.5 text-sm text-muted transition-colors duration-200 hover:text-accent"
                 >
                   <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <rect x="2" y="4" width="20" height="16" rx="2" />
-                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                    <polyline points="22,6 12,13 2,6" />
                   </svg>
-                  {siteConfig.links.email}
-                </a>
+                  Send a Message
+                </Link>
               </li>
             </ul>
           </div>

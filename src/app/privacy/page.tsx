@@ -50,8 +50,8 @@ export default function Privacy() {
         <section>
           <h2 className="text-lg font-semibold text-primary">5. Contact</h2>
           <p className="mt-2">
-            If you have questions about this privacy policy, please contact us at
-            hello@boyoapps.com.
+            If you have questions about this privacy policy, please{" "}
+            <a href="/contact/" className="text-accent underline underline-offset-2">contact us</a>.
           </p>
         </section>
       </div>

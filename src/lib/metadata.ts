@@ -6,6 +6,5 @@ export const siteConfig = {
   ogImage: "/og-image.jpg",
   links: {
     linkedin: "https://linkedin.com/company/boyoapps",
-    email: "hello@boyoapps.com",
   },
 };

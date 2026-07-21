@@ -42,7 +42,8 @@ export default function Terms() {
         <section>
           <h2 className="text-lg font-semibold text-primary">4. Contact</h2>
           <p className="mt-2">
-            For questions about these terms, contact us at hello@boyoapps.com.
+            For questions about these terms, please{" "}
+            <a href="/contact/" className="text-accent underline underline-offset-2">contact us</a>.
           </p>
         </section>
       </div>
