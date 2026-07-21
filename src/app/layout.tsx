@@ -29,14 +29,19 @@ export const metadata: Metadata = {
     siteName: "Boyo Apps",
     locale: "en_US",
     type: "website",
+    images: [{ url: siteConfig.ogImage, width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Custom Mobile & Web App Development | Boyo Apps",
     description: siteConfig.description,
+    images: [siteConfig.ogImage],
   },
   icons: {
-    icon: "/images/favicon/favicon.ico",
+    icon: [
+      { url: "/images/favicon/favicon.svg", type: "image/svg+xml" },
+      { url: "/images/favicon/favicon.ico", sizes: "32x32" },
+    ],
   },
   robots: {
     index: true,
