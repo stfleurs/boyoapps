@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="760" viewBox="0 0 360 760">
+  <rect width="360" height="760" rx="40" fill="#f8fafc" stroke="#e2e8f0" stroke-width="4"/>
+  <!-- Notch -->
+  <rect x="130" y="12" width="100" height="24" rx="12" fill="#0b0f1a"/>
+  <!-- Status bar -->
+  <text x="36" y="48" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#0b0f1a">9:41</text>
+  <!-- Header -->
+  <rect x="24" y="72" width="312" height="20" rx="6" fill="#059669"/>
+  <text x="180" y="86" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" font-weight="600" fill="white">Tally Cart</text>
+  <!-- Shopping list items -->
+  <rect x="24" y="108" width="312" height="60" rx="10" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <circle cx="44" cy="138" r="10" fill="#059669" opacity="0.15"/>
+  <text x="64" y="134" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#0b0f1a">Milk</text>
+  <text x="64" y="152" font-family="system-ui,sans-serif" font-size="10" fill="#94a3b8">1 gal</text>
+  <text x="300" y="138" text-anchor="end" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#0b0f1a">$4.50</text>
+
+  <rect x="24" y="176" width="312" height="60" rx="10" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <circle cx="44" cy="206" r="10" fill="#059669" opacity="0.15"/>
+  <text x="64" y="202" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#0b0f1a">Bread</text>
+  <text x="64" y="220" font-family="system-ui,sans-serif" font-size="10" fill="#94a3b8">Whole wheat</text>
+  <text x="300" y="206" text-anchor="end" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#0b0f1a">$3.20</text>
+
+  <rect x="24" y="244" width="312" height="60" rx="10" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <circle cx="44" cy="274" r="10" fill="#059669" opacity="0.4">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="64" y="270" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#0b0f1a">Eggs</text>
+  <text x="64" y="288" font-family="system-ui,sans-serif" font-size="10" fill="#94a3b8">1 dozen</text>
+  <text x="300" y="274" text-anchor="end" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#0b0f1a">$5.80</text>
+
+  <rect x="24" y="312" width="312" height="60" rx="10" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <circle cx="44" cy="342" r="10" fill="#059669" opacity="0.15"/>
+  <text x="64" y="338" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#0b0f1a">Apples</text>
+  <text x="64" y="356" font-family="system-ui,sans-serif" font-size="10" fill="#94a3b8">2 lbs</text>
+  <text x="300" y="342" text-anchor="end" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#0b0f1a">$3.99</text>
+
+  <!-- Total bar -->
+  <rect x="24" y="390" width="312" height="50" rx="10" fill="#059669" opacity="0.1"/>
+  <text x="44" y="422" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#059669">Running Total</text>
+  <text x="300" y="422" text-anchor="end" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#059669">$17.49</text>
+
+  <!-- Budget progress -->
+  <rect x="24" y="456" width="312" height="16" rx="8" fill="#e2e8f0"/>
+  <rect x="24" y="456" width="200" height="16" rx="8" fill="#059669" opacity="0.5"/>
+  <text x="44" y="468" font-family="system-ui,sans-serif" font-size="9" font-weight="600" fill="white">Budget: $30.00</text>
+
+  <!-- Bottom nav -->
+  <rect x="24" y="680" width="312" height="56" rx="16" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="60" y="712" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#059669" font-weight="600">List</text>
+  <text x="140" y="712" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#94a3b8">Scan</text>
+  <text x="220" y="712" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#94a3b8">Budget</text>
+  <text x="300" y="712" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#94a3b8">More</text>
+
+  <!-- Overlay -->
+  <rect x="0" y="0" width="360" height="760" fill="white" opacity="0"/>
+  <rect x="40" y="340" width="280" height="80" rx="16" fill="#0b0f1a" opacity="0.85"/>
+  <text x="180" y="372" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="white">TALLY CART</text>
+  <text x="180" y="396" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#94a3b8">Replace with tally-cart.png</text>
+</svg>

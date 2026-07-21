@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="760" viewBox="0 0 360 760">
+  <rect width="360" height="760" rx="40" fill="#0f172a" stroke="#1e293b" stroke-width="4"/>
+  <!-- Notch -->
+  <rect x="130" y="12" width="100" height="24" rx="12" fill="#0b0f1a"/>
+  <!-- Status bar -->
+  <text x="36" y="48" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="white">9:41</text>
+  <!-- Header -->
+  <rect x="24" y="72" width="312" height="20" rx="6" fill="#d97706"/>
+  <text x="180" y="86" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" font-weight="600" fill="white">Solar Align Pro</text>
+  <!-- Compass visualization -->
+  <circle cx="180" cy="200" r="80" fill="none" stroke="#1e293b" stroke-width="2"/>
+  <circle cx="180" cy="200" r="60" fill="none" stroke="#1e293b" stroke-width="1" stroke-dasharray="4,4"/>
+  <circle cx="180" cy="200" r="40" fill="none" stroke="#1e293b" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="180" y1="120" x2="180" y2="280" stroke="#334155" stroke-width="1"/>
+  <line x1="100" y1="200" x2="260" y2="200" stroke="#334155" stroke-width="1"/>
+  <!-- Compass needle -->
+  <line x1="180" y1="200" x2="240" y2="140" stroke="#d97706" stroke-width="3" stroke-linecap="round"/>
+  <line x1="180" y1="200" x2="180" y2="130" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>
+  <text x="180" y="108" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#64748b">N</text>
+  <text x="272" y="204" font-family="system-ui,sans-serif" font-size="10" fill="#64748b">E</text>
+  <text x="180" y="296" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#64748b">S</text>
+  <text x="88" y="204" font-family="system-ui,sans-serif" font-size="10" fill="#64748b">W</text>
+  <!-- Sun position indicator -->
+  <circle cx="240" cy="140" r="8" fill="#f59e0b" opacity="0.6"/>
+  <circle cx="240" cy="140" r="4" fill="#f59e0b"/>
+  <!-- Angle reading -->
+  <rect x="56" y="320" width="248" height="60" rx="12" fill="#1e293b"/>
+  <text x="76" y="346" font-family="system-ui,sans-serif" font-size="10" fill="#64748b">Optimal Panel Angle</text>
+  <text x="76" y="368" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#f59e0b">32°</text>
+  <text x="160" y="368" font-family="system-ui,sans-serif" font-size="10" fill="#64748b">Tilt</text>
+  <!-- Efficiency metric -->
+  <rect x="56" y="396" width="248" height="60" rx="12" fill="#1e293b"/>
+  <text x="76" y="422" font-family="system-ui,sans-serif" font-size="10" fill="#64748b">Estimated Efficiency</text>
+  <text x="76" y="444" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#34d399">94%</text>
+  <!-- ROI metric -->
+  <rect x="56" y="472" width="248" height="60" rx="12" fill="#1e293b"/>
+  <text x="76" y="498" font-family="system-ui,sans-serif" font-size="10" fill="#64748b">Estimated Annual Yield</text>
+  <text x="76" y="520" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#34d399">4,320 kWh</text>
+  <!-- Bottom nav -->
+  <rect x="24" y="680" width="312" height="56" rx="16" fill="#1e293b"/>
+  <text x="60" y="712" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#f59e0b" font-weight="600">Align</text>
+  <text x="140" y="712" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#64748b">ROI</text>
+  <text x="220" y="712" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#64748b">History</text>
+  <text x="300" y="712" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#64748b">Settings</text>
+  <!-- Overlay -->
+  <rect x="0" y="0" width="360" height="760" fill="#0f172a" opacity="0"/>
+  <rect x="40" y="340" width="280" height="80" rx="16" fill="#0b0f1a" opacity="0.9"/>
+  <text x="180" y="372" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="white">SOLAR ALIGN PRO</text>
+  <text x="180" y="396" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#94a3b8">Replace with solar-align.png</text>
+</svg>

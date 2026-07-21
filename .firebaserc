@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "boyoapp"
+  },
+  "targets": {
+    "boyoapp": {
+      "hosting": {
+        "boyoapps": [
+          "boyoapps"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
