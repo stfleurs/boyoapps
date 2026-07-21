@@ -134,12 +134,13 @@ export default function SaaSDevelopment() {
                 Multi-Tenant Architecture
               </h3>
               <p className="mt-2 leading-relaxed text-muted">
-                Every SaaS product we build uses a multi-tenant architecture
-                where each customer&apos;s data is isolated and secure while
-                sharing the same application infrastructure. This approach
-                keeps operational costs low as the customer base grows and
-                simplifies deployment — one codebase serves all tenants
-                with configuration-driven differentiation.
+                For SaaS products that benefit from shared infrastructure,
+                we typically use a multi-tenant architecture where each
+                customer&apos;s data is isolated and secure while sharing the
+                same application infrastructure. This approach keeps
+                operational costs low as the customer base grows and
+                simplifies deployment. For products with stricter isolation
+                requirements, we can adapt the architecture accordingly.
               </p>
             </div>
             <div>
@@ -148,13 +149,12 @@ export default function SaaSDevelopment() {
               </h3>
               <p className="mt-2 leading-relaxed text-muted">
                 Subscription billing is one of the most critical components
-                of a SaaS product. We integrate payment gateways — Stripe,
-                PayPal, or region-specific processors — with support for
-                tiered pricing, free trials, usage-based billing, coupon
-                codes, and automated invoice generation. The billing system
-                is designed to handle failed payments, subscription upgrades
-                and downgrades, and prorated charges without manual
-                intervention.
+                of a SaaS product. We integrate payment gateways such as
+                Stripe with support for tiered pricing, free trials,
+                usage-based billing, coupon codes, and automated invoice
+                generation. The billing system is designed to handle failed
+                payments, subscription upgrades and downgrades, and
+                prorated charges without manual intervention.
               </p>
             </div>
             <div>
@@ -184,9 +184,9 @@ export default function SaaSDevelopment() {
                 "Subscription billing & payment integration",
                 "User authentication & role management",
                 "Real-time data & collaboration features",
-                "Cloud-native infrastructure (Firebase, GCP, AWS)",
+                "Cloud infrastructure & deployment (Firebase)",
                 "Analytics tracking & reporting dashboards",
-                "REST & GraphQL API design",
+                "REST API design",
                 "CI/CD pipeline & automated deployment",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3">
@@ -278,11 +278,11 @@ export default function SaaSDevelopment() {
                 What payment systems do you integrate for SaaS billing?
               </h3>
               <p className="mt-1 text-sm leading-relaxed text-muted">
-                We primarily integrate Stripe and PayPal for subscription
-                billing, with support for tiered pricing, free trials,
-                usage-based billing, coupon codes, and automated invoice
-                generation. We can also integrate region-specific payment
-                processors as needed.
+                We integrate Stripe for subscription billing, with support
+                for tiered pricing, free trials, usage-based billing,
+                coupon codes, and automated invoice generation. We can
+                also integrate region-specific payment processors as
+                needed.
               </p>
             </div>
             <div>

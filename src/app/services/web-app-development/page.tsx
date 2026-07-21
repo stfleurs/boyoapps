@@ -89,7 +89,7 @@ export default function WebAppDevelopment() {
               },
               {
                 title: "API Development & Integration",
-                desc: "REST and GraphQL APIs that connect your web application with mobile apps, third-party services, payment gateways, and legacy systems.",
+                desc: "Custom APIs that connect your web application with mobile apps, third-party services, payment gateways, and legacy systems.",
               },
               {
                 title: "SaaS Platforms",
@@ -178,11 +178,11 @@ export default function WebAppDevelopment() {
               {[
                 "React, Next.js & modern front-end frameworks",
                 "Node.js, Firebase & serverless backends",
-                "REST & GraphQL API design",
-                "PostgreSQL, Firestore & cloud databases",
+                "REST API design",
+                "Cloud database architecture",
                 "Responsive design across all devices",
                 "Authentication & authorization systems",
-                "Cloud hosting & deployment (Firebase, AWS)",
+                "Cloud hosting & deployment (Firebase)",
                 "CI/CD pipelines & automated testing",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3">
@@ -252,10 +252,9 @@ export default function WebAppDevelopment() {
               <p className="mt-1 text-sm leading-relaxed text-muted">
                 We primarily build with React and Next.js for front-end
                 applications paired with Node.js or Firebase for back-end
-                services. Our database choices include PostgreSQL,
-                Firestore, and SQLite depending on the application
-                requirements. We deploy on Firebase, AWS, or Google Cloud
-                based on client preference and project needs.
+                services. Our database choices depend on the application
+                requirements. We deploy on Firebase, which provides
+                reliable cloud infrastructure as the user base grows.
               </p>
             </div>
             <div>
@@ -300,11 +299,11 @@ export default function WebAppDevelopment() {
                 application?
               </h3>
               <p className="mt-1 text-sm leading-relaxed text-muted">
-                Yes. We integrate payment gateways including Stripe,
-                PayPal, and region-specific processors into web
+                Yes. We integrate payment gateways such as Stripe into web
                 applications. We handle the full payment flow — checkout,
                 receipt generation, refund processing, and transaction
-                history.
+                history. We can also work with region-specific processors
+                as needed.
               </p>
             </div>
             <div>

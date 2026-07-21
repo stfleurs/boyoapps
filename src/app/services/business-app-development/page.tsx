@@ -118,14 +118,12 @@ export default function BusinessAppDevelopment() {
                 Offline-First by Necessity
               </h3>
               <p className="mt-2 leading-relaxed text-muted">
-                Business operations cannot pause when the internet goes down.
-                Every business application we build stores data locally and
-                continues functioning at full capacity during network
-                outages. When connectivity returns, changes synchronize
-                automatically. This is not a feature we bolt on afterward —
-                it is how we architect from the start, proven in production
-                by Vendrex, our offline-first POS platform deployed in
-                real retail environments.
+                When offline operation is important to the business, we
+                design applications with local data storage and
+                synchronization so critical workflows can continue during
+                connectivity interruptions. This approach is proven in
+                production by Vendrex, our offline-first POS platform
+                deployed in real retail environments.
               </p>
             </div>
             <div>
@@ -184,7 +182,6 @@ export default function BusinessAppDevelopment() {
                 "Barcode & QR code scanning",
                 "Receipt printing (Bluetooth & Wi-Fi)",
                 "Real-time data synchronization",
-                "Cloud-hosted or on-premise deployment",
                 "Custom API & integration layer",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3">
@@ -273,9 +270,10 @@ export default function BusinessAppDevelopment() {
               </h3>
               <p className="mt-1 text-sm leading-relaxed text-muted">
                 Yes. We build custom API adapters that connect your new
-                application to existing systems. Whether you use QuickBooks,
-                SAP, custom ERP software, or a legacy database, we can
-                design the integration layer to sync data automatically.
+                application to existing systems. Whether you use a
+                third-party platform, custom ERP software, or a legacy
+                database, we can design the integration layer to sync data
+                automatically.
               </p>
             </div>
             <div>
