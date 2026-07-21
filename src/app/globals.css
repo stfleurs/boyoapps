@@ -2,19 +2,21 @@
 
 @theme inline {
   --color-background: #ffffff;
-  --color-foreground: #171717;
-  --color-primary: #0b0f1a;
-  --color-primary-light: #1a1f2e;
+  --color-foreground: #0f172a;
+  --color-primary: #0b1f4d;
+  --color-primary-light: #1e3a5f;
   --color-accent: #2563eb;
-  --color-accent-dark: #1d4ed8;
+  --color-accent-dark: #173b9c;
   --color-accent-light: #60a5fa;
-  --color-accent-violet: #7c3aed;
-  --color-muted: #64748b;
+  --color-accent-violet: #e83e5b;
+  --color-accent-coral: #f06b7f;
+  --color-muted: #475569;
+  --color-muted-light: #64748b;
   --color-border: #e2e8f0;
   --color-surface: #f8fafc;
-  --color-surface-dark: #071a38;
-  --color-navy: #071a38;
-  --color-navy-light: #0c2a54;
+  --color-surface-dark: #0b1f4d;
+  --color-navy: #0b1f4d;
+  --color-navy-light: #173b9c;
   --font-sans: var(--font-manrope);
   --font-mono: var(--font-geist-mono);
 }
@@ -23,11 +25,12 @@ body {
   background: var(--color-background);
   color: var(--color-foreground);
   font-family: var(--font-manrope), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* ─── ENTRY ANIMATIONS ─── */
+/* ─── CUSTOM UTILITIES & ANIMATIONS ─── */
 @keyframes fade-in-up {
-  from { opacity: 0; transform: translateY(24px); }
+  from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
@@ -36,22 +39,56 @@ body {
   to { opacity: 1; }
 }
 
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.05); }
+}
+
+@keyframes float-subtle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
 .animate-fade-in-up {
-  animation: fade-in-up 0.7s ease-out forwards;
+  animation: fade-in-up 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
 .animate-fade-in {
   animation: fade-in 0.5s ease-out forwards;
 }
 
+.animate-pulse-glow {
+  animation: pulse-glow 6s ease-in-out infinite;
+}
+
+.animate-float {
+  animation: float-subtle 4s ease-in-out infinite;
+}
+
 .hero-device {
-  animation: fade-in-up 0.8s ease-out forwards;
+  animation: fade-in-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   opacity: 0;
 }
 
 .hero-device:nth-child(1) { animation-delay: 0.1s; }
-.hero-device:nth-child(2) { animation-delay: 0.3s; }
-.hero-device:nth-child(3) { animation-delay: 0.5s; }
+.hero-device:nth-child(2) { animation-delay: 0.25s; }
+.hero-device:nth-child(3) { animation-delay: 0.4s; }
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.glass-card-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 30px -10px rgba(37, 99, 235, 0.12), 0 10px 15px -5px rgba(0, 0, 0, 0.04);
+}
 
 /* ─── REDUCED MOTION ─── */
 @media (prefers-reduced-motion: reduce) {
@@ -66,8 +103,11 @@ body {
 
   .animate-fade-in-up,
   .animate-fade-in,
-  .hero-device {
+  .hero-device,
+  .animate-pulse-glow,
+  .animate-float {
     animation: none !important;
     opacity: 1 !important;
   }
 }
+

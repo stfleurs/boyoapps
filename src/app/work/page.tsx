@@ -1,7 +1,18 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { products } from "@/lib/products";
 import { AppIcon } from "@/components/AppIcon";
+
+const productIcons: Record<string, string> = {
+  "vendrex-pos": "/images/icons/vendrex-pos.webp",
+  "tally-cart": "/images/icons/tally-cart.webp",
+  "solar-align": "/images/icons/solar-align.webp",
+  "receet-pro": "/images/icons/receet-pro.webp",
+  "gqrly": "/images/icons/gqrly.webp",
+  "next-up": "/images/icons/next-up.webp",
+  "boyomart": "/images/icons/boyomart.webp",
+};
 
 export const metadata: Metadata = {
   title: "Our Work",
@@ -27,7 +38,17 @@ export default function Work() {
             href={`/work/${product.slug}/`}
             className="group rounded-2xl border border-border bg-white p-8 transition-all hover:-translate-y-1 hover:border-accent/30 hover:shadow-xl"
           >
-            <AppIcon name={product.name} color={product.iconColor} />
+            {productIcons[product.slug] ? (
+              <Image
+                src={productIcons[product.slug]}
+                alt={`${product.name} app icon`}
+                width={64}
+                height={64}
+                className="h-14 w-14 object-contain"
+              />
+            ) : (
+              <AppIcon name={product.name} color={product.iconColor} />
+            )}
             <p className="mt-4 text-xs font-semibold tracking-wider text-muted">
               {product.category}
             </p>

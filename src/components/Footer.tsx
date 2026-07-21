@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { siteConfig } from "@/lib/metadata";
 
@@ -28,16 +29,22 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           <div>
-            <Link href="/" className="text-lg font-extrabold tracking-tight text-primary">
-              BOYO <span className="font-light text-accent">APPS</span>
+            <Link href="/" className="group inline-block transition-transform duration-200 hover:scale-[1.02]">
+              <Image
+                src="/images/logo/boyo-apps-logo.webp"
+                alt="Boyo Apps"
+                width={732}
+                height={243}
+                className="h-12 w-auto"
+              />
             </Link>
-            <p className="mt-3 max-w-xs text-sm leading-relaxed text-muted">
-              Mobile & web applications built for the real world.
+            <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted">
+              Mobile &amp; web applications built for the real world.
             </p>
           </div>
 
           <div>
-            <h3 className="mb-4 text-xs font-semibold tracking-widest text-muted uppercase">
+            <h3 className="mb-4 text-xs font-bold tracking-widest text-primary/60 uppercase">
               Services
             </h3>
             <ul className="space-y-3">
@@ -45,7 +52,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-muted transition-colors hover:text-accent"
+                    className="text-sm text-muted transition-colors duration-200 hover:text-accent"
                   >
                     {link.label}
                   </Link>
@@ -55,7 +62,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="mb-4 text-xs font-semibold tracking-widest text-muted uppercase">
+            <h3 className="mb-4 text-xs font-bold tracking-widest text-primary/60 uppercase">
               Work
             </h3>
             <ul className="space-y-3">
@@ -63,7 +70,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-muted transition-colors hover:text-accent"
+                    className="text-sm text-muted transition-colors duration-200 hover:text-accent"
                   >
                     {link.label}
                   </Link>
@@ -73,7 +80,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="mb-4 text-xs font-semibold tracking-widest text-muted uppercase">
+            <h3 className="mb-4 text-xs font-bold tracking-widest text-primary/60 uppercase">
               Company
             </h3>
             <ul className="space-y-3">
@@ -81,32 +88,39 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-muted transition-colors hover:text-accent"
+                    className="text-sm text-muted transition-colors duration-200 hover:text-accent"
                   >
                     {link.label}
                   </Link>
                 </li>
               ))}
             </ul>
-            <h3 className="mb-4 mt-8 text-xs font-semibold tracking-widest text-muted uppercase">
+            <h3 className="mb-4 mt-8 text-xs font-bold tracking-widest text-primary/60 uppercase">
               Connect
             </h3>
             <ul className="space-y-3">
               <li>
                 <a
                   href={siteConfig.links.linkedin}
-                  className="text-sm text-muted transition-colors hover:text-accent"
+                  className="inline-flex items-center gap-1.5 text-sm text-muted transition-colors duration-200 hover:text-accent"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
+                  <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                  </svg>
                   LinkedIn
                 </a>
               </li>
               <li>
                 <a
                   href={`mailto:${siteConfig.links.email}`}
-                  className="text-sm text-muted transition-colors hover:text-accent"
+                  className="inline-flex items-center gap-1.5 text-sm text-muted transition-colors duration-200 hover:text-accent"
                 >
+                  <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <rect x="2" y="4" width="20" height="16" rx="2" />
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                  </svg>
                   {siteConfig.links.email}
                 </a>
               </li>
@@ -119,10 +133,10 @@ export function Footer() {
             &copy; {new Date().getFullYear()} Boyo Apps. All rights reserved.
           </p>
           <div className="flex gap-6">
-            <Link href="/privacy/" className="text-xs text-muted transition-colors hover:text-accent">
+            <Link href="/privacy/" className="text-xs text-muted transition-colors duration-200 hover:text-accent">
               Privacy Policy
             </Link>
-            <Link href="/terms/" className="text-xs text-muted transition-colors hover:text-accent">
+            <Link href="/terms/" className="text-xs text-muted transition-colors duration-200 hover:text-accent">
               Terms
             </Link>
           </div>
@@ -131,3 +145,4 @@ export function Footer() {
     </footer>
   );
 }
+

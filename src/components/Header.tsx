@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 
@@ -26,18 +27,20 @@ export function Header() {
     <header
       className={`sticky top-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "border-b border-border/60 bg-white/90 shadow-sm"
-          : "border-b border-transparent bg-white/70"
-      } backdrop-blur-lg`}
+          ? "border-b border-border/70 bg-white/85 shadow-sm backdrop-blur-md py-3.5"
+          : "border-b border-transparent bg-white/60 backdrop-blur-sm py-4"
+      }`}
     >
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
-        <Link href="/" className="group flex items-baseline gap-0.5">
-          <span className="text-xl font-extrabold tracking-tight text-primary">
-            BOYO
-          </span>
-          <span className="text-xl font-light tracking-wide text-accent">
-            APPS
-          </span>
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 lg:px-8">
+        <Link href="/" className="group flex items-center gap-2.5 transition-transform duration-200 hover:scale-[1.02]">
+          <Image
+            src="/images/logo/boyo-apps-logo.webp"
+            alt="Boyo Apps"
+            width={732}
+            height={243}
+            className="h-14 w-auto"
+            priority
+          />
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
@@ -45,14 +48,14 @@ export function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-muted transition-colors hover:text-primary"
+              className="text-sm font-semibold text-muted transition-colors hover:text-accent"
             >
               {link.label}
             </Link>
           ))}
           <Link
             href="/contact/"
-            className="rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-white transition-all hover:bg-primary-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
+            className="rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition-all hover:bg-primary-light hover:shadow-md hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
           >
             Let&apos;s Talk
           </Link>
@@ -60,25 +63,25 @@ export function Header() {
 
         <button
           onClick={() => setOpen(!open)}
-          className="flex flex-col gap-1.5 md:hidden"
+          className="flex flex-col gap-1.5 p-1 md:hidden"
           aria-label={open ? "Close navigation menu" : "Open navigation menu"}
           aria-expanded={open}
         >
-          <span className={`h-0.5 w-6 bg-primary transition-all ${open ? "translate-y-2 rotate-45" : ""}`} />
-          <span className={`h-0.5 w-6 bg-primary transition-all ${open ? "opacity-0" : ""}`} />
-          <span className={`h-0.5 w-6 bg-primary transition-all ${open ? "-translate-y-2 -rotate-45" : ""}`} />
+          <span className={`h-0.5 w-6 bg-primary transition-all duration-300 ${open ? "translate-y-2 rotate-45" : ""}`} />
+          <span className={`h-0.5 w-6 bg-primary transition-all duration-300 ${open ? "opacity-0" : ""}`} />
+          <span className={`h-0.5 w-6 bg-primary transition-all duration-300 ${open ? "-translate-y-2 -rotate-45" : ""}`} />
         </button>
       </div>
 
       {open && (
-        <div className="border-t border-border/60 bg-white px-6 pb-6 pt-4 md:hidden">
+        <div className="border-t border-border/60 bg-white/95 px-6 pb-6 pt-4 backdrop-blur-xl md:hidden">
           <nav className="flex flex-col gap-4">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
                 onClick={() => setOpen(false)}
-                className="text-sm font-medium text-muted transition-colors hover:text-primary focus-visible:outline-none focus-visible:underline"
+                className="text-base font-semibold text-muted transition-colors hover:text-primary"
               >
                 {link.label}
               </Link>
@@ -86,7 +89,7 @@ export function Header() {
             <Link
               href="/contact/"
               onClick={() => setOpen(false)}
-              className="rounded-full bg-primary px-5 py-2.5 text-center text-sm font-semibold text-white transition-colors hover:bg-primary-light"
+              className="mt-2 rounded-full bg-primary px-5 py-3 text-center text-sm font-semibold text-white shadow-sm transition-colors hover:bg-primary-light"
             >
               Let&apos;s Talk
             </Link>
@@ -96,3 +99,4 @@ export function Header() {
     </header>
   );
 }
+

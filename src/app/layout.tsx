@@ -35,6 +35,9 @@ export const metadata: Metadata = {
     title: "Custom Mobile & Web App Development | Boyo Apps",
     description: siteConfig.description,
   },
+  icons: {
+    icon: "/images/favicon/favicon.ico",
+  },
   robots: {
     index: true,
     follow: true,

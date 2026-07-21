@@ -2,64 +2,97 @@ import Image from "next/image";
 import { FadeIn } from "@/components/FadeIn";
 import { CTA } from "@/components/CTA";
 import { AppIcon } from "@/components/AppIcon";
+import Link from "next/link";
 import { featuredProducts } from "@/lib/products";
 
 const productIcons: Record<string, string> = {
-  "vendrex-pos": "/images/icons/vendrex.svg",
-  "tally-cart": "/images/icons/tally-cart.svg",
-  "solar-align": "/images/icons/solar-align.svg",
-  "receet-pro": "/images/icons/receet-pro.svg",
+  "vendrex-pos": "/images/icons/vendrex-pos.webp",
+  "tally-cart": "/images/icons/tally-cart.webp",
+  "solar-align": "/images/icons/solar-align.webp",
+  "receet-pro": "/images/icons/receet-pro.webp",
+  "gqrly": "/images/icons/gqrly.webp",
+  "next-up": "/images/icons/next-up.webp",
+  "boyomart": "/images/icons/boyomart.webp",
 };
 
 export default function Home() {
   return (
     <div>
       {/* ─── HERO ─── */}
-      <section className="relative overflow-hidden border-b border-border/40 bg-[linear-gradient(to_bottom_right,#fff,#f0f5ff,#faf5ff)] px-6 pb-24 pt-16 lg:px-8 lg:pb-32 lg:pt-24">
+      <section className="relative overflow-hidden border-b border-border/50 bg-[radial-gradient(ellipse_at_top_left,rgba(37,99,235,0.08),transparent_50%),radial-gradient(ellipse_at_bottom_right,rgba(232,62,91,0.06),transparent_50%)] px-6 pb-24 pt-16 lg:px-8 lg:pb-32 lg:pt-24">
+        {/* Soft background ambient blur circles */}
+        <div className="pointer-events-none absolute -left-20 top-10 h-96 w-96 rounded-full bg-accent/10 blur-3xl" />
+        <div className="pointer-events-none absolute -right-20 top-40 h-96 w-96 rounded-full bg-accent-violet/10 blur-3xl" />
+
         <div className="mx-auto max-w-7xl">
           <div className="grid items-center gap-16 lg:grid-cols-2">
             <div className="max-w-xl">
-              <p className="animate-fade-in text-sm font-semibold tracking-[0.15em] text-accent">
+              <div className="animate-fade-in inline-flex items-center gap-2 rounded-full border border-accent/20 bg-accent/5 px-3.5 py-1.5 text-xs font-bold tracking-widest text-accent uppercase backdrop-blur-sm">
+                <span className="h-1.5 w-1.5 rounded-full bg-accent animate-pulse" />
                 MOBILE &bull; WEB &bull; BUSINESS SOFTWARE
-              </p>
-              <h1 className="mt-4 animate-fade-in-up text-[clamp(2.5rem,5vw,4.5rem)] font-extrabold leading-[1.08] tracking-tight text-primary">
+              </div>
+              
+              <h1 className="mt-5 animate-fade-in-up text-[clamp(2.5rem,5vw,4.25rem)] font-extrabold leading-[1.08] tracking-tight text-primary">
                 We Build Apps That Solve
                 <br />
-                <span className="text-accent">Real Business Problems.</span>
+                <span className="bg-gradient-to-r from-accent via-accent-dark to-accent-violet bg-clip-text text-transparent">
+                  Real Business Problems.
+                </span>
               </h1>
-              <p className="mt-6 animate-fade-in-up max-w-lg text-lg leading-relaxed text-muted" style={{ animationDelay: "0.15s" }}>
+              
+              <p className="mt-6 animate-fade-in-up max-w-lg text-lg leading-relaxed text-muted font-normal" style={{ animationDelay: "0.15s" }}>
                 Boyo Apps designs and develops custom mobile and web applications
                 for businesses &mdash; from idea and architecture to launch and
                 growth.
               </p>
+              
               <div className="mt-8 flex animate-fade-in-up flex-wrap gap-4" style={{ animationDelay: "0.3s" }}>
                 <CTA href="/contact/">Start Your Project</CTA>
                 <CTA href="/work/" variant="outline">View Our Work</CTA>
               </div>
-              <div className="mt-8 flex animate-fade-in-up flex-wrap gap-6 text-sm text-muted" style={{ animationDelay: "0.4s" }}>
-                <span className="font-medium">Android</span>
-                <span className="text-border/60">|</span>
-                <span className="font-medium">Web</span>
-                <span className="text-border/60">|</span>
-                <span className="font-medium">Cross-Platform</span>
-                <span className="text-border/60">|</span>
-                <span className="font-medium">Cloud</span>
+              
+              {/* Capabilities badge strip */}
+              <div className="mt-10 flex animate-fade-in-up flex-wrap items-center gap-4 text-xs font-semibold text-muted" style={{ animationDelay: "0.4s" }}>
+                <div className="flex items-center gap-1.5 rounded-lg border border-border/80 bg-white/70 px-3 py-1.5 shadow-sm backdrop-blur-sm">
+                  <svg className="h-4 w-4 text-emerald-600" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M17.523 15.3414c-.5511 0-.9996-.4486-.9996-.9997s.4485-.9996.9996-.9996c.5512 0 .9997.4485.9997.9996 0 .5511-.4485.9997-.9997.9997zm-11.046 0c-.5511 0-.9997-.4486-.9997-.9997s.4486-.9996.9997-.9996c.5511 0 .9996.4485.9996.9996 0 .5511-.4485.9997-.9996.9997zm11.4045-6.02l1.9973-3.4592a.416.416 0 00-.1523-.5676.416.416 0 00-.5676.1523l-2.0223 3.503C15.5898 8.4116 13.8553 8 12 8s-3.5898.4116-5.1366.9499L4.841 5.4469a.416.416 0 00-.5676-.1523.416.416 0 00-.1523.5676l1.9973 3.4592C2.6889 11.054 0 14.739 0 19h24c0-4.261-2.6889-7.946-6.1185-9.6786z"/>
+                  </svg>
+                  <span>Android</span>
+                </div>
+                <div className="flex items-center gap-1.5 rounded-lg border border-border/80 bg-white/70 px-3 py-1.5 shadow-sm backdrop-blur-sm">
+                  <svg className="h-4 w-4 text-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                  </svg>
+                  <span>Web</span>
+                </div>
+                <div className="flex items-center gap-1.5 rounded-lg border border-border/80 bg-white/70 px-3 py-1.5 shadow-sm backdrop-blur-sm">
+                  <svg className="h-4 w-4 text-accent-violet" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                  </svg>
+                  <span>Cross-Platform</span>
+                </div>
+                <div className="flex items-center gap-1.5 rounded-lg border border-border/80 bg-white/70 px-3 py-1.5 shadow-sm backdrop-blur-sm">
+                  <svg className="h-4 w-4 text-sky-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/>
+                  </svg>
+                  <span>Cloud</span>
+                </div>
               </div>
             </div>
 
             {/* Hero product composition */}
             <div className="relative flex items-center justify-center py-8">
               {/* Background glow */}
-              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-accent/5 via-accent-violet/5 to-accent/5 blur-3xl" />
+              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-accent/15 via-accent-violet/15 to-accent/15 blur-3xl animate-pulse-glow" />
 
               {/* Main laptop — Vendrex */}
-              <div className="hero-device w-full max-w-[520px]">
-                <div className="overflow-hidden rounded-xl border border-border/60 bg-white shadow-2xl">
-                  <div className="flex items-center gap-1.5 border-b border-border/60 bg-surface px-4 py-2.5">
-                    <span className="h-2.5 w-2.5 rounded-full bg-red-400" />
-                    <span className="h-2.5 w-2.5 rounded-full bg-yellow-400" />
-                    <span className="h-2.5 w-2.5 rounded-full bg-green-400" />
-                    <span className="ml-2 text-[10px] text-muted">Vendrex POS — Dashboard</span>
+              <div className="hero-device relative z-10 w-full max-w-[530px] transition-transform duration-500 hover:scale-[1.01]">
+                <div className="overflow-hidden rounded-xl border border-border/80 bg-white shadow-2xl shadow-primary/10">
+                  <div className="flex items-center gap-1.5 border-b border-border/60 bg-surface/90 px-4 py-2.5 backdrop-blur-sm">
+                    <span className="h-2.5 w-2.5 rounded-full bg-rose-400" />
+                    <span className="h-2.5 w-2.5 rounded-full bg-amber-400" />
+                    <span className="h-2.5 w-2.5 rounded-full bg-emerald-400" />
+                    <span className="ml-2 text-[11px] font-semibold text-muted">Vendrex POS — Dashboard</span>
                   </div>
                   <div className="aspect-[16/10] bg-white">
                     <Image
@@ -72,12 +105,12 @@ export default function Home() {
                     />
                   </div>
                 </div>
-                <div className="mx-auto -mt-1 h-3 w-[55%] rounded-b-lg border border-t-0 border-border/60 bg-surface" />
+                <div className="mx-auto -mt-1 h-3 w-[55%] rounded-b-lg border border-t-0 border-border/60 bg-surface shadow-sm" />
               </div>
 
               {/* Left phone — Tally Cart */}
-              <div className="hero-device absolute -bottom-4 -left-4 w-[38%] max-w-[200px] lg:-bottom-6 lg:-left-8">
-                <div className="overflow-hidden rounded-[1.8rem] border-[3px] border-primary bg-primary p-1.5 shadow-2xl">
+              <div className="hero-device absolute -bottom-4 -left-4 z-20 w-[38%] max-w-[200px] transition-transform duration-300 hover:scale-[1.03] lg:-bottom-6 lg:-left-8">
+                <div className="overflow-hidden rounded-[1.8rem] border-[3px] border-primary bg-primary p-1.5 shadow-2xl shadow-primary/25">
                   <div className="overflow-hidden rounded-[1.5rem] bg-white">
                     <Image
                       src="/images/screenshots/tally-cart.svg"
@@ -91,8 +124,8 @@ export default function Home() {
               </div>
 
               {/* Right phone — Solar Align */}
-              <div className="hero-device absolute -bottom-4 -right-4 w-[38%] max-w-[200px] lg:-bottom-6 lg:-right-8">
-                <div className="overflow-hidden rounded-[1.8rem] border-[3px] border-primary bg-primary p-1.5 shadow-2xl">
+              <div className="hero-device absolute -bottom-4 -right-4 z-20 w-[38%] max-w-[200px] transition-transform duration-300 hover:scale-[1.03] lg:-bottom-6 lg:-right-8">
+                <div className="overflow-hidden rounded-[1.8rem] border-[3px] border-primary bg-primary p-1.5 shadow-2xl shadow-primary/25">
                   <div className="overflow-hidden rounded-[1.5rem] bg-white">
                     <Image
                       src="/images/screenshots/solar-align.svg"
@@ -113,15 +146,15 @@ export default function Home() {
       <FadeIn>
         <section className="px-6 py-28 lg:px-8">
           <div className="mx-auto max-w-7xl">
-            <p className="mb-3 text-sm font-semibold tracking-[0.15em] text-accent">
+            <p className="mb-3 text-xs font-bold tracking-[0.2em] text-accent uppercase">
               REAL PRODUCTS. REAL ENGINEERING.
             </p>
-            <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+            <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
               <div>
-                <h2 className="text-[clamp(1.75rem,3vw,3rem)] font-bold tracking-tight text-primary">
+                <h2 className="text-[clamp(2rem,3.5vw,3.25rem)] font-extrabold tracking-tight text-primary">
                   Products We&apos;ve Built
                 </h2>
-                <p className="mt-3 max-w-xl text-lg text-muted">
+                <p className="mt-3 max-w-xl text-lg text-muted font-normal">
                   We build our own products to solve real problems. Now we help businesses do the same.
                 </p>
               </div>
@@ -135,31 +168,40 @@ export default function Home() {
                   <a
                     key={product.slug}
                     href={`/work/${product.slug}/`}
-                    className="group relative rounded-2xl border border-border bg-white p-8 transition-all duration-300 hover:-translate-y-1.5 hover:border-accent/20 hover:shadow-xl"
+                    className="group relative flex flex-col justify-between rounded-2xl border border-border/80 bg-white p-8 transition-all duration-300 hover:-translate-y-2 hover:border-accent/30 hover:shadow-2xl hover:shadow-accent/10"
                   >
-                    {iconSrc ? (
-                      <Image
-                        src={iconSrc}
-                        alt={`${product.name} app icon`}
-                        width={80}
-                        height={80}
-                        className="h-14 w-14"
-                      />
-                    ) : (
-                      <AppIcon name={product.name} color={product.iconColor} />
-                    )}
-                    <p className="mt-5 text-xs font-semibold tracking-wider text-muted">
-                      {product.category}
-                    </p>
-                    <h3 className="mt-1.5 text-lg font-bold text-primary group-hover:text-accent">
-                      {product.name}
-                    </h3>
-                    <p className="mt-2.5 text-sm leading-relaxed text-muted">
-                      {product.shortDescription}
-                    </p>
-                    <span className="mt-5 inline-flex items-center gap-1 text-sm font-semibold text-accent">
-                      View Case Study <span className="transition-transform duration-200 group-hover:translate-x-0.5">&rarr;</span>
-                    </span>
+                    <div>
+                      <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-surface shadow-sm border border-border/40 transition-transform duration-300 group-hover:scale-105">
+                        {iconSrc ? (
+                          <Image
+                            src={iconSrc}
+                            alt={`${product.name} app icon`}
+                            width={80}
+                            height={80}
+                            className="size-full object-contain rounded-xl"
+                          />
+                        ) : (
+                          <AppIcon name={product.name} color={product.iconColor} />
+                        )}
+                      </div>
+                      <p className="text-xs font-bold tracking-wider text-accent uppercase">
+                        {product.category}
+                      </p>
+                      <h3 className="mt-2 text-xl font-bold text-primary group-hover:text-accent transition-colors">
+                        {product.name}
+                      </h3>
+                      <p className="mt-3 text-sm leading-relaxed text-muted">
+                        {product.shortDescription}
+                      </p>
+                    </div>
+
+                    <div className="mt-8 flex items-center gap-1.5 text-sm font-semibold text-accent">
+                      <span>View Case Study</span>
+                      <svg className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12" />
+                        <polyline points="12 5 19 12 12 19" />
+                      </svg>
+                    </div>
                   </a>
                 );
               })}
@@ -170,12 +212,16 @@ export default function Home() {
 
       {/* ─── CUSTOM SOFTWARE SERVICES ─── */}
       <FadeIn>
-        <section className="bg-surface-dark px-6 py-28 text-white lg:px-8">
-          <div className="mx-auto max-w-7xl">
-            <p className="mb-3 text-sm font-semibold tracking-[0.15em] text-accent-light">
+        <section className="relative overflow-hidden bg-surface-dark px-6 py-28 text-white lg:px-8">
+          {/* Ambient lighting inside dark section */}
+          <div className="pointer-events-none absolute -top-40 right-0 h-[500px] w-[500px] rounded-full bg-accent/10 blur-[120px]" />
+          <div className="pointer-events-none absolute -bottom-40 left-0 h-[500px] w-[500px] rounded-full bg-accent-violet/10 blur-[120px]" />
+
+          <div className="relative mx-auto max-w-7xl">
+            <p className="mb-3 text-xs font-bold tracking-[0.2em] text-accent-light uppercase">
               WHAT WE DO
             </p>
-            <h2 className="text-[clamp(1.75rem,3vw,3rem)] font-bold tracking-tight">
+            <h2 className="text-[clamp(2rem,3.5vw,3.25rem)] font-extrabold tracking-tight">
               Custom Software for Your Business
             </h2>
 
@@ -184,43 +230,78 @@ export default function Home() {
                 {
                   num: "01",
                   title: "Mobile App Development",
-                  desc: "Cross-platform mobile applications designed around your business, users and real-world requirements.",
+                  desc: "Cross-platform and native mobile apps designed for performance, usability and real-world conditions.",
                   href: "/services/mobile-app-development/",
+                  icon: (
+                    <svg className="h-7 w-7 text-accent-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                      <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />
+                      <line x1="12" y1="18" x2="12.01" y2="18" />
+                    </svg>
+                  ),
                 },
                 {
                   num: "02",
                   title: "Business Applications",
-                  desc: "Inventory systems, POS applications, dashboards, internal tools and custom software tailored to your operations.",
+                  desc: "Inventory systems, POS, field tools, dashboards and internal software tailored to your operations.",
                   href: "/services/business-app-development/",
+                  icon: (
+                    <svg className="h-7 w-7 text-accent-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                      <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+                      <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                    </svg>
+                  ),
                 },
                 {
                   num: "03",
-                  title: "Web App Development",
-                  desc: "Secure, scalable web applications accessible from anywhere.",
+                  title: "Web Application Development",
+                  desc: "Secure, scalable web apps that help you run and grow your business from anywhere.",
                   href: "/services/web-app-development/",
+                  icon: (
+                    <svg className="h-7 w-7 text-accent-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                      <circle cx="12" cy="12" r="10" />
+                      <line x1="2" y1="12" x2="22" y2="12" />
+                      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                    </svg>
+                  ),
                 },
                 {
                   num: "04",
-                  title: "SaaS Development",
-                  desc: "From MVP to full-scale subscription platforms with authentication, billing and cloud infrastructure.",
+                  title: "SaaS Product Development",
+                  desc: "From MVP to full-scale SaaS platforms with subscriptions, analytics and cloud infrastructure.",
                   href: "/services/saas-development/",
+                  icon: (
+                    <svg className="h-7 w-7 text-accent-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z" />
+                    </svg>
+                  ),
                 },
               ].map((service) => (
                 <a
                   key={service.href}
                   href={service.href}
-                  className="group px-8 py-8 first:pt-0 last:pb-0 lg:py-0 lg:first:pl-0 lg:last:pr-0"
+                  className="group flex flex-col justify-between px-8 py-10 transition-colors hover:bg-white/[0.03] first:pl-0 last:pr-0 lg:py-4"
                 >
-                  <span className="text-3xl font-bold text-white/10">{service.num}</span>
-                  <h3 className="mt-3 text-lg font-bold transition-colors group-hover:text-accent-light">
-                    {service.title}
-                  </h3>
-                  <p className="mt-3 text-sm leading-relaxed text-gray-400">
-                    {service.desc}
-                  </p>
-                  <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-accent-light">
-                    Learn more <span className="transition-transform duration-200 group-hover:translate-x-0.5">&rarr;</span>
-                  </span>
+                  <div>
+                    <div className="flex items-center justify-between">
+                      <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-white/10 transition-transform duration-300 group-hover:scale-110 group-hover:bg-accent/20">
+                        {service.icon}
+                      </div>
+                      <span className="text-2xl font-black text-white/15 group-hover:text-accent-light/40 transition-colors">{service.num}</span>
+                    </div>
+                    <h3 className="mt-6 text-xl font-bold transition-colors group-hover:text-accent-light">
+                      {service.title}
+                    </h3>
+                    <p className="mt-3 text-sm leading-relaxed text-gray-300">
+                      {service.desc}
+                    </p>
+                  </div>
+                  <div className="mt-8 flex items-center gap-1.5 text-sm font-semibold text-accent-light">
+                    <span>Learn more</span>
+                    <svg className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <line x1="5" y1="12" x2="19" y2="12" />
+                      <polyline points="12 5 19 12 12 19" />
+                    </svg>
+                  </div>
                 </a>
               ))}
             </div>
@@ -232,18 +313,18 @@ export default function Home() {
       <FadeIn>
         <section className="border-b border-border/40 px-6 py-28 lg:px-8">
           <div className="mx-auto max-w-7xl">
-            <p className="mb-3 text-sm font-semibold tracking-[0.15em] text-accent">
+            <p className="mb-3 text-xs font-bold tracking-[0.2em] text-accent uppercase">
               FEATURED CASE STUDY
             </p>
             <div className="grid items-center gap-16 lg:grid-cols-2">
               <div className="max-w-xl">
-                <h2 className="text-[clamp(1.75rem,3vw,3rem)] font-bold tracking-tight text-primary">
+                <h2 className="text-[clamp(2rem,3.5vw,3.25rem)] font-extrabold tracking-tight text-primary">
                   Vendrex
                 </h2>
-                <p className="mt-2 text-lg font-medium text-muted">
+                <p className="mt-2 text-xl font-semibold text-accent">
                   Building a complete POS and business management platform.
                 </p>
-                <p className="mt-4 leading-relaxed text-muted">
+                <p className="mt-4 leading-relaxed text-muted text-base">
                   Boyo Apps developed Vendrex to help businesses manage sales,
                   inventory, customers, employees and reporting from a modern
                   mobile and web platform.
@@ -261,7 +342,7 @@ export default function Home() {
                   ].map((cap) => (
                     <span
                       key={cap}
-                      className="rounded-full border border-border px-3 py-1.5 text-xs font-medium text-muted"
+                      className="rounded-lg border border-border/80 bg-surface/80 px-3 py-1.5 text-xs font-bold text-muted"
                     >
                       {cap}
                     </span>
@@ -277,12 +358,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="relative">
-                <div className="overflow-hidden rounded-xl border border-border/60 bg-white shadow-2xl">
+                <div className="overflow-hidden rounded-xl border border-border/80 bg-white shadow-2xl shadow-primary/10 transition-transform duration-500 hover:scale-[1.01]">
                   <div className="flex items-center gap-1.5 border-b border-border/60 bg-surface px-4 py-2.5">
-                    <span className="h-2.5 w-2.5 rounded-full bg-red-400" />
-                    <span className="h-2.5 w-2.5 rounded-full bg-yellow-400" />
-                    <span className="h-2.5 w-2.5 rounded-full bg-green-400" />
-                    <span className="ml-2 text-[10px] text-muted">Vendrex POS</span>
+                    <span className="h-2.5 w-2.5 rounded-full bg-rose-400" />
+                    <span className="h-2.5 w-2.5 rounded-full bg-amber-400" />
+                    <span className="h-2.5 w-2.5 rounded-full bg-emerald-400" />
+                    <span className="ml-2 text-[11px] font-semibold text-muted">Vendrex POS</span>
                   </div>
                   <div className="aspect-[16/10] bg-white">
                     <Image
@@ -294,7 +375,7 @@ export default function Home() {
                     />
                   </div>
                 </div>
-                <div className="mx-auto -mt-1 h-3 w-[55%] rounded-b-lg border border-t-0 border-border/60 bg-surface" />
+                <div className="mx-auto -mt-1 h-3 w-[55%] rounded-b-lg border border-t-0 border-border/60 bg-surface shadow-sm" />
               </div>
             </div>
           </div>
@@ -310,12 +391,12 @@ export default function Home() {
               <div className="relative">
                 <div className="relative z-10 mx-auto max-w-[480px]">
                   {/* Main large device */}
-                  <div className="overflow-hidden rounded-xl border border-border/60 bg-white shadow-xl">
+                  <div className="overflow-hidden rounded-xl border border-border/80 bg-white shadow-2xl shadow-primary/10">
                     <div className="flex items-center gap-1.5 border-b border-border/60 bg-surface px-3 py-2">
-                      <span className="h-2 w-2 rounded-full bg-red-400" />
-                      <span className="h-2 w-2 rounded-full bg-yellow-400" />
-                      <span className="h-2 w-2 rounded-full bg-green-400" />
-                      <span className="ml-1.5 text-[9px] text-muted">Vendrex</span>
+                      <span className="h-2 w-2 rounded-full bg-rose-400" />
+                      <span className="h-2 w-2 rounded-full bg-amber-400" />
+                      <span className="h-2 w-2 rounded-full bg-emerald-400" />
+                      <span className="ml-1.5 text-[10px] font-medium text-muted">Vendrex</span>
                     </div>
                     <div className="aspect-[16/9] bg-white">
                       <Image
@@ -329,8 +410,8 @@ export default function Home() {
                   </div>
 
                   {/* Overlapping phone 1 */}
-                  <div className="absolute -bottom-6 -left-4 w-[35%] max-w-[160px]">
-                    <div className="overflow-hidden rounded-[1.5rem] border-[3px] border-primary bg-primary p-1 shadow-xl">
+                  <div className="absolute -bottom-6 -left-4 z-20 w-[35%] max-w-[160px] transition-transform duration-300 hover:scale-105">
+                    <div className="overflow-hidden rounded-[1.5rem] border-[3px] border-primary bg-primary p-1 shadow-2xl shadow-primary/25">
                       <div className="overflow-hidden rounded-[1.2rem] bg-white">
                         <Image
                           src="/images/screenshots/tally-cart.svg"
@@ -344,8 +425,8 @@ export default function Home() {
                   </div>
 
                   {/* Overlapping phone 2 */}
-                  <div className="absolute -bottom-6 -right-4 w-[35%] max-w-[160px]">
-                    <div className="overflow-hidden rounded-[1.5rem] border-[3px] border-primary bg-primary p-1 shadow-xl">
+                  <div className="absolute -bottom-6 -right-4 z-20 w-[35%] max-w-[160px] transition-transform duration-300 hover:scale-105">
+                    <div className="overflow-hidden rounded-[1.5rem] border-[3px] border-primary bg-primary p-1 shadow-2xl shadow-primary/25">
                       <div className="overflow-hidden rounded-[1.2rem] bg-white">
                         <Image
                           src="/images/screenshots/solar-align.svg"
@@ -359,40 +440,47 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="absolute -bottom-8 -right-8 -z-10 h-56 w-56 rounded-full bg-accent/5 blur-3xl" />
-                <div className="absolute -left-8 -top-8 -z-10 h-56 w-56 rounded-full bg-accent-violet/5 blur-3xl" />
+                <div className="absolute -bottom-8 -right-8 -z-10 h-64 w-64 rounded-full bg-accent/10 blur-3xl animate-pulse-glow" />
+                <div className="absolute -left-8 -top-8 -z-10 h-64 w-64 rounded-full bg-accent-violet/10 blur-3xl animate-pulse-glow" />
               </div>
 
               <div className="max-w-xl">
-                <h2 className="text-[clamp(1.75rem,3vw,3rem)] font-bold tracking-tight text-primary">
-                  Reliable Software. Real Impact.
+                <p className="mb-3 text-xs font-bold tracking-[0.2em] text-accent uppercase">
+                  BUILT FOR THE REAL WORLD
+                </p>
+                <h2 className="text-[clamp(2rem,3.5vw,3.25rem)] font-extrabold tracking-tight text-primary">
+                  Reliable Software.
+                  <br />
+                  Real Impact.
                 </h2>
-                <div className="mt-10 space-y-8">
+                <div className="mt-10 space-y-6">
                   {[
                     {
                       title: "Offline-First",
-                      desc: "Applications designed to remain useful during unreliable connectivity — proven in Vendrex and Tally Cart.",
+                      desc: "Applications designed to remain operational during unreliable connectivity — proven in Vendrex and Tally Cart.",
                     },
                     {
-                      title: "Multi-Currency &amp; International",
-                      desc: "Architecture capable of supporting currencies, languages and markets across our product portfolio.",
+                      title: "Multi-Currency & International",
+                      desc: "Architecture supporting diverse currencies, languages and global market requirements.",
                     },
                     {
-                      title: "Modern Technology",
-                      desc: "Built using modern development technologies and cloud infrastructure that scale with your business.",
+                      title: "Modern Technology & Best Practices",
+                      desc: "Built using modern frameworks and secure cloud infrastructure designed to scale with your business.",
                     },
                     {
                       title: "Designed to Scale",
-                      desc: "Software architecture capable of growing alongside the product or business, from MVP to production.",
+                      desc: "Clean software architecture that seamlessly grows alongside your users from MVP to full enterprise deployment.",
                     },
                   ].map((item) => (
                     <div key={item.title} className="flex gap-4">
-                      <div className="mt-1 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-accent/10 text-xs text-accent">
-                        &check;
+                      <div className="mt-1 flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full bg-accent/10 text-accent font-bold text-sm shadow-sm">
+                        <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                          <polyline points="20 6 9 17 4 12" />
+                        </svg>
                       </div>
                       <div>
-                        <h3 className="font-bold text-primary">{item.title.replace("&amp;", "&")}</h3>
-                        <p className="mt-1 text-sm text-muted">{item.desc}</p>
+                        <h3 className="font-bold text-primary text-base">{item.title}</h3>
+                        <p className="mt-1 text-sm text-muted leading-relaxed">{item.desc}</p>
                       </div>
                     </div>
                   ))}
@@ -408,20 +496,22 @@ export default function Home() {
 
       {/* ─── FROM IDEA TO LAUNCH ─── */}
       <FadeIn>
-        <section className="border-y border-border/40 bg-surface px-6 py-28 lg:px-8">
+        <section className="border-y border-border/40 bg-surface/80 px-6 py-28 lg:px-8">
           <div className="mx-auto max-w-7xl">
             <div className="mx-auto max-w-3xl text-center">
-              <h2 className="text-[clamp(1.75rem,3vw,3rem)] font-bold tracking-tight text-primary">
+              <p className="mb-3 text-xs font-bold tracking-[0.2em] text-accent uppercase">
+                OUR METHODOLOGY
+              </p>
+              <h2 className="text-[clamp(2rem,3.5vw,3.25rem)] font-extrabold tracking-tight text-primary">
                 From Idea to Launch
               </h2>
-              <p className="mt-4 text-muted">
-                A structured process that takes your concept from discovery through development
-                to a production application.
+              <p className="mt-4 text-base text-muted max-w-xl mx-auto">
+                A structured engineering process taking your vision seamlessly from initial concept to high-performing production app.
               </p>
             </div>
 
             {/* Desktop horizontal timeline */}
-            <div className="mt-16 hidden items-start lg:flex">
+            <div className="mt-20 hidden items-start lg:flex">
               {[
                 { step: "01", title: "Discovery" },
                 { step: "02", title: "Planning" },
@@ -433,14 +523,14 @@ export default function Home() {
               ].map((item, i) => (
                 <div key={item.step} className="group flex flex-1 flex-col items-center">
                   <div className="relative flex w-full items-center justify-center">
-                    <div className="z-10 flex h-10 w-10 items-center justify-center rounded-full border-2 border-border bg-white text-sm font-bold text-accent transition-colors group-hover:border-accent group-hover:bg-accent group-hover:text-white">
+                    <div className="z-10 flex h-12 w-12 items-center justify-center rounded-full border-2 border-border bg-white text-sm font-bold text-accent shadow-sm transition-all duration-300 group-hover:scale-110 group-hover:border-accent group-hover:bg-accent group-hover:text-white group-hover:shadow-md shadow-accent/20">
                       {item.step}
                     </div>
                     {i < 6 && (
-                      <div className="absolute left-[60%] top-1/2 h-px w-[80%] bg-border" />
+                      <div className="absolute left-[50%] top-1/2 h-0.5 w-full bg-border/80 transition-colors group-hover:bg-accent/40" />
                     )}
                   </div>
-                  <p className="mt-3 text-sm font-bold text-primary">{item.title}</p>
+                  <p className="mt-4 text-sm font-bold text-primary group-hover:text-accent transition-colors">{item.title}</p>
                 </div>
               ))}
             </div>
@@ -456,8 +546,8 @@ export default function Home() {
                 { step: "06", title: "Launch", desc: "Deploy to production and app stores." },
                 { step: "07", title: "Evolve", desc: "Updates, monitoring and improvements." },
               ].map((item) => (
-                <div key={item.step} className="rounded-xl border border-border bg-white p-5">
-                  <span className="text-2xl font-bold text-accent/30">{item.step}</span>
+                <div key={item.step} className="rounded-xl border border-border/80 bg-white p-5 shadow-sm">
+                  <span className="text-2xl font-extrabold text-accent/30">{item.step}</span>
                   <h3 className="mt-1 font-bold text-primary">{item.title}</h3>
                   <p className="mt-1 text-xs text-muted">{item.desc}</p>
                 </div>
@@ -473,7 +563,10 @@ export default function Home() {
           <div className="mx-auto max-w-7xl">
             <div className="grid items-center gap-12 lg:grid-cols-2">
               <div>
-                <h2 className="text-[clamp(1.75rem,3vw,3rem)] font-bold tracking-tight text-primary">
+                <p className="mb-3 text-xs font-bold tracking-[0.2em] text-accent uppercase">
+                  INDEPENDENT STUDIO
+                </p>
+                <h2 className="text-[clamp(2rem,3.5vw,3.25rem)] font-extrabold tracking-tight text-primary">
                   Behind Boyo Apps
                 </h2>
                 <p className="mt-6 text-lg leading-relaxed text-muted">
@@ -490,22 +583,49 @@ export default function Home() {
               </div>
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { name: "Vendrex", color: "bg-blue-500" },
-                  { name: "Tally Cart", color: "bg-emerald-500" },
-                  { name: "Solar Align", color: "bg-gray-800" },
-                  { name: "Receet Pro", color: "bg-teal-500" },
-                  { name: "GQRLY", color: "bg-purple-500" },
-                  { name: "NeXT Up", color: "bg-blue-900" },
-                  { name: "BoyoMart", color: "bg-rose-500" },
-                  { name: "Solar Merge", color: "bg-amber-500" },
-                ].map((product) => (
-                  <div
-                    key={product.name}
-                    className={`${product.color} flex items-center justify-center rounded-xl p-6 text-center shadow-sm`}
-                  >
-                    <span className="text-sm font-bold text-white">{product.name}</span>
-                  </div>
-                ))}
+                  { slug: "vendrex-pos", name: "Vendrex", category: "POS & Business Management", gradient: "linear-gradient(135deg,#2563eb,#1d4ed8)" },
+                  { slug: "tally-cart", name: "Tally Cart", category: "Shopping & Budget", gradient: "linear-gradient(135deg,#059669,#047857)" },
+                  { slug: "solar-align", name: "Solar Align", category: "Solar Optimization", gradient: "linear-gradient(135deg,#0f172a,#132e1a)" },
+                  { slug: "receet-pro", name: "Receet Pro", category: "Personal Finance", gradient: "linear-gradient(135deg,#0d9488,#0f766e)" },
+                  { slug: "gqrly", name: "GQRLY", category: "QR & Link Analytics", gradient: "linear-gradient(135deg,#7c3aed,#6366f1)" },
+                  { slug: "next-up", name: "NeXT Up", category: "Reminders & Productivity", gradient: "linear-gradient(135deg,#1e3a5f,#172554)" },
+                  { slug: "boyomart", name: "BoyoMart", category: "Local Marketplace", gradient: "linear-gradient(135deg,#e11d48,#be123c)" },
+                  { slug: "solar-merge", name: "Solar Merge", category: "Puzzle Game", gradient: "linear-gradient(135deg,#d97706,#b45309)" },
+                ].map((product) => {
+                  const iconSrc = productIcons[product.slug];
+                  return (
+                    <Link
+                      key={product.slug}
+                      href={`/work/${product.slug}/`}
+                      className="group relative flex min-h-[115px] flex-col justify-between rounded-xl p-5 shadow-md transition-all duration-200 ease-out hover:-translate-y-1 hover:shadow-xl"
+                      style={{ background: product.gradient }}
+                    >
+                      <div className="flex items-start justify-between">
+                        {iconSrc ? (
+                          <Image
+                            src={iconSrc}
+                            alt={`${product.name} icon`}
+                            width={48}
+                            height={48}
+                            className="h-11 w-11 object-contain rounded-lg"
+                          />
+                        ) : (
+                          <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-white/15 text-lg font-bold text-white">
+                            {product.name[0]}
+                          </div>
+                        )}
+                        <svg className="h-4 w-4 text-white/70 transition-all duration-200 ease-out group-hover:translate-x-0.5 group-hover:-translate-y-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                          <line x1="7" y1="17" x2="17" y2="7" />
+                          <polyline points="7 7 17 7 17 17" />
+                        </svg>
+                      </div>
+                      <div className="mt-2">
+                        <p className="text-sm font-bold text-white">{product.name}</p>
+                        <p className="mt-0.5 text-[11px] font-medium text-white/70">{product.category}</p>
+                      </div>
+                    </Link>
+                  );
+                })}
               </div>
             </div>
           </div>
@@ -516,22 +636,24 @@ export default function Home() {
       <FadeIn>
         <section className="px-6 pb-28 lg:px-8">
           <div className="mx-auto max-w-4xl">
-            <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-surface-dark to-navy-light px-8 py-20 text-center text-white shadow-2xl sm:px-16">
-              <div className="absolute -left-20 -top-20 h-72 w-72 rounded-full bg-accent/10 blur-3xl" />
-              <div className="absolute -bottom-20 -right-20 h-72 w-72 rounded-full bg-accent-violet/10 blur-3xl" />
+            <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-surface-dark via-navy to-navy-light px-8 py-20 text-center text-white shadow-2xl shadow-primary/20 sm:px-16">
+              <div className="pointer-events-none absolute -left-20 -top-20 h-72 w-72 rounded-full bg-accent/20 blur-3xl animate-pulse-glow" />
+              <div className="pointer-events-none absolute -bottom-20 -right-20 h-72 w-72 rounded-full bg-accent-violet/20 blur-3xl animate-pulse-glow" />
               <div className="relative">
-                <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-white/10 text-2xl">
-                  <svg className="h-8 w-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
+                <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-tr from-accent to-accent-violet text-white shadow-lg shadow-accent/30 animate-float">
+                  <svg className="h-8 w-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.71 1.26-1.5 1.5-2.5l-4.5-4.5c-1 0-1.79.79-2.5 1.5z" />
+                    <path d="M12 15l-3-3 7.5-7.5a2.121 2.121 0 0 1 3 3L12 15z" />
+                    <path d="M9 18l3 3" />
                   </svg>
                 </div>
-                <h2 className="text-[clamp(1.75rem,3vw,3rem)] font-bold tracking-tight">
+                <h2 className="text-[clamp(2rem,3.5vw,3.25rem)] font-extrabold tracking-tight">
                   Have an App Idea?
                 </h2>
-                <p className="mx-auto mt-4 max-w-lg text-lg text-gray-300">
-                  Let&apos;s turn it into something people can actually use.
+                <p className="mx-auto mt-4 max-w-lg text-lg text-gray-200 font-medium">
+                  Let&apos;s <span className="text-accent-coral underline underline-offset-4 decoration-accent-coral/40">turn it into something</span> people can actually use.
                 </p>
-                <p className="mt-2 text-sm text-gray-400">
+                <p className="mt-3 text-sm text-gray-300 max-w-md mx-auto">
                   Tell us about your business, the problem you&apos;re trying to
                   solve, and what you&apos;d like to build.
                 </p>
