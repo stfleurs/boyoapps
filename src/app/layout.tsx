@@ -66,7 +66,7 @@ export default function RootLayout({
               url: `${siteConfig.url}/contact/`,
               contactType: "sales",
             },
-            sameAs: [siteConfig.links.linkedin],
+
           }),
         }}
       />
