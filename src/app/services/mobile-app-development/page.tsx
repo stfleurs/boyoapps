@@ -33,7 +33,7 @@ export default function MobileAppDevelopment() {
               "Multi-currency & internationalized apps",
             ].map((item) => (
               <li key={item} className="flex items-start gap-3">
-                <span className="mt-1 text-accent">&check;</span>
+                <span className="mt-1 text-accent">✓</span>
                 <span className="text-muted">{item}</span>
               </li>
             ))}

@@ -71,7 +71,7 @@ export default function TallyCartCaseStudy() {
             "Cloud synchronization",
           ].map((feature) => (
             <li key={feature} className="flex items-start gap-3">
-              <span className="mt-1 text-accent">&check;</span>
+              <span className="mt-1 text-accent">✓</span>
               <span className="text-sm text-muted">{feature}</span>
             </li>
           ))}
