@@ -38,10 +38,7 @@ export const metadata: Metadata = {
     images: [siteConfig.ogImage],
   },
   icons: {
-    icon: [
-      { url: "/images/favicon/favicon.svg", type: "image/svg+xml" },
-      { url: "/images/favicon/favicon.ico", sizes: "32x32" },
-    ],
+    icon: "/images/favicon/favicon.ico",
   },
   robots: {
     index: true,
