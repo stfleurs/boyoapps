@@ -6,12 +6,12 @@ import Script from "next/script";
 const siteUrl = siteConfig.url;
 
 export const metadata: Metadata = {
-  title: "Custom Web Application Development | Boyo Apps",
+  title: "Custom Web Application Development",
   description:
     "Scalable web applications, admin dashboards, customer portals, and cloud-based business software built with modern technologies and designed for real-world use.",
   alternates: { canonical: `${siteUrl}/services/web-app-development/` },
   openGraph: {
-    title: "Custom Web Application Development | Boyo Apps",
+    title: "Custom Web Application Development",
     description:
       "Secure, scalable web applications that allow your team and customers to access your software from anywhere, on any device.",
     url: `${siteUrl}/services/web-app-development/`,
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Custom Web Application Development | Boyo Apps",
+    title: "Custom Web Application Development",
     description:
       "Secure, scalable web applications that allow your team and customers to access your software from anywhere, on any device.",
   },

@@ -8,7 +8,7 @@ const product = products.find((p) => p.slug === "tally-cart")!;
 const siteUrl = siteConfig.url;
 
 export const metadata: Metadata = {
-  title: "Tally Cart — Real-Time Collaborative Grocery & Budget App | Boyo Apps",
+  title: "Tally Cart — Real-Time Collaborative Grocery & Budget App",
   description:
     "How Boyo Apps built Tally Cart: a real-time collaborative grocery list and budget tracking app with shelf-price barcode scanning, multi-currency support, and offline functionality.",
   alternates: { canonical: `${siteUrl}/work/tally-cart/` },

@@ -4,5 +4,9 @@ export const siteConfig = {
     "Boyo Apps builds custom mobile apps, web applications and business software. Explore our products and turn your business idea into reliable software.",
   url: "https://boyoapps.web.app",
   ogImage: "/og-image.jpg",
-  links: {},
+  email: "boyoapps@gmail.com",
+  links: {
+    linkedin: "https://www.linkedin.com/in/steeve-st-fleur/",
+    github: "https://github.com/stfleurs",
+  },
 };

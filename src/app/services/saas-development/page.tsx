@@ -6,12 +6,12 @@ import Script from "next/script";
 const siteUrl = siteConfig.url;
 
 export const metadata: Metadata = {
-  title: "SaaS Product Development Company | Boyo Apps",
+  title: "SaaS Product Development Company",
   description:
     "From MVP to full-scale subscription platforms with authentication, billing, analytics and cloud infrastructure. We build SaaS applications that scale.",
   alternates: { canonical: `${siteUrl}/services/saas-development/` },
   openGraph: {
-    title: "SaaS Product Development | Boyo Apps",
+    title: "SaaS Product Development",
     description:
       "From MVP to full-scale subscription platforms with authentication, billing, analytics and cloud infrastructure.",
     url: `${siteUrl}/services/saas-development/`,
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SaaS Product Development | Boyo Apps",
+    title: "SaaS Product Development",
     description:
       "From MVP to full-scale subscription platforms with authentication, billing, analytics and cloud infrastructure.",
   },

@@ -1,3 +1,5 @@
+export type ProductStatus = "live" | "development" | "concept";
+
 export type Product = {
   slug: string;
   name: string;
@@ -9,6 +11,7 @@ export type Product = {
   iconColor: string;
   capabilities: string[];
   featured: boolean;
+  status: ProductStatus;
   heroImage?: string;
 };
 
@@ -22,6 +25,7 @@ export const products: Product[] = [
     longDescription:
       "Boyo Apps developed Vendrex to help businesses manage sales, inventory, customers, employees and reporting from a modern mobile and web platform.",
     website: "https://vendrex.store/",
+    googlePlay: "https://play.google.com/store/apps/details?id=com.vendrex.pos",
     iconColor: "#2563eb",
     capabilities: [
       "POS",
@@ -36,6 +40,7 @@ export const products: Product[] = [
       "Web",
     ],
     featured: true,
+    status: "live",
   },
   {
     slug: "tally-cart",
@@ -60,6 +65,7 @@ export const products: Product[] = [
       "Android",
     ],
     featured: true,
+    status: "live",
   },
   {
     slug: "solar-align",
@@ -79,6 +85,7 @@ export const products: Product[] = [
       "Offline functionality",
     ],
     featured: true,
+    status: "development",
   },
   {
     slug: "receet-pro",
@@ -88,6 +95,7 @@ export const products: Product[] = [
       "Personal finance management with receipt scanning, multi-currency tracking, budgets and financial insights.",
     longDescription:
       "Receet Pro simplifies personal finance by combining receipt scanning, multi-currency expense tracking, and budgeting in one application.",
+    googlePlay: "https://play.google.com/store/apps/details?id=com.receet.pro",
     iconColor: "#0d9488",
     capabilities: [
       "Receipt scanning",
@@ -98,6 +106,7 @@ export const products: Product[] = [
       "Android",
     ],
     featured: true,
+    status: "live",
   },
   {
     slug: "gqrly",
@@ -116,6 +125,7 @@ export const products: Product[] = [
       "Web",
     ],
     featured: false,
+    status: "development",
   },
   {
     slug: "next-up",
@@ -135,6 +145,7 @@ export const products: Product[] = [
       "Android",
     ],
     featured: false,
+    status: "live",
   },
   {
     slug: "boyomart",
@@ -146,6 +157,7 @@ export const products: Product[] = [
       "BoyoMart is a local marketplace platform connecting buyers and sellers with location-based discovery, in-app messaging, and powerful search.",
     googlePlay: "https://play.google.com/store/apps/details?id=com.boyomart.app",
     iconColor: "#e11d48",
+    status: "live",
     capabilities: [
       "Listings",
       "Location-based discovery",
@@ -173,6 +185,7 @@ export const products: Product[] = [
       "Android",
     ],
     featured: false,
+    status: "concept",
   },
 ];
 

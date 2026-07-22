@@ -6,12 +6,12 @@ import Script from "next/script";
 const siteUrl = siteConfig.url;
 
 export const metadata: Metadata = {
-  title: "Custom Mobile App Development for Business | Boyo Apps",
+  title: "Custom Mobile App Development for Business",
   description:
     "Cross-platform and Android mobile applications designed for real-world business conditions — offline-first, cloud-synced, with barcode scanning, multi-currency, and real-time collaboration built in.",
   alternates: { canonical: `${siteUrl}/services/mobile-app-development/` },
   openGraph: {
-    title: "Custom Mobile App Development for Business | Boyo Apps",
+    title: "Custom Mobile App Development for Business",
     description:
       "Cross-platform mobile applications designed around your business, users and real-world requirements. Android, offline-first, cloud-synced apps.",
     url: `${siteUrl}/services/mobile-app-development/`,
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Custom Mobile App Development for Business | Boyo Apps",
+    title: "Custom Mobile App Development for Business",
     description:
       "Cross-platform mobile applications designed around your business, users and real-world requirements. Android, offline-first, cloud-synced apps.",
   },

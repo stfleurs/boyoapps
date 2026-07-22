@@ -8,7 +8,7 @@ const product = products.find((p) => p.slug === "solar-align")!;
 const siteUrl = siteConfig.url;
 
 export const metadata: Metadata = {
-  title: "Solar Align Pro — Solar Panel Alignment & ROI Tool | Boyo Apps",
+  title: "Solar Align Pro — Solar Panel Alignment & ROI Tool",
   description:
     "How Boyo Apps built Solar Align Pro: a mobile application that uses device sensors and location data to calculate optimal solar panel positioning and provide ROI projections for solar energy professionals.",
   alternates: { canonical: `${siteUrl}/work/solar-align/` },

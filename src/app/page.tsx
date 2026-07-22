@@ -33,7 +33,7 @@ export default function Home() {
               </div>
               
               <h1 className="mt-5 animate-fade-in-up text-[clamp(2.5rem,5vw,4.25rem)] font-extrabold leading-[1.08] tracking-tight text-primary">
-                We Build Apps That Solve
+                Boyo Apps Builds Apps That Solve
                 <br />
                 <span className="bg-gradient-to-r from-accent via-accent-dark to-accent-violet bg-clip-text text-transparent">
                   Real Business Problems.
@@ -41,16 +41,30 @@ export default function Home() {
               </h1>
               
               <p className="mt-6 animate-fade-in-up max-w-lg text-lg leading-relaxed text-muted font-normal" style={{ animationDelay: "0.15s" }}>
-                Boyo Apps designs and develops custom mobile and web applications
-                for businesses &mdash; from idea and architecture to launch and
-                growth.
+                An independent software studio designing and developing custom mobile
+                and web applications for businesses &mdash; from idea and architecture
+                to launch and growth.
               </p>
               
               <div className="mt-8 flex animate-fade-in-up flex-wrap gap-4" style={{ animationDelay: "0.3s" }}>
                 <CTA href="/contact/">Start Your Project</CTA>
                 <CTA href="/work/" variant="outline">View Our Work</CTA>
               </div>
-              
+
+              {/* Credibility line */}
+              <div className="mt-6 flex animate-fade-in-up flex-wrap items-center gap-x-4 gap-y-1 text-sm font-semibold text-muted" style={{ animationDelay: "0.35s" }}>
+                <span>Mobile Apps</span>
+                <span className="text-border/60 hidden sm:inline">&middot;</span>
+                <span>Web Applications</span>
+                <span className="text-border/60 hidden sm:inline">&middot;</span>
+                <span>Business Software</span>
+                <span className="text-border/60 hidden sm:inline">&middot;</span>
+                <span>SaaS</span>
+              </div>
+              <p className="mt-2 animate-fade-in-up text-sm text-muted/80" style={{ animationDelay: "0.4s" }}>
+                From MVPs to production software &mdash; designed, developed and launched end-to-end.
+              </p>
+
               {/* Capabilities badge strip */}
               <div className="mt-10 flex animate-fade-in-up flex-wrap items-center gap-4 text-xs font-semibold text-muted" style={{ animationDelay: "0.4s" }}>
                 <div className="flex items-center gap-1.5 rounded-lg border border-border/80 bg-white/70 px-3 py-1.5 shadow-sm backdrop-blur-sm">
@@ -193,6 +207,19 @@ export default function Home() {
                       <p className="mt-3 text-sm leading-relaxed text-muted">
                         {product.shortDescription}
                       </p>
+                      {product.googlePlay && (
+                        <a
+                          href={product.googlePlay}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="mt-4 inline-flex items-center gap-1.5 text-xs font-medium text-accent hover:text-accent-dark"
+                        >
+                          <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M11.5 4.45c-.02-.26-.19-.49-.45-.57-.23-.07-.47.04-.61.23l-2.3 3.01c-.25.33-.53.38-.81.15-.14-.12-.28-.26-.44-.41-.25-.23-.55-.23-.82 0-.16.15-.3.29-.44.41-.28.23-.55.29-.81.15L6.98 5.55c-.14-.19-.37-.28-.61-.23-.26.08-.43.31-.45.57-.05.72-.08 1.46-.08 2.19 0 2.85.27 5.57.8 8.12.14.67.7 1.09 1.14.67.52-.5 1.17-.82 1.84-.82.35 0 .7.12 1 .32.5.34.86.86 1.07 1.42.22.62.19 1.29-.1 1.87-.32.65-.85 1.07-1.43 1.16-.07.01-.13 0-.19-.02-.41-.14-.76-.38-1.02-.7-.3-.4-.5-.9-.54-1.42a28.9 28.9 0 0 1-.04-1.71c0-.39 0-.77-.02-1.15-.02-.6-.04-1.2-.05-1.8zm7.86 10.04c-.56.58-1.38.94-2.25 1.05-.88.11-1.75-.09-2.5-.54-.74-.45-1.29-1.13-1.59-1.91-.3-.78-.34-1.58-.11-2.34.27-.86.84-1.47 1.58-1.8.73-.33 1.53-.39 2.31-.16.78.23 1.39.75 1.76 1.35.32.51.4 1.08.25 1.65-.15.59-.6.96-1.14 1.15zM8.42 15.9c.53-.61 1.25-1 2.12-1.17.88-.17 1.76.07 2.5.64.74.58 1.31 1.44 1.62 2.39.32.97.37 1.97.1 2.92-.3.97-.94 1.67-1.73 2.07-.78.4-1.61.45-2.44.12-.84-.33-1.49-.96-1.87-1.75-.38-.79-.45-1.66-.15-2.46.32-.82.94-1.39 1.7-1.71zM9.12 9.04c-.19.19-.33.43-.4.69-.12.42-.05.87.18 1.2.23.32.56.5.93.5.38 0 .71-.18.93-.5.22-.33.3-.78.11-1.2-.19-.42-.45-.66-.71-.85-.26-.18-.56-.25-.9-.25-.34 0-.64.07-.9.22-.27.15-.45.38-.52.66z" />
+                          </svg>
+                          Google Play
+                        </a>
+                      )}
                     </div>
 
                     <div className="mt-8 flex items-center gap-1.5 text-sm font-semibold text-accent">
@@ -355,6 +382,17 @@ export default function Home() {
                   <CTA href="https://vendrex.store/" variant="outline">
                     Visit Vendrex
                   </CTA>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=vendrex.pos"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white shadow-md shadow-accent/20 transition-all duration-300 hover:bg-accent-dark hover:shadow-xl hover:shadow-accent/30"
+                  >
+                    <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M11.5 4.45c-.02-.26-.19-.49-.45-.57-.23-.07-.47.04-.61.23l-2.3 3.01c-.25.33-.53.38-.81.15-.14-.12-.28-.26-.44-.41-.25-.23-.55-.23-.82 0-.16.15-.3.29-.44.41-.28.23-.55.29-.81.15L6.98 5.55c-.14-.19-.37-.28-.61-.23-.26.08-.43.31-.45.57-.05.72-.08 1.46-.08 2.19 0 2.85.27 5.57.8 8.12.14.67.7 1.09 1.14.67.52-.5 1.17-.82 1.84-.82.35 0 .7.12 1 .32.5.34.86.86 1.07 1.42.22.62.19 1.29-.1 1.87-.32.65-.85 1.07-1.43 1.16-.07.01-.13 0-.19-.02-.41-.14-.76-.38-1.02-.7-.3-.4-.5-.9-.54-1.42a28.9 28.9 0 0 1-.04-1.71c0-.39 0-.77-.02-1.15-.02-.6-.04-1.2-.05-1.8zm7.86 10.04c-.56.58-1.38.94-2.25 1.05-.88.11-1.75-.09-2.5-.54-.74-.45-1.29-1.13-1.59-1.91-.3-.78-.34-1.58-.11-2.34.27-.86.84-1.47 1.58-1.8.73-.33 1.53-.39 2.31-.16.78.23 1.39.75 1.76 1.35.32.51.4 1.08.25 1.65-.15.59-.6.96-1.14 1.15zM8.42 15.9c.53-.61 1.25-1 2.12-1.17.88-.17 1.76.07 2.5.64.74.58 1.31 1.44 1.62 2.39.32.97.37 1.97.1 2.92-.3.97-.94 1.67-1.73 2.07-.78.4-1.61.45-2.44.12-.84-.33-1.49-.96-1.87-1.75-.38-.79-.45-1.66-.15-2.46.32-.82.94-1.39 1.7-1.71zM9.12 9.04c-.19.19-.33.43-.4.69-.12.42-.05.87.18 1.2.23.32.56.5.93.5.38 0 .71-.18.93-.5.22-.33.3-.78.11-1.2-.19-.42-.45-.66-.71-.85-.26-.18-.56-.25-.9-.25-.34 0-.64.07-.9.22-.27.15-.45.38-.52.66z" />
+                    </svg>
+                    Get it on Google Play
+                  </a>
                 </div>
               </div>
               <div className="relative">
@@ -510,33 +548,8 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Desktop horizontal timeline */}
-            <div className="mt-20 hidden items-start lg:flex">
-              {[
-                { step: "01", title: "Discovery" },
-                { step: "02", title: "Planning" },
-                { step: "03", title: "Design" },
-                { step: "04", title: "Development" },
-                { step: "05", title: "Testing" },
-                { step: "06", title: "Launch" },
-                { step: "07", title: "Evolve" },
-              ].map((item, i) => (
-                <div key={item.step} className="group flex flex-1 flex-col items-center">
-                  <div className="relative flex w-full items-center justify-center">
-                    <div className="z-10 flex h-12 w-12 items-center justify-center rounded-full border-2 border-border bg-white text-sm font-bold text-accent shadow-sm transition-all duration-300 group-hover:scale-110 group-hover:border-accent group-hover:bg-accent group-hover:text-white group-hover:shadow-md shadow-accent/20">
-                      {item.step}
-                    </div>
-                    {i < 6 && (
-                      <div className="absolute left-[50%] top-1/2 h-0.5 w-full bg-border/80 transition-colors group-hover:bg-accent/40" />
-                    )}
-                  </div>
-                  <p className="mt-4 text-sm font-bold text-primary group-hover:text-accent transition-colors">{item.title}</p>
-                </div>
-              ))}
-            </div>
-
-            {/* Mobile/tablet grid */}
-            <div className="mt-12 grid gap-4 sm:grid-cols-2 md:grid-cols-4 lg:hidden">
+            {/* Responsive process steps - single implementation using CSS Grid */}
+            <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-7">
               {[
                 { step: "01", title: "Discovery", desc: "Understand the problem, users and requirements." },
                 { step: "02", title: "Planning", desc: "Determine functionality, architecture and scope." },
@@ -545,11 +558,21 @@ export default function Home() {
                 { step: "05", title: "Testing", desc: "Test functionality, performance and reliability." },
                 { step: "06", title: "Launch", desc: "Deploy to production and app stores." },
                 { step: "07", title: "Evolve", desc: "Updates, monitoring and improvements." },
-              ].map((item) => (
-                <div key={item.step} className="rounded-xl border border-border/80 bg-white p-5 shadow-sm">
-                  <span className="text-2xl font-extrabold text-accent/30">{item.step}</span>
-                  <h3 className="mt-1 font-bold text-primary">{item.title}</h3>
-                  <p className="mt-1 text-xs text-muted">{item.desc}</p>
+              ].map((item, i) => (
+                <div
+                  key={item.step}
+                  className="relative flex flex-col items-center text-center group"
+                  data-index={i}
+                >
+                  <div className="relative flex h-14 w-14 items-center justify-center rounded-full border-2 border-border bg-white text-sm font-bold text-accent shadow-sm transition-all duration-300 group-hover:scale-110 group-hover:border-accent group-hover:bg-accent group-hover:text-white group-hover:shadow-md shadow-accent/20 z-10">
+                    {item.step}
+                  </div>
+                  {/* Connecting line - only show between items, not after last */}
+                  {i < 6 && (
+                    <div className="absolute top-7 left-1/2 w-full h-0.5 bg-border/80 -z-10 lg:left-[calc(50%+1.75rem)] lg:w-[calc(100%-3.5rem)] transition-colors group-hover:bg-accent/40" />
+                  )}
+                  <h3 className="mt-4 font-bold text-primary group-hover:text-accent transition-colors text-sm lg:text-base">{item.title}</h3>
+                  <p className="mt-1 text-xs text-muted hidden lg:block">{item.desc}</p>
                 </div>
               ))}
             </div>

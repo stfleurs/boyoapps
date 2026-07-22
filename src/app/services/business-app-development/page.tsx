@@ -6,12 +6,12 @@ import Script from "next/script";
 const siteUrl = siteConfig.url;
 
 export const metadata: Metadata = {
-  title: "Custom Business Application Development | Boyo Apps",
+  title: "Custom Business Application Development",
   description:
     "POS systems, inventory management, dashboards, internal tools and custom business software built for real-world operations — offline-first, multi-currency, and designed to scale.",
   alternates: { canonical: `${siteUrl}/services/business-app-development/` },
   openGraph: {
-    title: "Custom Business Application Development | Boyo Apps",
+    title: "Custom Business Application Development",
     description:
       "Inventory systems, POS applications, dashboards, internal tools and custom software tailored to your business operations.",
     url: `${siteUrl}/services/business-app-development/`,
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Custom Business Application Development | Boyo Apps",
+    title: "Custom Business Application Development",
     description:
       "Inventory systems, POS applications, dashboards, internal tools and custom software tailored to your business operations.",
   },

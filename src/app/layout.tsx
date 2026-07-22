@@ -68,9 +68,14 @@ export default function RootLayout({
             founder: { name: "Steeve St Fleur" },
             contactPoint: {
               "@type": "ContactPoint",
+              email: siteConfig.email,
               url: `${siteConfig.url}/contact/`,
               contactType: "sales",
             },
+            sameAs: [
+              siteConfig.links.linkedin,
+              siteConfig.links.github,
+            ],
 
           }),
         }}

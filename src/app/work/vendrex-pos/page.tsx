@@ -1,14 +1,12 @@
 import type { Metadata } from "next";
 import { CTA } from "@/components/CTA";
-import { products } from "@/lib/products";
 import { siteConfig } from "@/lib/metadata";
 import Script from "next/script";
 
-const product = products.find((p) => p.slug === "vendrex-pos")!;
 const siteUrl = siteConfig.url;
 
 export const metadata: Metadata = {
-  title: "Vendrex POS — Offline-First POS & Inventory Management System | Boyo Apps",
+  title: "Vendrex POS — Offline-First POS & Inventory Management System",
   description:
     "How Boyo Apps built Vendrex: a complete offline-first POS and inventory management platform with multi-currency support, barcode scanning, and real-time cloud sync for businesses.",
   alternates: { canonical: `${siteUrl}/work/vendrex-pos/` },
@@ -97,6 +95,25 @@ const jsonLd = {
   ],
 };
 
+const challenges = [
+  "Offline transaction processing",
+  "Inventory synchronization across devices",
+  "Barcode scanning in variable lighting",
+  "Multi-currency pricing and reporting",
+  "Employee access controls",
+  "Sales and financial reporting",
+  "Android + Web cross-platform delivery",
+];
+
+const engineering = [
+  "Flutter",
+  "Firebase",
+  "Cloud Functions",
+  "Offline persistence",
+  "Camera barcode scanning",
+  "Multi-currency data model",
+];
+
 export default function VendrexCaseStudy() {
   return (
     <>
@@ -110,140 +127,87 @@ export default function VendrexCaseStudy() {
           CASE STUDY
         </p>
         <h1 className="text-4xl font-bold tracking-tight text-primary sm:text-5xl">
-          Building an Offline-First POS &amp; Inventory Platform
+          Vendrex POS — Offline-First POS &amp; Inventory Platform
         </h1>
 
-        <div className="mt-8 flex flex-wrap gap-2">
-          {product.capabilities.map((cap) => (
-            <span
-              key={cap}
-              className="rounded-full border border-border px-3 py-1 text-xs font-medium text-muted"
-            >
-              {cap}
-            </span>
-          ))}
-        </div>
-
         <section className="mt-12">
-          <h2 className="text-2xl font-bold text-primary">Project Overview</h2>
-          <p className="mt-4 leading-relaxed text-muted">
-            Vendrex is a complete point-of-sale and business management
-            platform designed and built by Boyo Apps. It replaces traditional
-            cash registers and disconnected spreadsheets with a unified
-            mobile and web system that handles sales, inventory, purchasing,
-            employee management, and financial reporting.
-          </p>
-          <p className="mt-4 leading-relaxed text-muted">
-            The platform was built to address a fundamental gap in the retail
-            software market: most POS systems require constant internet
-            connectivity, yet many businesses operate in areas where reliable
-            connectivity is not guaranteed. Vendrex was architected from the
-            ground up as an offline-first system, ensuring that a network
-            outage never stops a sale.
-          </p>
-        </section>
-
-        <section className="mt-10">
-          <h2 className="text-2xl font-bold text-primary">
-            The Business Problem
+          <h2 className="text-sm font-bold tracking-widest text-accent uppercase">
+            The Problem
           </h2>
-          <p className="mt-4 leading-relaxed text-muted">
-            Small and medium retail businesses face a persistent challenge:
-            they need modern POS capabilities but cannot rely on stable
-            internet connectivity throughout their operating hours. Cloud-only
-            POS systems fail during network interruptions, forcing businesses
-            to revert to paper records or lose sales entirely.
-          </p>
-          <p className="mt-4 leading-relaxed text-muted">
-            Additionally, many of these businesses operate in multi-currency
-            environments — accepting payments in multiple currencies while
-            managing inventory valued in different denominations. Existing
-            POS software either lacked multi-currency support entirely or
-            implemented it as an afterthought, leading to accounting
-            discrepancies and reporting inaccuracies.
-          </p>
-          <p className="mt-4 leading-relaxed text-muted">
-            Inventory management was another pain point. Businesses tracked
-            stock manually or through disconnected spreadsheets, leading to
-            overselling, stockouts, and lost revenue. They needed a system
-            where a barcode scan at the point of sale instantly updated
-            inventory levels across all channels.
+          <p className="mt-4 text-lg leading-relaxed text-primary">
+            Small businesses need to manage sales and inventory even when
+            internet connectivity isn&apos;t reliable.
           </p>
         </section>
 
         <section className="mt-10">
-          <h2 className="text-2xl font-bold text-primary">
-            Why a Custom Solution Was Required
+          <h2 className="text-sm font-bold tracking-widest text-accent uppercase">
+            The Challenge
           </h2>
-          <p className="mt-4 leading-relaxed text-muted">
-            Off-the-shelf POS systems offered a poor fit for three reasons.
-            First, most required monthly subscriptions that were cost-prohibitive
-            for small businesses. Second, their offline capabilities were
-            limited to caching recent data rather than supporting full
-            offline operations with conflict resolution. Third, they did not
-            handle multi-currency workflows in a way that matched how
-            businesses actually operate — accepting multiple currencies at
-            the register while tracking cost of goods sold in a base currency.
+          <p className="mt-4 text-sm font-semibold text-muted">
+            The system needed to support:
           </p>
-          <p className="mt-4 leading-relaxed text-muted">
-            A custom solution allowed Boyo Apps to design the data model,
-            synchronization protocol, and user experience specifically around
-            these real-world requirements rather than forcing businesses to
-            adapt to generic software limitations.
-          </p>
-        </section>
-
-        <section className="mt-10">
-          <h2 className="text-2xl font-bold text-primary">
-            Our Approach &amp; Solution
-          </h2>
-          <p className="mt-4 leading-relaxed text-muted">
-            Boyo Apps designed Vendrex as a cross-platform application with a
-            shared core architecture. The Android application handles
-            in-store POS operations, while the web dashboard provides
-            back-office management, reporting, and administrative functions.
-          </p>
-          <p className="mt-4 leading-relaxed text-muted">
-            Data flows through a local-first architecture. The mobile
-            application stores all operational data in an embedded local
-            database. When the device has connectivity, changes sync to the
-            cloud backend. When offline, the application continues operating
-            with full functionality. Conflict resolution is handled through
-            a last-writer-wins strategy with timestamp-based reconciliation.
-          </p>
-          <p className="mt-4 leading-relaxed text-muted">
-            The user interface was designed for retail staff with varying
-            levels of technical experience. The POS flow guides cashiers
-            through transactions step by step, while the inventory and
-            reporting interfaces provide power users with the depth they
-            need without overwhelming casual operators.
-          </p>
-        </section>
-
-        <section className="mt-10">
-          <h2 className="text-2xl font-bold text-primary">Key Features</h2>
-          <ul className="mt-4 grid gap-3 sm:grid-cols-2">
-            {[
-              "Complete POS with receipt printing",
-              "Real-time inventory tracking",
-              "Multi-currency support",
-              "Offline-first architecture",
-              "Barcode scanning",
-              "Purchase order management",
-              "Employee management",
-              "Sales reporting & analytics",
-            ].map((feature) => (
-              <li key={feature} className="flex items-start gap-3">
-                <span className="mt-1 text-accent">✓</span>
-                <span className="text-sm text-muted">{feature}</span>
+          <ul className="mt-3 space-y-2">
+            {challenges.map((item) => (
+              <li key={item} className="flex items-start gap-3 text-sm text-muted">
+                <span className="mt-0.5 text-accent">&#10003;</span>
+                {item}
               </li>
             ))}
           </ul>
         </section>
 
         <section className="mt-10">
+          <h2 className="text-sm font-bold tracking-widest text-accent uppercase">
+            The Solution
+          </h2>
+          <p className="mt-4 leading-relaxed text-muted">
+            Boyo Apps designed an offline-first POS architecture that allows
+            businesses to continue operating without a reliable connection,
+            then synchronize their data automatically when connectivity
+            returns. Every transaction, inventory change, and employee action
+            works locally first — the cloud is a sync target, not a
+            requirement.
+          </p>
+        </section>
+
+        <section className="mt-10">
+          <h2 className="text-sm font-bold tracking-widest text-accent uppercase">
+            Engineering
+          </h2>
+          <div className="mt-4 flex flex-wrap gap-2">
+            {engineering.map((tech) => (
+              <span
+                key={tech}
+                className="rounded-lg border border-accent/20 bg-accent/5 px-3 py-1.5 text-sm font-medium text-accent"
+              >
+                {tech}
+              </span>
+            ))}
+          </div>
+        </section>
+
+        <section className="mt-10">
+          <h2 className="text-sm font-bold tracking-widest text-accent uppercase">
+            Result
+          </h2>
+          <p className="mt-4 text-lg font-semibold text-primary">
+            A complete production-ready business management platform available
+            across mobile and web.
+          </p>
+          <div className="mt-6 rounded-xl border border-border bg-surface p-6">
+            <p className="text-sm leading-relaxed text-muted">
+              Vendrex handles sales, inventory, purchasing, employee management,
+              and financial reporting. It runs in production across multiple
+              businesses, processing transactions online and offline, and
+              synchronizing data seamlessly when connectivity is available.
+            </p>
+          </div>
+        </section>
+
+        <section className="mt-16 border-t border-border pt-12">
           <h2 className="text-2xl font-bold text-primary">
-            Technical &amp; Engineering Challenges
+            Engineering Deep Dive
           </h2>
 
           <h3 className="mt-6 text-lg font-bold text-primary">
@@ -297,6 +261,27 @@ export default function VendrexCaseStudy() {
         </section>
 
         <section className="mt-10">
+          <h2 className="text-2xl font-bold text-primary">Key Features</h2>
+          <ul className="mt-4 grid gap-3 sm:grid-cols-2">
+            {[
+              "Complete POS with receipt printing",
+              "Real-time inventory tracking",
+              "Multi-currency support",
+              "Offline-first architecture",
+              "Barcode scanning",
+              "Purchase order management",
+              "Employee management",
+              "Sales reporting & analytics",
+            ].map((feature) => (
+              <li key={feature} className="flex items-start gap-3">
+                <span className="mt-1 text-accent">&#10003;</span>
+                <span className="text-sm text-muted">{feature}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section className="mt-10">
           <h2 className="text-2xl font-bold text-primary">
             Architecture Highlights
           </h2>
@@ -311,7 +296,7 @@ export default function VendrexCaseStudy() {
               "Receipt printing over Bluetooth and Wi-Fi thermal printers",
             ].map((item) => (
               <li key={item} className="flex items-start gap-3">
-                <span className="mt-1 text-accent">✓</span>
+                <span className="mt-1 text-accent">&#10003;</span>
                 <span className="text-sm text-muted">{item}</span>
               </li>
             ))}
@@ -357,44 +342,6 @@ export default function VendrexCaseStudy() {
             the actual working conditions of end users and building software
             that adapts to those conditions rather than requiring users to
             adapt to the software.
-          </p>
-        </section>
-
-        <section className="mt-10">
-          <h2 className="text-2xl font-bold text-primary">
-            Related Services
-          </h2>
-          <p className="mt-4 leading-relaxed text-muted">
-            Looking to build similar software for your business? Boyo Apps
-            offers{" "}
-            <a
-              href="/services/mobile-app-development/"
-              className="font-medium text-accent underline underline-offset-2 hover:text-accent-dark"
-            >
-              mobile app development
-            </a>
-            ,{" "}
-            <a
-              href="/services/business-app-development/"
-              className="font-medium text-accent underline underline-offset-2 hover:text-accent-dark"
-            >
-              business application development
-            </a>
-            , and{" "}
-            <a
-              href="/services/web-app-development/"
-              className="font-medium text-accent underline underline-offset-2 hover:text-accent-dark"
-            >
-              web application development
-            </a>{" "}
-            services. We also build{" "}
-            <a
-              href="/services/saas-development/"
-              className="font-medium text-accent underline underline-offset-2 hover:text-accent-dark"
-            >
-              SaaS products
-            </a>{" "}
-            for companies launching subscription-based platforms.
           </p>
         </section>
 
@@ -469,12 +416,61 @@ export default function VendrexCaseStudy() {
           </div>
         </section>
 
-        <section className="mt-12 flex flex-wrap gap-4 border-t border-border pt-8">
+        <section className="mt-10">
+          <h2 className="text-2xl font-bold text-primary">
+            Related Services
+          </h2>
+          <p className="mt-4 leading-relaxed text-muted">
+            Looking to build similar software for your business? Boyo Apps
+            offers{" "}
+            <a
+              href="/services/mobile-app-development/"
+              className="font-medium text-accent underline underline-offset-2 hover:text-accent-dark"
+            >
+              mobile app development
+            </a>
+            ,{" "}
+            <a
+              href="/services/business-app-development/"
+              className="font-medium text-accent underline underline-offset-2 hover:text-accent-dark"
+            >
+              business application development
+            </a>
+            , and{" "}
+            <a
+              href="/services/web-app-development/"
+              className="font-medium text-accent underline underline-offset-2 hover:text-accent-dark"
+            >
+              web application development
+            </a>{" "}
+            services. We also build{" "}
+            <a
+              href="/services/saas-development/"
+              className="font-medium text-accent underline underline-offset-2 hover:text-accent-dark"
+            >
+              SaaS products
+            </a>{" "}
+            for companies launching subscription-based platforms.
+          </p>
+        </section>
+
+        <div className="mt-12 flex flex-wrap gap-4 border-t border-border pt-8">
+          <a
+            href="https://play.google.com/store/apps/details?id=vendrex.pos"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white shadow-md shadow-accent/20 transition-all duration-300 hover:bg-accent-dark hover:shadow-xl hover:shadow-accent/30"
+          >
+            <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M11.5 4.45c-.02-.26-.19-.49-.45-.57-.23-.07-.47.04-.61.23l-2.3 3.01c-.25.33-.53.38-.81.15-.14-.12-.28-.26-.44-.41-.25-.23-.55-.23-.82 0-.16.15-.3.29-.44.41-.28.23-.55.29-.81.15L6.98 5.55c-.14-.19-.37-.28-.61-.23-.26.08-.43.31-.45.57-.05.72-.08 1.46-.08 2.19 0 2.85.27 5.57.8 8.12.14.67.7 1.09 1.14.67.52-.5 1.17-.82 1.84-.82.35 0 .7.12 1 .32.5.34.86.86 1.07 1.42.22.62.19 1.29-.1 1.87-.32.65-.85 1.07-1.43 1.16-.07.01-.13 0-.19-.02-.41-.14-.76-.38-1.02-.7-.3-.4-.5-.9-.54-1.42a28.9 28.9 0 0 1-.04-1.71c0-.39 0-.77-.02-1.15-.02-.6-.04-1.2-.05-1.8zm7.86 10.04c-.56.58-1.38.94-2.25 1.05-.88.11-1.75-.09-2.5-.54-.74-.45-1.29-1.13-1.59-1.91-.3-.78-.34-1.58-.11-2.34.27-.86.84-1.47 1.58-1.8.73-.33 1.53-.39 2.31-.16.78.23 1.39.75 1.76 1.35.32.51.4 1.08.25 1.65-.15.59-.6.96-1.14 1.15zM8.42 15.9c.53-.61 1.25-1 2.12-1.17.88-.17 1.76.07 2.5.64.74.58 1.31 1.44 1.62 2.39.32.97.37 1.97.1 2.92-.3.97-.94 1.67-1.73 2.07-.78.4-1.61.45-2.44.12-.84-.33-1.49-.96-1.87-1.75-.38-.79-.45-1.66-.15-2.46.32-.82.94-1.39 1.7-1.71zM9.12 9.04c-.19.19-.33.43-.4.69-.12.42-.05.87.18 1.2.23.32.56.5.93.5.38 0 .71-.18.93-.5.22-.33.3-.78.11-1.2-.19-.42-.45-.66-.71-.85-.26-.18-.56-.25-.9-.25-.34 0-.64.07-.9.22-.27.15-.45.38-.52.66z" />
+            </svg>
+            Get it on Google Play
+          </a>
           <CTA href="https://vendrex.store/" variant="secondary">
             Visit Vendrex &rarr;
           </CTA>
           <CTA href="/contact/">Build Something Similar &rarr;</CTA>
-        </section>
+        </div>
       </div>
     </>
   );

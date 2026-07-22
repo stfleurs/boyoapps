@@ -8,7 +8,7 @@ const product = products.find((p) => p.slug === "receet-pro")!;
 const siteUrl = siteConfig.url;
 
 export const metadata: Metadata = {
-  title: "Receet Pro — Personal Finance App with Receipt Scanning & OCR | Boyo Apps",
+  title: "Receet Pro — Personal Finance App with Receipt Scanning & OCR",
   description:
     "How Boyo Apps built Receet Pro: a personal finance application with OCR-based receipt scanning, multi-currency expense tracking, budgeting tools, and financial insights.",
   alternates: { canonical: `${siteUrl}/work/receet-pro/` },

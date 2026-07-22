@@ -18,7 +18,7 @@ export function FadeIn({ children, className = "", delay = 0 }: FadeInProps) {
 
     const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (prefersReduced) {
-      setVisible(true);
+      setTimeout(() => setVisible(true), 0);
       return;
     }
 
