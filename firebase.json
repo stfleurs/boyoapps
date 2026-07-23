@@ -5,8 +5,8 @@
     "ignore": ["firebase.json", "**/.*"],
     "rewrites": [
       {
-        "source": "**",
-        "destination": "/index.html"
+        "source": "/",
+        "destination": "/en/index.html"
       }
     ],
     "cleanUrls": true,

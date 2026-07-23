@@ -1,0 +1,2039 @@
+{
+  "header": {
+    "home": "Accueil",
+    "services": "Services",
+    "work": "Réalisations",
+    "industries": "Secteurs",
+    "about": "À propos",
+    "blog": "Blog",
+    "letsTalk": "Discutons",
+    "ariaMenuOpen": "Ouvrir le menu de navigation",
+    "ariaMenuClose": "Fermer le menu de navigation"
+  },
+  "footer": {
+    "tagline": "Applications mobiles et web conçues pour le monde réel.",
+    "servicesHeading": "Services",
+    "workHeading": "Réalisations",
+    "companyHeading": "Entreprise",
+    "connectHeading": "Contact",
+    "serviceLinks": {
+      "mobile": "Développement d'applications mobiles",
+      "business": "Applications professionnelles",
+      "web": "Développement d'applications web",
+      "saas": "Développement SaaS"
+    },
+    "workLinks": {
+      "vendrex": "Vendrex",
+      "tallyCart": "Tally Cart",
+      "solarAlign": "Solar Align",
+      "receetPro": "Receet Pro",
+      "viewAll": "Voir toutes les réalisations"
+    },
+    "companyLinks": {
+      "about": "À propos",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "social": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "sendMessage": "Envoyer un message",
+      "email": "boyoapps@gmail.com"
+    },
+    "copyright": "© {year} Boyo Apps. Tous droits réservés.",
+    "privacyPolicy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation"
+  },
+  "home": {
+    "hero": {
+      "badge": "MOBILE • WEB • LOGICIEL PROFESSIONNEL",
+      "heading": "Boyo Apps crée des applications qui résolvent",
+      "headingHighlight": "de vrais problèmes professionnels.",
+      "description": "Un studio de logiciel indépendant qui conçoit et développe des applications mobiles et web sur mesure pour les entreprises — de l'idée et de l'architecture jusqu'au lancement et à la croissance.",
+      "ctaStart": "Lancez votre projet",
+      "ctaViewWork": "Voir nos réalisations",
+      "tags": [
+        "Apps mobiles",
+        "Applications web",
+        "Logiciels professionnels",
+        "SaaS"
+      ],
+      "subheading": "Des MVP aux logiciels de production — conçus, développés et lancés de bout en bout.",
+      "badges": [
+        "Android",
+        "Web",
+        "Multi-plateforme",
+        "Cloud"
+      ]
+    },
+    "productsBuilt": {
+      "label": "DE VRAIS PRODUITS. UNE VRAIE INGÉNIERIE.",
+      "title": "Nos produits",
+      "description": "Nous construisons nos propres produits pour résoudre de vrais problèmes. Aujourd'hui, nous aidons les entreprises à faire de même.",
+      "cta": "Explorer tous les produits",
+      "googlePlay": "Google Play",
+      "viewCaseStudy": "Voir l'étude de cas"
+    },
+    "customSoftware": {
+      "label": "NOTRE SAVOIR-FAIRE",
+      "title": "Des logiciels sur mesure pour votre entreprise",
+      "services": {
+        "item1": {
+          "title": "Développement d'applications mobiles",
+          "description": "Applications mobiles multiplateformes et natives conçues pour la performance, l'ergonomie et les conditions réelles d'utilisation."
+        },
+        "item2": {
+          "title": "Applications professionnelles",
+          "description": "Systèmes d'inventaire, POS, outils terrain, tableaux de bord et logiciels internes adaptés à vos opérations."
+        },
+        "item3": {
+          "title": "Développement d'applications web",
+          "description": "Applications web sécurisées et évolutives qui vous aident à gérer et développer votre entreprise où que vous soyez."
+        },
+        "item4": {
+          "title": "Développement de produits SaaS",
+          "description": "Du MVP aux plateformes SaaS à grande échelle avec abonnements, analyses et infrastructure cloud."
+        }
+      },
+      "learnMore": "En savoir plus"
+    },
+    "featuredCaseStudy": {
+      "label": "ÉTUDE DE CAS À LA UNE",
+      "title": "Vendrex",
+      "subtitle": "Création d'une plateforme complète de POS et de gestion d'entreprise.",
+      "description": "Boyo Apps a développé Vendrex pour aider les entreprises à gérer les ventes, l'inventaire, les clients, les employés et les rapports à partir d'une plateforme mobile et web moderne.",
+      "tags": [
+        "POS",
+        "Inventaire",
+        "Multi-devise",
+        "Hors ligne",
+        "Code-barres",
+        "Rapports",
+        "Android",
+        "Web"
+      ],
+      "ctaCaseStudy": "Voir l'étude de cas Vendrex",
+      "ctaVisit": "Visiter Vendrex",
+      "ctaGooglePlay": "Disponible sur Google Play"
+    },
+    "builtForRealWorld": {
+      "label": "CONÇU POUR LE MONDE RÉEL",
+      "title": "Des logiciels fiables.",
+      "title2": "Un impact réel.",
+      "items": [
+        {
+          "title": "Priorité au mode hors ligne",
+          "description": "Applications conçues pour rester opérationnelles en cas de connexion instable — une fiabilité prouvée avec Vendrex et Tally Cart."
+        },
+        {
+          "title": "Multidevise et international",
+          "description": "Architecture prenant en charge diverses devises, langues et exigences des marchés mondiaux."
+        },
+        {
+          "title": "Technologies modernes et bonnes pratiques",
+          "description": "Construit avec des frameworks modernes et une infrastructure cloud sécurisée conçue pour évoluer avec votre entreprise."
+        },
+        {
+          "title": "Conçu pour évoluer",
+          "description": "Architecture logicielle propre qui accompagne la croissance de vos utilisateurs, du MVP au déploiement complet en entreprise."
+        }
+      ],
+      "cta": "À propos de Boyo Apps"
+    },
+    "methodology": {
+      "label": "NOTRE MÉTHODOLOGIE",
+      "title": "De l'idée au lancement",
+      "description": "Un processus d'ingénierie structuré qui transforme votre vision en une application de production performante, de manière fluide, du concept initial au déploiement.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Découverte",
+          "description": "Comprendre le problème, les utilisateurs et les besoins."
+        },
+        {
+          "step": "02",
+          "title": "Planification",
+          "description": "Définir les fonctionnalités, l'architecture et le périmètre."
+        },
+        {
+          "step": "03",
+          "title": "Conception",
+          "description": "Créer les interfaces et les parcours utilisateur."
+        },
+        {
+          "step": "04",
+          "title": "Développement",
+          "description": "Construire l'application et le backend."
+        },
+        {
+          "step": "05",
+          "title": "Tests",
+          "description": "Tester les fonctionnalités, la performance et la fiabilité."
+        },
+        {
+          "step": "06",
+          "title": "Lancement",
+          "description": "Déployer en production et sur les magasins d'applications."
+        },
+        {
+          "step": "07",
+          "title": "Évolution",
+          "description": "Mises à jour, surveillance et améliorations."
+        }
+      ]
+    },
+    "behindBoyoApps": {
+      "label": "STUDIO INDÉPENDANT",
+      "title": "Derrière Boyo Apps",
+      "description": "Boyo Apps est un studio de logiciel indépendant spécialisé dans la création d'applications mobiles et web pratiques qui résolvent des problèmes concrets.",
+      "description2": "Notre portefeuille couvre la gestion d'entreprise, le commerce de détail, la finance, la technologie solaire, les places de marché, la productivité et les applications grand public.",
+      "cta": "À propos de Boyo Apps"
+    },
+    "finalCta": {
+      "title": "Vous avez une idée d'application ?",
+      "description": "Transformons-la en quelque chose que les gens pourront vraiment utiliser.",
+      "description2": "Parlez-nous de votre entreprise, du problème que vous cherchez à résoudre et de ce que vous souhaitez créer.",
+      "cta": "Discuter de votre projet"
+    }
+  },
+  "about": {
+    "pageTitle": "À propos de Boyo Apps",
+    "sections": {
+      "theStudio": {
+        "title": "Le Studio",
+        "paragraphs": [
+          "Boyo Apps est un studio de logiciel indépendant — un développeur unique qui crée et exploite de véritables produits, et non une agence qui sous-traite.",
+          "Cela signifie que vous travaillez directement avec la personne qui conçoit l'architecture, écrit le code et assure la maintenance du produit. Pas de chefs de projet, pas de transferts, pas de juniors qui apprennent à vos dépens.",
+          "Le portefeuille couvre la gestion d'entreprise, le commerce de détail, la finance, la technologie solaire, les places de marché, la productivité et les applications grand public — tous construits et publiés sur Google Play et le web."
+        ]
+      },
+      "behindBoyoApps": {
+        "title": "Derrière Boyo Apps",
+        "intro": "Je ne construis pas seulement des logiciels pour mes clients. Je construis aussi mes propres produits.",
+        "name": "Steeve St Fleur",
+        "bio": [
+          "Bonjour, je suis Steeve St Fleur, le développeur et créateur de produits derrière Boyo Apps.",
+          "J'ai fondé Boyo Apps parce que j'aime prendre de vrais problèmes, les décomposer et les transformer en logiciels que les gens peuvent réellement utiliser.",
+          "Ce qui a commencé par la création de mes propres applications est devenu un studio de logiciel indépendant spécialisé dans les applications mobiles sur mesure, les applications web, les logiciels professionnels et les produits SaaS.",
+          "Aujourd'hui, la même réflexion et la même ingénierie qui animent mes propres produits sont accessibles aux entreprises qui ont besoin de logiciels construits autour de leur façon réelle de travailler."
+        ]
+      },
+      "fromIdeaToProduct": {
+        "title": "D'une idée à un vrai produit",
+        "paragraphs": [
+          "J'ai toujours été plus intéressé par la création d'ensembles complets que par le simple fait d'écrire du code.",
+          "Quand je vois un problème, mes premières questions sont généralement :",
+          "• Comment cela pourrait-il mieux fonctionner ? De quoi le logiciel aurait-il besoin ?",
+          "• Et comment le rendre assez simple pour que les gens aient envie de l'utiliser ?",
+          "Cette approche m'a amené à créer des produits dans des domaines très variés — du point de vente et de la gestion des stocks aux places de marché, aux reçus, aux outils solaires, à la technologie QR et à d'autres applications professionnelles.",
+          "Certaines idées sont de petites expériences. D'autres deviennent des plateformes complètes.",
+          "Mais chacune m'apprend davantage sur ce qu'il faut pour transformer une idée en un logiciel fonctionnel.",
+          "Car écrire le code n'est qu'une partie du travail.",
+          "Un vrai produit nécessite une conception réfléchie, une architecture solide, des données fiables, des fonctionnalités utiles, des tests, un déploiement et la capacité d'évoluer après le lancement.",
+          "C'est l'expérience que j'apporte à chaque projet Boyo Apps."
+        ]
+      },
+      "softwareBusinessesDependOn": {
+        "title": "Je construis le genre de logiciels dont les entreprises dépendent",
+        "paragraphs": [
+          "L'un des projets qui représente le mieux ma façon d'aborder le développement est Vendrex, une plateforme de point de vente et de gestion d'entreprise conçue pour les opérations commerciales réelles.",
+          "Construire un système comme Vendrex implique de réfléchir au-delà des écrans individuels.",
+          "Les ventes affectent les stocks. Les stocks affectent les rapports. Les employés ont besoin de différents niveaux d'accès. Les entreprises peuvent travailler avec plusieurs devises.",
+          "Voilà le genre de défis que j'aime résoudre.",
+          "À travers les produits Boyo Apps, j'ai travaillé sur des systèmes impliquant :"
+        ],
+        "items": [
+          "Point de vente",
+          "Inventaire",
+          "Applications hors ligne",
+          "Systèmes multidevises",
+          "Places de marché",
+          "Rapports d'entreprise",
+          "Lecture de codes-barres",
+          "Technologie QR",
+          "Infrastructure cloud",
+          "Applications mobiles et web"
+        ],
+        "closing": [
+          "L'objectif n'est pas d'ajouter de la technologie pour la technologie.",
+          "C'est de faire en sorte que la technologie résolve bien le problème."
+        ]
+      },
+      "whyBuildMyOwn": {
+        "title": "Pourquoi je construis mes propres produits",
+        "paragraphs": [
+          "Il y a une différence importante entre savoir développer un logiciel et savoir ce que signifie être responsable d'un produit.",
+          "Quand on construit ses propres produits, on doit prendre les décisions.",
+          "• Que faut-il construire en premier ?",
+          "• Qu'est-ce qui peut attendre ?",
+          "• Les utilisateurs comprendront-ils cela ?",
+          "• L'architecture tiendra-t-elle à mesure que le produit grandit ?",
+          "• Que se passe-t-il en cas de défaillance ?",
+          "• Comment transformer une grande idée en quelque chose que l'on peut réellement livrer ?",
+          "• Et après le lancement, quelle est la suite ?",
+          "Construire mes propres produits m'a appris à penser aux logiciels des deux côtés : en tant que développeur et en tant que propriétaire de produit.",
+          "Cela compte quand je travaille avec des clients.",
+          "Je ne suis pas là simplement pour prendre une liste de fonctionnalités et les transformer en code. Je veux comprendre le problème derrière ces fonctionnalités et aider à trouver la bonne façon de le résoudre."
+        ]
+      },
+      "smallStudio": {
+        "title": "Petit studio. Collaboration directe.",
+        "paragraphs": [
+          "Boyo Apps est volontairement un studio de logiciel indépendant.",
+          "Cela signifie que lorsque vous travaillez avec Boyo Apps, vous n'êtes pas transféré entre des commerciaux, des chefs de projet et des développeurs qui ne vous ont jamais parlé.",
+          "Vous travaillez directement avec la personne qui construit votre produit.",
+          "Je veux comprendre votre entreprise, ce que vous cherchez à accomplir, ce qui ne fonctionne pas aujourd'hui et à quoi ressemblerait le succès pour vous.",
+          "Ensuite, nous déterminons ce qui doit être construit.",
+          "Pour certains projets, cela peut être une première version ciblée qui résolve un problème important de manière exceptionnelle.",
+          "Pour d'autres, cela peut signifier concevoir les fondations d'une plateforme beaucoup plus vaste.",
+          "Dans les deux cas, l'objectif est le même :",
+          "• Construire quelque chose d'utile, de fiable et capable d'évoluer avec l'idée qui le sous-tend."
+        ]
+      },
+      "builtBeyondPortfolio": {
+        "title": "Construit au-delà du portfolio",
+        "paragraphs": [
+          "Les produits présentés sur ce site ne sont pas là seulement pour rendre le portfolio impressionnant.",
+          "Ce sont de vrais logiciels sur lesquels j'ai passé du temps à concevoir, développer, tester, améliorer et — dans plusieurs cas — publier pour que les gens les utilisent.",
+          "Cette expérience a façonné ma façon d'aborder les projets clients.",
+          "Je comprends ce que signifie partir d'un projet vide et atteindre finalement le point où quelqu'un d'autre peut ouvrir l'application terminée et compter dessus.",
+          "Ce parcours — de « j'ai une idée » à « les gens l'utilisent » — est ce autour de quoi Boyo Apps est construit."
+        ]
+      },
+      "whatICareAbout": {
+        "title": "Ce qui compte pour moi",
+        "paragraphs": [
+          "Je tiens aux logiciels qui fonctionnent.",
+          "Aux logiciels qui semblent réfléchis plutôt que bâclés.",
+          "Aux logiciels dont l'architecture ne devient pas un problème dès que le produit commence à grandir.",
+          "Et aux logiciels qui résolvent un véritable problème au lieu d'exister simplement parce que quelqu'un pouvait les construire.",
+          "J'apprends, j'expérimente, je construis et j'améliore constamment ma façon de travailler. Chaque produit présente un problème différent, et c'est en grande partie pour cela que j'aime faire ce métier.",
+          "Il y aura toujours une autre fonctionnalité à concevoir, un autre système à imaginer et une autre idée à explorer."
+        ]
+      },
+      "haveSomethingToBuild": {
+        "title": "Vous avez quelque chose à construire",
+        "paragraphs": [
+          "Vous n'avez pas besoin d'arriver avec un cahier des charges technique complet.",
+          "Peut-être savez-vous déjà exactement ce dont vous avez besoin.",
+          "Peut-être avez-vous un processus métier qui prend trop de temps.",
+          "Peut-être votre logiciel actuel ne correspond pas à la façon dont votre entreprise fonctionne.",
+          "Ou peut-être avez-vous simplement une idée sans savoir encore ce qu'il faudrait pour la transformer en un véritable produit.",
+          "• Parlez-moi du problème.",
+          "Nous pouvons commencer par là."
+        ]
+      }
+    },
+    "finalCta": "Lancez votre projet →"
+  },
+  "contact": {
+    "pageTitle": "Vous avez une idée d'application ?",
+    "description": "Transformons-la en quelque chose que les gens pourront vraiment utiliser. Parlez-nous de votre entreprise, du problème que vous cherchez à résoudre et de ce que vous souhaitez créer.",
+    "faqTitle": "Questions fréquentes",
+    "faqDescription": "Des réponses rapides avant que nous n'échangions.",
+    "faqs": [
+      {
+        "question": "Combien coûte le développement d'une application ?",
+        "answer": "Cela dépend du périmètre. Un MVP ciblé coûte généralement entre 5 000 $ et 25 000 $. Une application professionnelle complète avec synchronisation hors ligne, multidevise et livraison multiplateforme peut aller de 25 000 $ à 100 000 $ et plus. Nous fournissons une proposition détaillée après avoir compris vos besoins."
+      },
+      {
+        "question": "Combien de temps prend le développement d'une application ?",
+        "answer": "Un MVP prend 8 à 16 semaines. Les applications professionnelles complètes avec architecture hors ligne, multidevise et livraison multiplateforme prennent généralement 4 à 9 mois selon la complexité."
+      },
+      {
+        "question": "Pouvez-vous améliorer une application existante ?",
+        "answer": "Oui. Nous pouvons auditer, refactoriser, ajouter des fonctionnalités, corriger des bugs ou reconstruire des parties d'une base de code existante. Nous évaluons d'abord l'architecture actuelle et la dette technique, puis proposons un plan d'amélioration par phases."
+      },
+      {
+        "question": "Développez-vous à la fois l'application mobile et le backend ?",
+        "answer": "Oui. Nous livrons une solution complète : front-end mobile (Android/Flutter), tableau de bord web (Next.js/React), backend cloud (Firebase/Node.js), base de données, authentification, API et infrastructure de synchronisation — le tout par une seule équipe."
+      },
+      {
+        "question": "Publiez-vous les applications sur Google Play et l'App Store ?",
+        "answer": "Oui. Nous gérons l'ensemble du processus de publication : fiches de présentation, captures d'écran, politiques de confidentialité, conformité, pistes de test et déploiement en production. Nous avons publié plusieurs applications sur Google Play et pouvons vous guider pour la soumission sur l'App Store iOS."
+      },
+      {
+        "question": "Mon application peut-elle fonctionner hors ligne ?",
+        "answer": "Oui. L'architecture hors ligne est l'une de nos spécialités principales. Nous construisons des applications qui fonctionnent pleinement sans connexion — stockage local des données, files d'attente de synchronisation en arrière-plan, résolution des conflits — et se synchronisent automatiquement lorsqu'elles sont en ligne. Vendrex et Tally Cart en sont la preuve en production."
+      },
+      {
+        "question": "Proposez-vous une maintenance et un support continus ?",
+        "answer": "Oui. Nous proposons des contrats de maintenance post-lancement pour les corrections de bugs, les mises à jour de plateforme, les ajouts de fonctionnalités, la surveillance et la montée en charge. Notre objectif est un partenariat à long terme, pas une simple remise de projet."
+      },
+      {
+        "question": "Travaillez-vous avec des clients internationaux ?",
+        "answer": "Oui. Nous avons développé des logiciels pour des entreprises dans plusieurs pays et fuseaux horaires. La communication se fait par e-mail, visioconférence et outils asynchrones. Nos produits (Vendrex, Receet Pro) servent déjà des utilisateurs dans le monde entier avec une prise en charge multidevise et multilingue."
+      },
+      {
+        "question": "À qui appartient le code source ?",
+        "answer": "À vous. Tout le code, les ressources et la propriété intellectuelle créés pour votre projet vous appartiennent. Nous livrons le dépôt complet, la documentation et les identifiants de déploiement. Aucune dépendance."
+      }
+    ],
+    "form": {
+      "labels": {
+        "name": "Nom",
+        "email": "E-mail",
+        "company": "Entreprise",
+        "projectType": "Que souhaitez-vous construire ?",
+        "message": "Parlez-nous de votre projet",
+        "budget": "Budget approximatif",
+        "timeline": "Calendrier visé"
+      },
+      "placeholders": {
+        "name": "Votre nom",
+        "email": "vous@exemple.com",
+        "company": "Votre entreprise (facultatif)",
+        "message": "Décrivez votre projet, vos objectifs et vos besoins..."
+      },
+      "projectTypes": {
+        "select": "Sélectionnez une option",
+        "mobileApp": "Application mobile",
+        "businessApp": "Application professionnelle",
+        "webApp": "Application web",
+        "saas": "Produit SaaS",
+        "existingApp": "Amélioration d'une application existante",
+        "notSure": "Pas encore sûr"
+      },
+      "budgetOptions": {
+        "select": "Sélectionnez une fourchette",
+        "under2500": "Moins de 2 500 $",
+        "2500to5000": "2 500 $ – 5 000 $",
+        "5000to10000": "5 000 $ – 10 000 $",
+        "10000to25000": "10 000 $ – 25 000 $",
+        "25000plus": "25 000 $ et plus",
+        "notSure": "Pas encore sûr"
+      },
+      "timelineOptions": {
+        "select": "Sélectionnez un calendrier",
+        "asap": "Dès que possible",
+        "1to3months": "1 à 3 mois",
+        "3to6months": "3 à 6 mois",
+        "6plusMonths": "6 mois et plus",
+        "exploring": "Exploration d'une idée"
+      },
+      "honeypot": "Ne pas remplir ce champ",
+      "submit": "Parlez-nous de votre projet",
+      "sending": "Envoi en cours…",
+      "error": "Une erreur s'est produite. Veuillez réessayer plus tard."
+    },
+    "success": {
+      "title": "Merci — nous avons bien reçu les détails de votre projet.",
+      "description": "Nous allons examiner ce que vous nous avez partagé et vous répondrons sous peu.",
+      "exploreWork": "Explorer nos réalisations",
+      "backHome": "Retour à l'accueil"
+    }
+  },
+  "blog": {
+    "description": "Insights and technical articles from the Boyo Apps team on software development, mobile apps, and business technology.",
+    "posts": [
+      {
+        "date": "July 22, 2026",
+        "title": "How We Built an Offline-First POS System",
+        "description": "Lessons learned from building Vendrex, a POS platform designed to work reliably without constant internet connectivity.",
+        "readPost": "Read post →"
+      },
+      {
+        "date": "Coming soon",
+        "title": "Building Multi-Currency Software: What We Learned From Vendrex",
+        "description": "Multi-currency architecture isn't just about exchange rates. Here's what we discovered building a real-world multi-currency application."
+      },
+      {
+        "date": "Coming soon",
+        "title": "Mobile App vs Web App: Which Does Your Business Need?",
+        "description": "A practical guide to choosing the right platform for your business application."
+      }
+    ]
+  },
+  "blogPost": {
+    "label": "BLOG POST",
+    "title": "How We Built an Offline-First POS System",
+    "date": "Published July 22, 2026",
+    "sections": [
+      {
+        "paragraphs": [
+          "Most POS systems assume you have a reliable internet connection. Walk into any retail store in many parts of the world, and that assumption falls apart. When connectivity drops, cloud-only POS systems stop working — and that means lost sales, frustrated customers, and employees scrambling for paper receipts.",
+          "We built Vendrex to solve this problem. The result is a production POS platform that handles sales, inventory, purchasing, employee management, and financial reporting — all designed to work fully offline. Here is what we learned."
+        ]
+      },
+      {
+        "heading": "Why Offline-First Matters",
+        "paragraphs": [
+          "The core insight behind Vendrex is simple: businesses cannot control their internet provider. A POS system that stops working because the Wi-Fi is down is not a POS system — it is a liability. We designed Vendrex with a local-first architecture where every piece of operational data lives on the device. The cloud is a sync target, not a requirement."
+        ]
+      },
+      {
+        "heading": "The Sync Protocol",
+        "paragraphs": [
+          "The most significant engineering challenge was designing a sync protocol that could handle extended offline periods — days or weeks without connectivity. The system tracks changes at the record level, maintains a sync queue that survives app restarts, and handles conflicts through timestamp-based reconciliation.",
+          "When the device reconnects, changes are transmitted in order. If the same record was modified on two devices, the most recent change wins. This strategy is simple, predictable, and has proven reliable in production."
+        ]
+      },
+      {
+        "heading": "Multi-Currency Done Right",
+        "paragraphs": [
+          "Many POS systems treat multi-currency as a display feature — convert the price and move on. Reality is more complex. A customer may pay in one currency while the product cost of goods sold is tracked in another. Vendrex stores every transaction with its original currency, the settlement currency, and the accounting base currency, alongside the exchange rate at the time of the transaction."
+        ]
+      },
+      {
+        "heading": "Barcode Scanning in the Wild",
+        "paragraphs": [
+          "Barcode scanning sounds simple until you try to scan a faded, damaged label under fluorescent lighting with a phone camera. We spent significant time tuning focus parameters, lighting detection, and decode algorithms to achieve acceptable scan rates in real-world retail environments."
+        ]
+      },
+      {
+        "heading": "The Result",
+        "paragraphs": [
+          "Vendrex is live and in production. It handles thousands of transactions across multiple businesses. It works online, offline, and everywhere in between. The full case study with architecture details is available on our site."
+        ]
+      }
+    ],
+    "links": {
+      "caseStudy": "Read the full Vendrex case study →",
+      "backToBlog": "← Back to blog"
+    }
+  },
+  "notFound": {
+    "code": "404",
+    "message": "Page non trouvée.",
+    "backHome": "Retour à l'accueil"
+  },
+  "services": {
+    "mobile": {
+      "label": "SERVICE",
+      "title": "Développement d'applications mobiles sur mesure",
+      "description": "Applications mobiles multiplateformes conçues autour de votre entreprise, de vos utilisateurs et des exigences du monde réel. D'Android aux solutions multiplateformes, nous construisons des applications qui fonctionnent de manière fiable dans les conditions où vos utilisateurs évoluent réellement.",
+      "whatWeBuild": {
+        "title": "Ce que nous construisons",
+        "description": "Nous développons des applications mobiles qui résolvent de véritables problèmes opérationnels — pas seulement des applications front-end simples, mais des logiciels mobiles complets avec capacités hors ligne, synchronisation cloud, intégration matérielle et logique métier complexe. Notre portefeuille comprend des systèmes de point de vente, des outils d'achat collaboratifs, des applications de mesure terrain et des applications de productivité, tous fonctionnant sur des appareils Android en production.",
+        "items": [
+          {
+            "title": "Applications mobiles professionnelles",
+            "description": "Applications mobiles complètes pour la gestion des stocks, le traitement des ventes, les opérations terrain et les flux de travail internes."
+          },
+          {
+            "title": "Applications mobiles grand public",
+            "description": "Applications ergonomiques conçues pour un usage quotidien — shopping, finances, productivité et outils lifestyle avec des interfaces soignées."
+          },
+          {
+            "title": "Expériences mobiles hors ligne",
+            "description": "Applications qui fonctionnent pleinement sans connexion Internet, avec synchronisation automatique dans le cloud lorsque la connexion est rétablie."
+          },
+          {
+            "title": "Lecture de codes-barres et capture de données",
+            "description": "Lecture de codes-barres par caméra intégrée aux flux de travail POS, d'inventaire et de collecte de données pour une identification et un suivi rapides des produits."
+          },
+          {
+            "title": "Collaboration en temps réel",
+            "description": "Modèles de données partagés permettant à plusieurs utilisateurs de visualiser et de modifier les mêmes informations simultanément depuis différents appareils."
+          },
+          {
+            "title": "Applications multidevises et internationalisées",
+            "description": "Applications conçues pour une utilisation mondiale avec prise en charge de multiples devises, langues et normes de formatage régionales."
+          }
+        ]
+      },
+      "approach": {
+        "title": "Notre approche du développement mobile",
+        "sections": [
+          {
+            "title": "Architecture hors ligne prioritaire",
+            "description": "De nombreuses applications mobiles échouent en production car elles supposent une connectivité constante. Nous concevons avec une mentalité hors ligne dès le premier jour. Les données sont stockées localement sur l'appareil, l'application fonctionne avec toutes ses fonctionnalités sans réseau, et les modifications se synchronisent avec le cloud lorsque la connectivité devient disponible. Cette approche — prouvée dans nos applications Vendrex POS et Tally Cart — garantit que votre application fonctionne de manière fiable sur le terrain, en magasin ou partout où vos utilisateurs se trouvent."
+          },
+          {
+            "title": "Multiplateforme par défaut",
+            "description": "Nous développons des applications Android qui exploitent toutes les capacités du matériel mobile moderne — caméras pour la lecture de codes-barres, capteurs pour les mesures, GPS pour les services de localisation et Bluetooth pour la connectivité périphérique. Lorsqu'un tableau de bord web ou une application compagnon est nécessaire, nous concevons l'architecture de sorte que la même couche de données et la même logique métier servent les deux plateformes sans duplication."
+          },
+          {
+            "title": "Tests en conditions réelles",
+            "description": "Les applications mobiles sont utilisées en plein soleil, dans des bus cahotants, dans des zones à faible signal et par des utilisateurs ayant des niveaux de compétence technique variés. Nous construisons et testons pour ces conditions. Nos applications gèrent l'éblouissement de l'écran avec des interfaces à fort contraste, tolèrent la connectivité intermittente grâce à des modèles de données hors ligne et sont conçues pour des utilisateurs qui doivent accomplir des tâches rapidement avec un minimum de friction."
+          }
+        ]
+      },
+      "techCapabilities": {
+        "title": "Capacités techniques",
+        "items": [
+          "Développement Android natif",
+          "Architecture multiplateforme",
+          "Synchronisation de données hors ligne",
+          "Intégration caméra et code-barres",
+          "Support Bluetooth et périphériques",
+          "Fonctionnalités GPS et géolocalisation",
+          "Synchronisation et sauvegarde cloud",
+          "Notifications push"
+        ]
+      },
+      "relatedWork": {
+        "title": "Réalisations connexes",
+        "description": "Ces produits démontrent nos capacités en développement mobile :",
+        "items": [
+          {
+            "name": "Tally Cart",
+            "description": "Courses collaboratives avec lecture de codes-barres"
+          },
+          {
+            "name": "Vendrex",
+            "description": "POS et gestion d'inventaire hors ligne"
+          },
+          {
+            "name": "Solar Align Pro",
+            "description": "Alignement de panneaux solaires par capteurs"
+          },
+          {
+            "name": "Receet Pro",
+            "description": "Scan de reçus OCR et suivi financier"
+          },
+          {
+            "name": "NeXT Up",
+            "description": "Rappels et productivité multi-appareils"
+          }
+        ],
+        "view": "Voir →"
+      },
+      "whyChoose": {
+        "title": "Pourquoi les entreprises choisissent Boyo Apps",
+        "items": [
+          {
+            "title": "Nous construisons nos propres produits",
+            "description": "Chaque application que nous développons pour nos clients bénéficie des leçons tirées de la création de notre propre portefeuille de huit produits livrés à de vrais utilisateurs."
+          },
+          {
+            "title": "Expertise hors ligne",
+            "description": "Notre spécialité est de construire des applications qui fonctionnent sans connexion fiable — une capacité que la plupart des studios de développement ne peuvent pas offrir."
+          },
+          {
+            "title": "Capacité full-stack",
+            "description": "Nous prenons en charge l'ensemble de la stack — front-end mobile, backend cloud, architecture de base de données et infrastructure de déploiement."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Développez-vous pour Android et iOS ?",
+          "answer": "Notre plateforme mobile principale est Android. Nous concevons nos couches de données et notre logique métier pour qu'elles soient indépendantes de la plateforme, de sorte qu'une extension vers iOS ou l'ajout d'une application web compagnon soit architecturalement simple. Faites-nous part de vos besoins de plateforme et nous vous conseillerons sur la meilleure approche."
+        },
+        {
+          "question": "Comment gérez-vous les applications qui doivent fonctionner hors ligne ?",
+          "answer": "Nous utilisons une architecture locale où toutes les données sont stockées sur l'appareil et l'application fonctionne pleinement sans connectivité. Une couche de synchronisation en arrière-plan transmet les modifications vers le cloud lorsqu'une connexion est disponible, avec une résolution des conflits pour éviter la perte de données."
+        },
+        {
+          "question": "Pouvez-vous intégrer du matériel comme des lecteurs de codes-barres ou des imprimantes ?",
+          "answer": "Oui. Nos applications s'intègrent avec les caméras des appareils pour la lecture de codes-barres, les imprimantes Bluetooth et Wi-Fi pour l'impression de reçus, le GPS pour les services de localisation et les capteurs des appareils pour les applications de mesure et d'alignement."
+        },
+        {
+          "question": "Combien de temps faut-il pour développer une application mobile ?",
+          "answer": "Les délais dépendent de la complexité. Un MVP ciblé peut prendre 8 à 16 semaines. Les applications complètes avec synchronisation hors ligne, intégration matérielle et backend cloud prennent généralement de 4 à 9 mois selon le périmètre."
+        },
+        {
+          "question": "Proposez-vous un support continu après le lancement ?",
+          "answer": "Oui. Nous proposons une maintenance post-lancement, des mises à jour, de la surveillance et du développement de fonctionnalités. Notre objectif est de construire un partenariat à long terme, pas seulement de livrer un projet et de partir."
+        },
+        {
+          "question": "Pouvez-vous créer une application qui se synchronise avec nos systèmes d'entreprise existants ?",
+          "answer": "Oui. Nous construisons des couches API personnalisées et des adaptateurs d'intégration qui connectent les applications mobiles aux systèmes ERP, comptables, CRM ou d'inventaire existants. Cela fait partie intégrante de notre processus de développement d'applications professionnelles."
+        }
+      ],
+      "cta": "Lancez votre projet mobile →"
+    },
+    "web": {
+      "label": "SERVICE",
+      "title": "Développement d'applications web sur mesure",
+      "description": "Applications web sécurisées et évolutives qui permettent à votre équipe et à vos clients d'accéder à vos logiciels depuis n'importe où, sur n'importe quel appareil — des tableaux de bord d'administration aux plateformes destinées aux clients.",
+      "whatWeBuild": {
+        "title": "Ce que nous construisons",
+        "description": "Les applications web sont l'épine dorsale des opérations commerciales modernes.",
+        "items": [
+          {
+            "title": "Applications professionnelles dans le cloud",
+            "description": "Applications web complètes pour gérer les stocks, traiter les commandes, suivre les finances et gérer les opérations commerciales depuis n'importe quel navigateur."
+          },
+          {
+            "title": "Tableaux de bord d'administration et panneaux de gestion",
+            "description": "Tableaux de bord riches en données qui affichent les indicateurs clés, permettent l'exploration des données et offrent un contrôle administratif sur vos systèmes d'entreprise."
+          },
+          {
+            "title": "Portails clients",
+            "description": "Portails en libre-service où les clients peuvent consulter leurs données, gérer leurs comptes, soumettre des demandes et suivre l'état des commandes ou des services."
+          },
+          {
+            "title": "Plateformes e-commerce et places de marché",
+            "description": "Plateformes de vente en ligne personnalisées avec catalogues produits, flux de panier et de paiement, traitement des paiements et gestion des vendeurs."
+          },
+          {
+            "title": "Développement d'API et intégration",
+            "description": "API personnalisées qui connectent votre application web aux applications mobiles, services tiers, passerelles de paiement et systèmes existants."
+          },
+          {
+            "title": "Plateformes SaaS",
+            "description": "Applications web multi-locataires basées sur abonnement avec authentification des utilisateurs, intégration de facturation et contrôle d'accès par niveaux."
+          }
+        ]
+      },
+      "approach": {
+        "title": "Notre approche du développement web",
+        "sections": [
+          {
+            "title": "Fondation sur des frameworks modernes",
+            "description": "Nous construisons des applications web en utilisant des frameworks modernes qui offrent performance, productivité pour les développeurs et maintenabilité à long terme."
+          },
+          {
+            "title": "Adaptatif par défaut",
+            "description": "Chaque application web que nous construisons fonctionne sur les navigateurs de bureau, tablette et mobile."
+          },
+          {
+            "title": "Architecture cloud-native",
+            "description": "Les applications web hébergées sur une infrastructure cloud moderne passent de quelques utilisateurs à des milliers sans changements architecturaux."
+          },
+          {
+            "title": "La sécurité comme principe de conception",
+            "description": "L'authentification, l'autorisation, la validation des données et le chiffrement sont intégrés dans l'architecture, pas ajoutés après coup."
+          }
+        ]
+      },
+      "techCapabilities": {
+        "title": "Capacités techniques",
+        "items": [
+          "React, Next.js et frameworks front-end modernes",
+          "Node.js, Firebase et backends serverless",
+          "Conception d'API REST",
+          "Architecture de base de données cloud",
+          "Design adaptatif sur tous les appareils",
+          "Systèmes d'authentification et d'autorisation",
+          "Hébergement et déploiement cloud (Firebase)",
+          "Pipelines CI/CD et tests automatisés"
+        ]
+      },
+      "ourExperience": {
+        "title": "Notre expérience web",
+        "description": "Nos produits couvrent le POS web, les tableaux de bord d'inventaire, les plateformes d'analyse, les interfaces de marché et les applications SaaS — tous construits avec des technologies modernes.",
+        "description2": "Le tableau de bord web Vendrex, la plateforme d'analyse GQRLY et plusieurs pages d'accueil de produits que nous exploitons sont des exemples de notre travail de développement web en production."
+      },
+      "whyChoose": {
+        "title": "Pourquoi les entreprises choisissent Boyo Apps pour le développement web",
+        "items": [
+          {
+            "title": "Livraison full-stack",
+            "description": "Nous prenons en charge le front-end, le back-end, la base de données et le déploiement — livrant une application web complète plutôt qu'un simple design front-end."
+          },
+          {
+            "title": "Mobile et web ensemble",
+            "description": "Si vous avez besoin à la fois d'une application mobile et d'un tableau de bord web, nous les construisons sur une architecture partagée afin que les données restent cohérentes entre les plateformes."
+          },
+          {
+            "title": "Maintenabilité à long terme",
+            "description": "Un code propre, une documentation et des frameworks modernes garantissent que votre application web reste maintenable et extensible des années après son lancement."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Quelles technologies utilisez-vous pour les applications web ?",
+          "answer": "Nous construisons principalement avec React et Next.js pour les applications front-end, associés à Node.js ou Firebase pour les services back-end."
+        },
+        {
+          "question": "Pouvez-vous créer une application web qui fonctionne avec notre application mobile ?",
+          "answer": "Oui. C'est l'une de nos forces principales."
+        },
+        {
+          "question": "Comment gérez-vous la performance à mesure que le nombre d'utilisateurs augmente ?",
+          "answer": "Nous concevons pour l'évolutivité dès le départ."
+        },
+        {
+          "question": "Construisez-vous des plateformes e-commerce ou de marché ?",
+          "answer": "Oui. Nous avons construit BoyoMart, une plateforme de marché locale."
+        },
+        {
+          "question": "Pouvez-vous intégrer le traitement des paiements dans une application web ?",
+          "answer": "Oui. Nous intégrons des passerelles de paiement telles que Stripe dans les applications web."
+        },
+        {
+          "question": "Combien de temps faut-il pour développer une application web personnalisée ?",
+          "answer": "Un MVP d'application web ciblé prend généralement 6 à 14 semaines selon la complexité."
+        }
+      ],
+      "cta": "Lancez votre projet web →"
+    },
+    "business": {
+      "label": "SERVICE",
+      "title": "Applications professionnelles sur mesure",
+      "description": "Systèmes d'inventaire, applications POS, tableaux de bord, outils internes et logiciels personnalisés — construits autour de vos opérations commerciales réelles, sans être forcés dans des modèles génériques.",
+      "whatWeBuild": {
+        "title": "Ce que nous construisons",
+        "description": "Les logiciels professionnels sont fondamentalement différents des applications grand public.",
+        "items": [
+          {
+            "title": "Systèmes de point de vente (POS)",
+            "description": "Plateformes POS complètes qui gèrent le traitement des ventes, l'impression de reçus, l'enregistrement des paiements et l'historique des transactions — en ligne et hors ligne."
+          },
+          {
+            "title": "Gestion des stocks",
+            "description": "Suivi des stocks en temps réel avec lecture de codes-barres, alertes de niveau de stock, gestion des bons de commande et support multi-emplacements."
+          },
+          {
+            "title": "Tableaux de bord internes",
+            "description": "Tableaux de bord web pour surveiller les ventes, la rotation des stocks, la performance des employés et les indicateurs opérationnels en un coup d'œil."
+          },
+          {
+            "title": "Gestion des employés",
+            "description": "Accès basé sur les rôles, suivi du temps, journalisation des performances et outils de gestion du personnel intégrés à votre flux de travail."
+          },
+          {
+            "title": "Gestion des clients",
+            "description": "Fiches clients, historique des achats, suivi de fidélité et outils de communication qui vous aident à bâtir de meilleures relations clients."
+          },
+          {
+            "title": "Rapports et analyses",
+            "description": "Générateurs de rapports personnalisés et vues analytiques qui transforment les données opérationnelles en informations commerciales exploitables."
+          }
+        ]
+      },
+      "approach": {
+        "title": "Notre approche des logiciels professionnels",
+        "sections": [
+          {
+            "title": "Hors ligne par nécessité",
+            "description": "Lorsque le fonctionnement hors ligne est important pour l'entreprise, nous concevons des applications avec un stockage local des données et une synchronisation."
+          },
+          {
+            "title": "Multidevise et international",
+            "description": "Les entreprises qui opèrent au-delà des frontières ont besoin de logiciels qui gèrent plusieurs devises de manière native."
+          },
+          {
+            "title": "Accès basé sur les rôles et sécurité",
+            "description": "Différents employés ont besoin de différents niveaux d'accès."
+          },
+          {
+            "title": "Conçu pour l'intégration",
+            "description": "Les logiciels professionnels n'existent pas en isolation."
+          }
+        ]
+      },
+      "techCapabilities": {
+        "title": "Capacités techniques",
+        "items": [
+          "Architecture de données hors ligne",
+          "Modèles de données financières multidevises",
+          "Contrôle d'accès basé sur les rôles",
+          "Lecture de codes-barres et QR",
+          "Impression de reçus (Bluetooth et Wi-Fi)",
+          "Synchronisation de données en temps réel",
+          "Couche d'API et d'intégration personnalisée"
+        ]
+      },
+      "proofInProduction": {
+        "title": "Preuve en production",
+        "description": "Notre application professionnelle phare :",
+        "item": {
+          "name": "Vendrex",
+          "description": "Plateforme complète de POS et de gestion d'inventaire avec architecture hors ligne, support multidevise et déploiement multiplateforme Android + web.",
+          "viewCaseStudy": "Voir l'étude de cas →"
+        }
+      },
+      "whyChoose": {
+        "title": "Pourquoi les entreprises choisissent Boyo Apps",
+        "items": [
+          {
+            "title": "Nous exploitons nos propres logiciels professionnels",
+            "description": "Vendrex est en production. Nous utilisons nos propres produits."
+          },
+          {
+            "title": "Nous comprenons la réalité opérationnelle",
+            "description": "Nous construisons pour les conditions dans lesquelles les entreprises opèrent réellement."
+          },
+          {
+            "title": "Partenariat à long terme",
+            "description": "Les logiciels professionnels évoluent. Nous construisons des applications qui peuvent grandir avec votre entreprise."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Comment gérez-vous la sécurité des données dans les applications professionnelles ?",
+          "answer": "Nous mettons en œuvre un contrôle d'accès basé sur les rôles, chiffrons les données localement et en transit."
+        },
+        {
+          "question": "Pouvez-vous intégrer notre système comptable ou ERP existant ?",
+          "answer": "Oui. Nous construisons des adaptateurs API personnalisés qui connectent votre nouvelle application aux systèmes existants."
+        },
+        {
+          "question": "Développez-vous des applications mobiles professionnelles, des applications web, ou les deux ?",
+          "answer": "Nous développons les deux."
+        },
+        {
+          "question": "Et si mon entreprise a besoin d'un flux de travail très spécifique ?",
+          "answer": "C'est précisément pour cela que les entreprises viennent chez nous."
+        },
+        {
+          "question": "Comment gérez-vous les données hors ligne pour éviter les pertes ?",
+          "answer": "Nous utilisons un stockage local avec un moteur de synchronisation."
+        },
+        {
+          "question": "Combien coûte un logiciel professionnel sur mesure ?",
+          "answer": "Les coûts varient considérablement selon la complexité."
+        }
+      ],
+      "cta": "Discuter de votre application professionnelle →"
+    },
+    "saas": {
+      "label": "SERVICE",
+      "title": "Développement de produits SaaS",
+      "description": "Du MVP aux plateformes d'abonnement à grande échelle avec authentification, facturation, analyses et infrastructure cloud.",
+      "whatWeBuild": {
+        "title": "Ce que nous construisons",
+        "description": "Les produits SaaS sont fondamentalement différents des projets logiciels ponctuels.",
+        "items": [
+          {
+            "title": "Développement et validation de MVP",
+            "description": "Produits minimum viables conçus pour tester rapidement les hypothèses du marché."
+          },
+          {
+            "title": "Systèmes de facturation par abonnement",
+            "description": "Infrastructure de facturation complète avec tarification par paliers, essais gratuits et intégration de passerelle de paiement."
+          },
+          {
+            "title": "Authentification et autorisation des utilisateurs",
+            "description": "Inscription sécurisée, connexion, gestion des mots de passe et contrôle d'accès basé sur les rôles."
+          },
+          {
+            "title": "Tableaux de bord d'analyse et de reporting",
+            "description": "Tableaux de bord de visualisation de données pour les opérateurs SaaS."
+          },
+          {
+            "title": "Architecture cloud et mise à l'échelle",
+            "description": "Infrastructure cloud conçue pour passer de dizaines à des milliers d'utilisateurs."
+          },
+          {
+            "title": "Plateformes API-first",
+            "description": "Produits SaaS conçus avec des API au cœur, permettant les intégrations."
+          }
+        ]
+      },
+      "approach": {
+        "title": "Notre approche du développement SaaS",
+        "sections": [
+          {
+            "title": "Commencez par un MVP, construisez vers l'échelle",
+            "description": "Nous croyons au lancement rapide et à l'itération basée sur les retours réels des utilisateurs."
+          },
+          {
+            "title": "Architecture multi-locataire",
+            "description": "Pour les produits SaaS, nous utilisons une architecture où les données de chaque client sont isolées."
+          },
+          {
+            "title": "Intégration de la facturation et des abonnements",
+            "description": "Nous intégrons des passerelles de paiement telles que Stripe."
+          },
+          {
+            "title": "Mentalité analytics-first",
+            "description": "Les entreprises SaaS ont besoin de visibilité sur l'utilisation de leur produit."
+          }
+        ]
+      },
+      "techCapabilities": {
+        "title": "Capacités techniques",
+        "items": [
+          "Architecture multi-locataire et isolation des données",
+          "Facturation par abonnement et intégration de paiement",
+          "Authentification des utilisateurs et gestion des rôles",
+          "Données en temps réel et fonctionnalités collaboratives",
+          "Infrastructure cloud et déploiement (Firebase)",
+          "Suivi analytique et tableaux de bord de reporting",
+          "Conception d'API REST",
+          "Pipeline CI/CD et déploiement automatisé"
+        ]
+      },
+      "saasExperience": {
+        "title": "Expérience SaaS en production",
+        "description": "Nos produits incluent des applications basées sur abonnement :",
+        "items": [
+          {
+            "name": "Vendrex",
+            "description": "POS multiplateforme avec synchronisation cloud et accès multi-utilisateurs"
+          },
+          {
+            "name": "GQRLY",
+            "description": "Plateforme de génération et d'analyse de codes QR"
+          },
+          {
+            "name": "Tally Cart",
+            "description": "Courses collaboratives avec données partagées en temps réel"
+          }
+        ],
+        "view": "Voir →"
+      },
+      "whyChoose": {
+        "title": "Pourquoi les entreprises choisissent Boyo Apps pour le développement SaaS",
+        "items": [
+          {
+            "title": "Nous construisons nos propres produits SaaS",
+            "description": "Nous exploitons nous-mêmes des plateformes SaaS."
+          },
+          {
+            "title": "Développement sur tout le cycle de vie",
+            "description": "Nous accompagnons les produits SaaS du concept initial au MVP, au lancement et à la croissance."
+          },
+          {
+            "title": "Multiplateforme par conception",
+            "description": "De nombreux produits SaaS bénéficient à la fois d'une plateforme web et d'une application mobile compagnon."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Comment gérez-vous la multi-location dans les applications SaaS ?",
+          "answer": "Nous utilisons une approche de base de données partagée avec données isolées."
+        },
+        {
+          "question": "Quels systèmes de paiement intégrez-vous pour la facturation SaaS ?",
+          "answer": "Nous intégrons Stripe pour la facturation par abonnement."
+        },
+        {
+          "question": "Combien de temps faut-il pour construire un MVP pour un produit SaaS ?",
+          "answer": "Un MVP SaaS ciblé peut généralement être construit en 8 à 14 semaines."
+        },
+        {
+          "question": "Pouvez-vous construire à la fois un SaaS web et une application mobile compagnon ?",
+          "answer": "Oui."
+        },
+        {
+          "question": "Proposez-vous un support continu après le lancement du produit SaaS ?",
+          "answer": "Oui."
+        },
+        {
+          "question": "Et si je n'ai qu'une idée et pas de bagage technique ?",
+          "answer": "C'est un point de départ courant. Nous guidons les fondateurs tout au long du processus."
+        }
+      ],
+      "cta": "Discuter de votre idée SaaS →"
+    }
+  },
+  "industries": {
+    "retail": {
+      "meta": {
+        "title": "Solutions logicielles pour le commerce de détail",
+        "description": "Logiciels de vente au détail sur mesure, y compris POS, gestion des stocks et outils d'exploitation commerciale pour les commerces de détail."
+      },
+      "title": "Logiciels pour les commerces de détail",
+      "description": "Des systèmes de point de vente à la gestion des stocks, nous construisons des logiciels de vente au détail qui fonctionnent de manière fiable dans des conditions réelles — en ligne et hors ligne, toutes devises confondues et à grande échelle.",
+      "cardsTitle": "Quels logiciels de vente au détail nous construisons",
+      "cards": [
+        {
+          "title": "Point de vente",
+          "description": "Systèmes POS modernes avec capacité hors ligne, support multidevise et suivi des stocks en temps réel."
+        },
+        {
+          "title": "Gestion des stocks",
+          "description": "Suivez les stocks dans plusieurs sites, gérez les bons de commande, recevez des alertes de stock faible."
+        },
+        {
+          "title": "Multidevise et multi-magasins",
+          "description": "Gérez les ventes et les stocks dans plusieurs devises et emplacements de magasins."
+        },
+        {
+          "title": "Code-barres et scan",
+          "description": "Lecture de codes-barres par caméra pour un passage en caisse rapide."
+        }
+      ],
+      "whyCustomSoftware": {
+        "title": "Pourquoi les commerces de détail ont besoin de logiciels sur mesure",
+        "paragraphs": [
+          "Les logiciels de vente au détail standard forcent les entreprises à adapter leurs opérations au logiciel. Les solutions sur mesure font l'inverse.",
+          "Nous construisons des logiciels de vente au détail de A à Z autour de vos opérations réelles."
+        ]
+      },
+      "relatedCapabilities": {
+        "title": "Capacités connexes",
+        "items": [
+          {
+            "title": "Architecture hors ligne",
+            "description": "Fonctionnalités POS et d'inventaire complètes sans connexion Internet."
+          },
+          {
+            "title": "Gestion des bons de commande",
+            "description": "Créez, approuvez et suivez les bons de commande."
+          },
+          {
+            "title": "Gestion des employés et des rôles",
+            "description": "Permissions granulaires pour les caissiers, les gestionnaires et les propriétaires."
+          },
+          {
+            "title": "Rapports et analyses",
+            "description": "Résumés des ventes, rotation des stocks, analyse des bénéfices."
+          }
+        ]
+      },
+      "seeVendrex": {
+        "link": "Voir Vendrex →",
+        "description": "Notre plateforme POS et de gestion d'entreprise hors ligne"
+      },
+      "cta": "Discuter de votre projet de vente au détail →"
+    },
+    "smallBusiness": {
+      "meta": {
+        "title": "Solutions logicielles pour petites entreprises",
+        "description": "Solutions logicielles sur mesure pour petites entreprises."
+      },
+      "title": "Logiciels pour petites entreprises",
+      "description": "Remplacez les feuilles de calcul, les processus papier et les outils déconnectés par des logiciels sur mesure.",
+      "cards": [
+        {
+          "title": "Gestion d'entreprise",
+          "description": "Gérez les clients, les ventes, les employés et les rapports depuis une seule plateforme."
+        },
+        {
+          "title": "Suivi des stocks",
+          "description": "Gestion des stocks en temps réel avec lecture de codes-barres et bons de commande."
+        },
+        {
+          "title": "Solutions mobiles",
+          "description": "Donnez à votre équipe un accès aux outils professionnels depuis n'importe où."
+        },
+        {
+          "title": "Multidevise",
+          "description": "Des logiciels qui gèrent les opérations dans plusieurs devises."
+        }
+      ],
+      "cta": "Discuter de votre projet →"
+    },
+    "solar": {
+      "meta": {
+        "title": "Solutions logicielles pour l'énergie solaire",
+        "description": "Logiciels sur mesure pour l'industrie de l'énergie solaire."
+      },
+      "title": "Logiciels pour l'énergie solaire",
+      "description": "Applications sur mesure pour les professionnels de l'énergie solaire.",
+      "cards": [
+        {
+          "title": "Alignement de panneaux solaires",
+          "description": "Outils d'alignement basés sur des capteurs pour un positionnement optimal des panneaux."
+        },
+        {
+          "title": "Analyse de ROI",
+          "description": "Calculez et projetez les retours sur investissement solaires."
+        },
+        {
+          "title": "Applications terrain",
+          "description": "Outils mobiles pour les techniciens et installateurs solaires."
+        },
+        {
+          "title": "Surveillance énergétique",
+          "description": "Suivez et analysez les données de production d'énergie."
+        }
+      ],
+      "seeSolarAlign": {
+        "link": "Voir Solar Align Pro →",
+        "description": "Notre application d'optimisation solaire"
+      },
+      "cta": "Discuter de votre projet énergétique →"
+    }
+  },
+  "work": {
+    "meta": {
+      "title": "Nos réalisations",
+      "description": "Découvrez les produits et applications construits par Boyo Apps. Une vraie ingénierie, de vrais produits, de vrais résultats."
+    },
+    "title": "Nos réalisations",
+    "description": "De vrais produits. Une vraie ingénierie. Chaque application ici a été conçue, développée et livrée par Boyo Apps.",
+    "statusBadges": {
+      "inDevelopment": "En développement",
+      "concept": "Concept"
+    },
+    "googlePlay": "Disponible sur Google Play",
+    "viewDetails": "Voir les détails →",
+    "products": [
+      {
+        "name": "Vendrex",
+        "category": "POS et gestion d'entreprise",
+        "description": "Logiciel complet de POS et de gestion des stocks avec support hors ligne, opérations multidevises et outils de gestion d'entreprise."
+      },
+      {
+        "name": "Tally Cart",
+        "category": "Application de courses et de budget",
+        "description": "Listes de courses partagées et suivi budgétaire avec collaboration en temps réel, scan des prix en rayon et totaux des achats."
+      },
+      {
+        "name": "Solar Align Pro",
+        "category": "Optimisation solaire",
+        "description": "Outils d'alignement de panneaux solaires et de ROI utilisant les capteurs des appareils."
+      },
+      {
+        "name": "Receet Pro",
+        "category": "Finances personnelles",
+        "description": "Gestion des finances personnelles avec scan de reçus, suivi multidevise, budgets et analyses financières."
+      },
+      {
+        "name": "GQRLY",
+        "category": "Analyse de codes QR",
+        "description": "Plateforme de génération et d'analyse de codes QR avec suivi en temps réel et gestion de campagnes."
+      },
+      {
+        "name": "NeXT Up",
+        "category": "Productivité",
+        "description": "Application de rappels et de productivité multi-appareils avec synchronisation cloud."
+      },
+      {
+        "name": "BoyoMart",
+        "category": "Place de marché",
+        "description": "Place de marché locale d'achat et de vente avec annonces, découverte basée sur la localisation, messagerie et recherche."
+      },
+      {
+        "name": "Solar Merge",
+        "category": "Jeu mobile",
+        "description": "Un jeu de fusion captivant sur le thème de l'énergie solaire pour appareils mobiles."
+      }
+    ]
+  },
+  "products": {
+    "vendrex-pos": {
+      "name": "Vendrex",
+      "category": "POS et gestion d'entreprise",
+      "shortDescription": "Logiciel complet de POS et de gestion des stocks avec support hors ligne, opérations multidevises et outils de gestion d'entreprise."
+    },
+    "tally-cart": {
+      "name": "Tally Cart",
+      "category": "Application de courses et de budget",
+      "shortDescription": "Listes de courses partagées et suivi budgétaire avec collaboration en temps réel, scan des prix en rayon et totaux des achats."
+    },
+    "solar-align": {
+      "name": "Solar Align Pro",
+      "category": "Optimisation solaire",
+      "shortDescription": "Outils d'alignement de panneaux solaires et de ROI utilisant les capteurs des appareils."
+    },
+    "receet-pro": {
+      "name": "Receet Pro",
+      "category": "Finances personnelles",
+      "shortDescription": "Gestion des finances personnelles avec scan de reçus, suivi multidevise, budgets et analyses financières."
+    },
+    "gqrly": {
+      "name": "GQRLY",
+      "category": "Analyse de codes QR",
+      "shortDescription": "Plateforme de génération et d'analyse de codes QR avec suivi en temps réel et gestion de campagnes."
+    },
+    "next-up": {
+      "name": "NeXT Up",
+      "category": "Productivité",
+      "shortDescription": "Application de rappels et de productivité multi-appareils avec synchronisation cloud."
+    },
+    "boyomart": {
+      "name": "BoyoMart",
+      "category": "Place de marché",
+      "shortDescription": "Place de marché locale d'achat et de vente avec annonces, découverte basée sur la localisation, messagerie et recherche."
+    },
+    "solar-merge": {
+      "name": "Solar Merge",
+      "category": "Jeu mobile",
+      "shortDescription": "Un jeu de fusion captivant sur le thème de l'énergie solaire pour appareils mobiles."
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Politique de confidentialité"
+    },
+    "title": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour : juillet 2026",
+    "sections": {
+      "infoWeCollect": {
+        "title": "1. Informations que nous collectons",
+        "content": "Nous collectons les informations que vous fournissez directement, comme votre nom et votre adresse e-mail lorsque vous soumettez notre formulaire de contact."
+      },
+      "howWeUseInfo": {
+        "title": "2. Comment nous utilisons vos informations",
+        "content": "Nous utilisons vos informations pour répondre à vos demandes, améliorer notre site web et communiquer sur nos services. Nous ne vendons pas vos informations personnelles à des tiers."
+      },
+      "dataSecurity": {
+        "title": "3. Sécurité des données",
+        "content": "Nous mettons en œuvre des mesures de sécurité raisonnables pour protéger vos informations personnelles."
+      },
+      "thirdParty": {
+        "title": "4. Services tiers",
+        "content": "Nous pouvons utiliser des services tiers pour les analyses et le traitement des formulaires."
+      },
+      "contact": {
+        "title": "5. Contact",
+        "content": "Si vous avez des questions concernant cette politique de confidentialité, veuillez <link>nous contacter</link>."
+      }
+    }
+  },
+  "terms": {
+    "meta": {
+      "title": "Conditions d'utilisation"
+    },
+    "title": "Conditions d'utilisation",
+    "lastUpdated": "Dernière mise à jour : juillet 2026",
+    "sections": {
+      "services": {
+        "title": "1. Services",
+        "content": "Boyo Apps fournit des services de développement logiciel. Les conditions spécifiques de chaque engagement seront décrites dans un accord séparé entre Boyo Apps et le client."
+      },
+      "intellectualProperty": {
+        "title": "2. Propriété intellectuelle",
+        "content": "Après paiement intégral, le client conserve la propriété du logiciel personnalisé développé spécifiquement pour son projet. Boyo Apps conserve le droit d'afficher le travail dans son portfolio, sauf accord contraire."
+      },
+      "limitationOfLiability": {
+        "title": "3. Limitation de responsabilité",
+        "content": "Boyo Apps ne saurait être tenu responsable des dommages indirects, accessoires ou consécutifs découlant de l'utilisation de nos services ou produits."
+      },
+      "contact": {
+        "title": "4. Contact",
+        "content": "Pour toute question concernant ces conditions, veuillez <link>nous contacter</link>."
+      }
+    }
+  },
+  "caseStudies": {
+    "vendrex": {
+      "meta": {
+        "title": "Vendrex POS — Système de POS et de gestion d'inventaire hors ligne",
+        "description": "Comment Boyo Apps a construit Vendrex : une plateforme complète de POS et de gestion d'inventaire hors ligne avec support multidevise, lecture de codes-barres et synchronisation cloud en temps réel pour les entreprises."
+      },
+      "og": {
+        "title": "Vendrex POS — Étude de cas POS et inventaire hors ligne",
+        "description": "Comment Boyo Apps a construit une plateforme de POS et de gestion d'inventaire hors ligne et multidevise pour les entreprises dans les marchés à connectivité limitée."
+      },
+      "label": "ÉTUDE DE CAS",
+      "title": "Vendrex POS — Plateforme de POS et d'inventaire hors ligne",
+      "theProblem": {
+        "title": "Le problème",
+        "description": "Les petites entreprises ont besoin de gérer les ventes et les stocks même lorsque la connexion Internet n'est pas fiable."
+      },
+      "theChallenge": {
+        "title": "Le défi",
+        "description": "Le système devait prendre en charge :",
+        "items": [
+          "Traitement des transactions hors ligne",
+          "Synchronisation des stocks entre appareils",
+          "Lecture de codes-barres dans des conditions d'éclairage variables",
+          "Tarification et rapports multidevises",
+          "Contrôles d'accès des employés",
+          "Rapports de ventes et financiers",
+          "Livraison multiplateforme Android + Web"
+        ]
+      },
+      "theSolution": {
+        "title": "La solution",
+        "description": "Boyo Apps a conçu une architecture POS hors ligne qui permet aux entreprises de continuer à fonctionner sans connexion fiable, puis de synchroniser automatiquement leurs données lorsque la connectivité est rétablie."
+      },
+      "engineering": {
+        "title": "Ingénierie",
+        "tech": [
+          "Flutter",
+          "Firebase",
+          "Cloud Functions",
+          "Persistance hors ligne",
+          "Lecture de codes-barres par caméra",
+          "Modèle de données multidevise"
+        ]
+      },
+      "result": {
+        "title": "Résultat",
+        "description": "Une plateforme de gestion d'entreprise complète et prête pour la production, disponible sur mobile et web.",
+        "detail": "Vendrex gère les ventes, les stocks, les achats, la gestion des employés et les rapports financiers."
+      },
+      "engineeringDeepDive": {
+        "title": "Plongée technique approfondie",
+        "sections": [
+          {
+            "title": "Synchronisation des données hors ligne",
+            "description": "Le défi d'ingénierie le plus important était de concevoir un protocole de synchronisation capable de gérer de longues périodes hors ligne."
+          },
+          {
+            "title": "Modèle de données multidevise",
+            "description": "Chaque transaction financière dans Vendrex impliquait plusieurs devises : la devise de vente, la devise de règlement et la devise comptable de base."
+          },
+          {
+            "title": "Performance de la lecture de codes-barres",
+            "description": "La lecture de codes-barres devait fonctionner de manière fiable sur une large gamme de produits et d'étiquettes."
+          },
+          {
+            "title": "Architecture multiplateforme",
+            "description": "Maintenir la parité des fonctionnalités entre l'application POS Android et le tableau de bord web nécessitait une couche de logique métier partagée."
+          }
+        ]
+      },
+      "keyFeatures": {
+        "title": "Fonctionnalités clés",
+        "items": [
+          "POS complet avec impression de reçus",
+          "Suivi des stocks en temps réel",
+          "Support multidevise",
+          "Architecture hors ligne",
+          "Lecture de codes-barres",
+          "Gestion des bons de commande",
+          "Gestion des employés",
+          "Rapports de ventes et analyses"
+        ]
+      },
+      "architectureHighlights": {
+        "title": "Points forts de l'architecture",
+        "items": [
+          "Synchronisation des données hors ligne avec résolution des conflits par horodatage",
+          "Moteur de conversion multidevise en temps réel avec gestion des taux de change",
+          "Architecture multiplateforme Android + Web avec couche de données partagée",
+          "Synchronisation cloud avec stockage local et file d'attente hors ligne",
+          "Contrôle d'accès basé sur les rôles pour employés, gestionnaires et administrateurs",
+          "Lecture de codes-barres intégrée directement dans les flux POS et d'inventaire",
+          "Impression de reçus sur imprimantes thermiques Bluetooth et Wi-Fi"
+        ]
+      },
+      "faqTitle": "Questions fréquentes",
+      "whatItDemonstrates": {
+        "title": "Ce que Vendrex démontre à propos de Boyo Apps",
+        "paragraphs": [
+          "Vendrex montre la capacité de Boyo Apps à concevoir et livrer des logiciels professionnels de qualité production qui fonctionnent de manière fiable dans des conditions réelles.",
+          "Il démontre également notre approche de la conception de produits : comprendre les conditions de travail réelles des utilisateurs finaux."
+        ]
+      },
+      "faqs": {
+        "0": {
+          "question": "Comment Vendrex gère-t-il les transactions hors ligne ?",
+          "answer": "Vendrex stocke toutes les données de transaction localement sur l'appareil à l'aide d'une base de données intégrée."
+        },
+        "1": {
+          "question": "Vendrex peut-il gérer plusieurs devises simultanément ?",
+          "answer": "Oui. Vendrex inclut un moteur multidevise intégré."
+        },
+        "2": {
+          "question": "Vendrex est-il disponible sur mobile et sur bureau ?",
+          "answer": "Vendrex est disponible en tant qu'application mobile Android et en tant qu'application web."
+        },
+        "3": {
+          "question": "Vendrex prend-il en charge la lecture de codes-barres pour les stocks ?",
+          "answer": "Oui. Vendrex s'intègre aux caméras des appareils pour la lecture de codes-barres."
+        },
+        "4": {
+          "question": "Quels types de rapports Vendrex fournit-il ?",
+          "answer": "Vendrex fournit des rapports de ventes, une analyse de la rotation des stocks et des synthèses financières."
+        },
+        "5": {
+          "question": "Qui utilise généralement Vendrex ?",
+          "answer": "Vendrex est conçu pour les magasins de détail, les épiceries et les PME."
+        }
+      },
+      "relatedServices": {
+        "title": "Services connexes",
+        "description": "Vous cherchez à construire un logiciel similaire pour votre entreprise ? Boyo Apps propose des services de développement d'applications."
+      },
+      "ctas": {
+        "googlePlay": "Disponible sur Google Play",
+        "visit": "Visiter Vendrex →",
+        "buildSimilar": "Construire quelque chose de similaire →"
+      },
+      "tags": [
+        "POS",
+        "Inventaire",
+        "Multidevise",
+        "Hors ligne",
+        "Code-barres",
+        "Rapports",
+        "Android",
+        "Web"
+      ],
+      "crossPlatform": {
+        "title": "Considérations multiplateformes",
+        "paragraphs": [
+          "L'application POS Android a été conçue pour une utilisation sur appareils mobiles et tablettes.",
+          "Les deux plateformes partagent une couche API et un modèle de données communs."
+        ]
+      }
+    },
+    "tallyCart": {
+      "meta": {
+        "title": "Tally Cart — Application de courses et de budget collaborative en temps réel",
+        "description": "Comment Boyo Apps a construit Tally Cart."
+      },
+      "og": {
+        "title": "Tally Cart — Étude de cas application de courses et budget collaborative",
+        "description": "Comment Boyo Apps a construit une application de courses et de budget collaborative en temps réel."
+      },
+      "label": "ÉTUDE DE CAS",
+      "title": "Construction d'une application de courses et de budget collaborative en temps réel",
+      "projectOverview": {
+        "title": "Aperçu du projet",
+        "paragraphs": [
+          "Tally Cart est une application mobile conçue et développée par Boyo Apps qui transforme les courses d'une corvée solitaire en une expérience collaborative.",
+          "L'application répond à un problème universel : les ménages ont du mal à coordonner les courses entre plusieurs personnes."
+        ]
+      },
+      "userProblem": {
+        "title": "Le problème utilisateur",
+        "paragraphs": [
+          "Les familles, colocataires et partenaires font face à une frustration familière : coordonner les courses sans achats en double.",
+          "Les solutions existantes manquent des fonctionnalités nécessaires pour une coordination efficace des courses."
+        ]
+      },
+      "whyCustom": {
+        "title": "Pourquoi une solution sur mesure était nécessaire",
+        "paragraphs": [
+          "Les applications de productivité génériques manquent de plusieurs capacités spécifiquement requises pour les courses."
+        ]
+      },
+      "solution": {
+        "title": "Notre approche et solution",
+        "paragraphs": [
+          "Tally Cart a été construit comme une application Android native avec une couche de données connectée au cloud conçue pour la synchronisation en temps réel.",
+          "La fonctionnalité de lecture de codes-barres utilise l'appareil photo pour lire les codes-barres des produits.",
+          "Le suivi budgétaire est intégré directement dans l'expérience de courses."
+        ]
+      },
+      "keyFeatures": {
+        "title": "Fonctionnalités clés",
+        "items": [
+          "Collaboration sur liste en temps réel",
+          "Scan des prix en rayon par code-barres",
+          "Suivi budgétaire par session",
+          "Fonctionnalité hors ligne",
+          "Support multidevise",
+          "Internationalisation",
+          "Synchronisation cloud"
+        ]
+      },
+      "engineeringChallenges": {
+        "title": "Défis techniques et d'ingénierie",
+        "sections": [
+          {
+            "title": "Synchronisation en temps réel à grande échelle",
+            "description": "Le principal défi technique était de fournir des mises à jour de liste en temps réel sans nécessiter une connectivité permanente."
+          },
+          {
+            "title": "Fiabilité de la lecture de codes-barres",
+            "description": "Scanner les étiquettes en rayon dans un supermarché présente des défis uniques."
+          },
+          {
+            "title": "Tarification multidevise",
+            "description": "Les utilisateurs dans différents pays ont besoin de voir les prix dans leur devise préférée."
+          },
+          {
+            "title": "Modèle de données hors ligne",
+            "description": "Une session de courses ne peut pas s'arrêter parce que la connectivité est perdue."
+          }
+        ]
+      },
+      "architectureHighlights": {
+        "title": "Points forts de l'architecture",
+        "items": [
+          "Architecture locale avec synchronisation cloud",
+          "Propagation des données en temps réel",
+          "Lecture de codes-barres intégrée",
+          "Support multidevise",
+          "Fonctionnement hors ligne",
+          "Internationalisation"
+        ]
+      },
+      "crossPlatform": {
+        "title": "Considérations multiplateformes",
+        "paragraphs": [
+          "Tally Cart a été initialement développé pour Android.",
+          "L'interface utilisateur suit les directives Material Design."
+        ]
+      },
+      "whatItDemonstrates": {
+        "title": "Ce que Tally Cart démontre à propos de Boyo Apps",
+        "paragraphs": [
+          "Tally Cart démontre la capacité de Boyo Apps à construire des applications mobiles grand public.",
+          "Il reflète également notre philosophie de conception de produits."
+        ]
+      },
+      "faqTitle": "Questions fréquentes",
+      "relatedServices": {
+        "title": "Services connexes",
+        "description": "Si vous envisagez de construire une application mobile collaborative, Boyo Apps propose des services de développement."
+      },
+      "faqs": {
+        "0": {
+          "question": "Comment Tally Cart gère-t-il la collaboration en temps réel ?",
+          "answer": "Tally Cart utilise un modèle de données synchronisé dans le cloud."
+        },
+        "1": {
+          "question": "Puis-je scanner des codes-barres pour vérifier les prix ?",
+          "answer": "Oui. Tally Cart inclut un lecteur de codes-barres."
+        },
+        "2": {
+          "question": "Tally Cart fonctionne-t-il sans Internet ?",
+          "answer": "Oui. Tally Cart fonctionne pleinement hors ligne."
+        },
+        "3": {
+          "question": "Puis-je suivre mes dépenses par rapport à un budget ?",
+          "answer": "Tally Cart vous permet de définir un budget pour chaque session."
+        },
+        "4": {
+          "question": "Tally Cart prend-il en charge les utilisateurs internationaux ?",
+          "answer": "Oui. Tally Cart supporte plusieurs langues et devises."
+        },
+        "5": {
+          "question": "Qu'est-ce qui différencie Tally Cart d'une simple application de notes ?",
+          "answer": "Tally Cart est spécialement conçu pour les courses."
+        }
+      },
+      "ctas": {
+        "visit": "Visiter Tally Cart →",
+        "googlePlay": "Voir sur Google Play →",
+        "buildSimilar": "Construire quelque chose de similaire →"
+      },
+      "tags": [
+        "Collaboration en temps réel",
+        "Suivi des prix",
+        "Lecture de codes-barres",
+        "Fonctionnalité hors ligne",
+        "Suivi budgétaire",
+        "Internationalisation",
+        "Android"
+      ]
+    },
+    "receetPro": {
+      "meta": {
+        "title": "Receet Pro — Application de finances personnelles avec scan de reçus et OCR",
+        "description": "Comment Boyo Apps a construit Receet Pro."
+      },
+      "og": {
+        "title": "Receet Pro — Étude de cas finances personnelles",
+        "description": "Comment Boyo Apps a construit une application de finances personnelles avec OCR."
+      },
+      "label": "ÉTUDE DE CAS",
+      "title": "Construction d'une application de finances personnelles et de scan de reçus",
+      "projectOverview": {
+        "title": "Aperçu du projet",
+        "paragraphs": [
+          "Receet Pro est une application de gestion des finances personnelles conçue et développée par Boyo Apps.",
+          "L'application répond à un problème financier courant : suivre où va réellement l'argent."
+        ]
+      },
+      "userProblem": {
+        "title": "Le problème utilisateur",
+        "paragraphs": [
+          "Gérer ses finances personnelles dans plusieurs devises est un défi.",
+          "Les applications de suivi des dépenses existantes nécessitent généralement une saisie manuelle."
+        ]
+      },
+      "whyCustom": {
+        "title": "Pourquoi une solution sur mesure était nécessaire",
+        "paragraphs": [
+          "La plupart des applications de finances personnelles sont conçues pour des utilisateurs mono-devise."
+        ]
+      },
+      "solution": {
+        "title": "Notre approche et solution",
+        "paragraphs": [
+          "Le flux de travail principal de Receet Pro est simple : prenez une photo d'un reçu.",
+          "Derrière l'interface de scan, Receet Pro maintient une base de données de dépenses structurée."
+        ]
+      },
+      "keyFeatures": {
+        "title": "Fonctionnalités clés",
+        "items": [
+          "Scan de reçus avec extraction OCR",
+          "Suivi des dépenses multidevise",
+          "Gestion budgétaire",
+          "Analyses financières",
+          "Catégorisation automatique",
+          "Synchronisation cloud"
+        ]
+      },
+      "engineeringChallenges": {
+        "title": "Défis techniques et d'ingénierie",
+        "sections": [
+          {
+            "title": "Précision OCR sur différents formats de reçus",
+            "description": "Les reçus se présentent sous une énorme variété de formats."
+          },
+          {
+            "title": "Modèle de données financières multidevise",
+            "description": "Chaque dépense stocke la devise et le montant d'origine."
+          },
+          {
+            "title": "Moteur de catégorisation",
+            "description": "Catégoriser automatiquement les dépenses."
+          },
+          {
+            "title": "Scan hors ligne et synchronisation",
+            "description": "Les utilisateurs scannent dans des endroits à connectivité limitée."
+          }
+        ]
+      },
+      "architectureHighlights": {
+        "title": "Points forts de l'architecture",
+        "items": [
+          "Pipeline OCR sur l'appareil",
+          "Modèle de données multidevise",
+          "Moteur de catégorisation",
+          "Architecture hors ligne",
+          "Suivi budgétaire"
+        ]
+      },
+      "crossPlatform": {
+        "title": "Considérations multiplateformes",
+        "paragraphs": [
+          "Receet Pro a été développé pour Android."
+        ]
+      },
+      "whatItDemonstrates": {
+        "title": "Ce que Receet Pro démontre à propos de Boyo Apps",
+        "paragraphs": [
+          "Receet Pro montre la capacité de Boyo Apps à construire des applications qui intègrent la vision par ordinateur."
+        ]
+      },
+      "faqTitle": "Questions fréquentes",
+      "relatedServices": {
+        "title": "Services connexes",
+        "description": "Les applications qui nécessitent un scan de documents partagent des modèles architecturaux."
+      },
+      "faqs": {
+        "0": {
+          "question": "Comment Receet Pro scanne-t-il les reçus ?",
+          "answer": "Receet Pro utilise l'appareil photo et applique l'OCR."
+        },
+        "1": {
+          "question": "Receet Pro prend-il en charge plusieurs devises ?",
+          "answer": "Oui."
+        },
+        "2": {
+          "question": "Puis-je définir des budgets ?",
+          "answer": "Receet Pro inclut des outils de gestion budgétaire."
+        },
+        "3": {
+          "question": "Comment les dépenses sont-elles catégorisées ?",
+          "answer": "Receet Pro utilise un moteur de catégorisation basé sur des règles."
+        },
+        "4": {
+          "question": "Mes données financières sont-elles stockées en toute sécurité ?",
+          "answer": "Oui. Receet Pro chiffre les données."
+        },
+        "5": {
+          "question": "Quels types d'analyses Receet Pro fournit-il ?",
+          "answer": "Receet Pro fournit des tendances de dépenses."
+        }
+      },
+      "ctas": {
+        "buildSimilar": "Construire quelque chose de similaire →"
+      },
+      "tags": [
+        "Scan de reçus",
+        "Multidevise",
+        "Gestion budgétaire",
+        "Analyses financières",
+        "Android"
+      ]
+    },
+    "solarAlign": {
+      "meta": {
+        "title": "Solar Align Pro — Outil d'alignement de panneaux solaires et de ROI",
+        "description": "Comment Boyo Apps a construit Solar Align Pro."
+      },
+      "og": {
+        "title": "Solar Align Pro — Étude de cas optimisation solaire",
+        "description": "Comment Boyo Apps a construit un outil d'alignement de panneaux solaires."
+      },
+      "label": "ÉTUDE DE CAS",
+      "title": "Construction d'une application d'optimisation solaire",
+      "projectOverview": {
+        "title": "Aperçu du projet",
+        "paragraphs": [
+          "Solar Align Pro est une application mobile construite par Boyo Apps.",
+          "L'application remplace les instruments d'alignement spécialisés et coûteux."
+        ]
+      },
+      "industryProblem": {
+        "title": "Le problème industriel",
+        "paragraphs": [
+          "L'efficacité des panneaux solaires est directement liée à leur alignement.",
+          "Les installateurs solaires professionnels ont accès à des outils coûteux.",
+          "L'argument financier pour l'ajustement nécessite des calculs complexes."
+        ]
+      },
+      "whyCustom": {
+        "title": "Pourquoi une solution sur mesure était nécessaire",
+        "paragraphs": [
+          "Les outils d'alignement mobiles existants se divisaient en deux catégories inadéquates.",
+          "Ce qui manquait était une application qui combine mesure et calcul."
+        ]
+      },
+      "solution": {
+        "title": "Notre approche et solution",
+        "paragraphs": [
+          "Solar Align Pro a été conçu autour d'un flux de mesure simple.",
+          "Une fois l'alignement actuel capturé, l'application calcule l'angle d'inclinaison optimal.",
+          "Le module de ROI calcule les périodes de récupération et les économies."
+        ]
+      },
+      "keyFeatures": {
+        "title": "Fonctionnalités clés",
+        "items": [
+          "Mesure d'alignement par capteurs",
+          "Calculs de position solaire",
+          "Analyse de ROI",
+          "Fonctionnement hors ligne",
+          "Suivi de la position solaire",
+          "Précision professionnelle"
+        ]
+      },
+      "engineeringChallenges": {
+        "title": "Défis techniques et d'ingénierie",
+        "sections": [
+          {
+            "title": "Fusion de capteurs et calibration",
+            "description": "La qualité des données d'alignement dépend entièrement de la précision des capteurs."
+          },
+          {
+            "title": "Calculs de géométrie solaire",
+            "description": "Calculer la position du soleil nécessite des algorithmes spécialisés."
+          },
+          {
+            "title": "Moteur de calcul de ROI",
+            "description": "Le modèle financier doit estimer la production annuelle d'énergie."
+          },
+          {
+            "title": "Interface utilisable sur le terrain",
+            "description": "Solar Align Pro est utilisé en extérieur."
+          }
+        ]
+      },
+      "architectureHighlights": {
+        "title": "Points forts de l'architecture",
+        "items": [
+          "Fusion de capteurs",
+          "Calcul de position solaire",
+          "Moteur de ROI",
+          "Architecture hors ligne",
+          "Services GPS"
+        ]
+      },
+      "crossPlatform": {
+        "title": "Considérations multiplateformes",
+        "paragraphs": [
+          "Solar Align Pro est construit pour Android."
+        ]
+      },
+      "whatItDemonstrates": {
+        "title": "Ce que Solar Align Pro démontre",
+        "paragraphs": [
+          "Solar Align Pro montre la capacité de Boyo Apps à construire des applications qui font le pont entre les capteurs et le calcul scientifique."
+        ]
+      },
+      "faqTitle": "Questions fréquentes",
+      "relatedServices": {
+        "title": "Services connexes",
+        "description": "Construire des applications mobiles intégrant des capteurs nécessite une expertise spécialisée."
+      },
+      "faqs": {
+        "0": {
+          "question": "Comment Solar Align Pro calcule-t-il l'inclinaison optimale ?",
+          "answer": "Il utilise l'accéléromètre et le magnétomètre de l'appareil."
+        },
+        "1": {
+          "question": "Solar Align Pro nécessite-t-il Internet ?",
+          "answer": "Il fonctionne hors ligne pour les mesures de base."
+        },
+        "2": {
+          "question": "Quelle est la précision de l'alignement ?",
+          "answer": "La précision dépend de la qualité des capteurs."
+        },
+        "3": {
+          "question": "Peut-il calculer le ROI ?",
+          "answer": "Oui. Il inclut un module d'analyse de ROI."
+        },
+        "4": {
+          "question": "Pour qui est-il conçu ?",
+          "answer": "Pour les professionnels de l'installation solaire."
+        },
+        "5": {
+          "question": "Suit-il la position solaire ?",
+          "answer": "Oui."
+        }
+      },
+      "ctas": {
+        "buildSimilar": "Construire quelque chose de similaire →"
+      },
+      "tags": [
+        "Capteurs",
+        "Calculs de localisation",
+        "Analyse de ROI",
+        "Solaire",
+        "Android",
+        "Hors ligne"
+      ]
+    },
+    "boyomart": {
+      "meta": {
+        "title": "BoyoMart — Place de marché locale",
+        "description": "BoyoMart est une place de marché locale construite par Boyo Apps."
+      },
+      "og": {
+        "title": "BoyoMart — Place de marché locale",
+        "description": "BoyoMart connecte acheteurs et vendeurs."
+      },
+      "label": "PRODUIT",
+      "title": "BoyoMart",
+      "shortDescription": "Place de marché locale d'achat et de vente avec annonces, découverte basée sur la localisation, messagerie et recherche.",
+      "longDescription": "BoyoMart est une plateforme de marché locale connectant acheteurs et vendeurs.",
+      "aboutTitle": "À propos de BoyoMart",
+      "keyFeaturesTitle": "Fonctionnalités clés",
+      "faqTitle": "Questions fréquentes",
+      "keyFeatures": [
+        "Découverte basée sur la localisation",
+        "Messagerie intégrée",
+        "Recherche et filtrage",
+        "Profils vendeurs",
+        "Mises à jour en temps réel",
+        "Interface mobile"
+      ],
+      "faqs": {
+        "0": {
+          "question": "Comment BoyoMart aide-t-il les acheteurs ?",
+          "answer": "BoyoMart utilise la découverte basée sur la localisation."
+        },
+        "1": {
+          "question": "Les vendeurs peuvent-ils gérer leurs annonces ?",
+          "answer": "Oui."
+        },
+        "2": {
+          "question": "BoyoMart prend-il en charge les paiements ?",
+          "answer": "BoyoMart facilite les connexions."
+        },
+        "3": {
+          "question": "Quels types d'articles sont disponibles ?",
+          "answer": "BoyoMart prend en charge une large gamme de catégories."
+        }
+      },
+      "ctas": {
+        "googlePlay": "Voir sur Google Play →",
+        "buildSimilar": "Construire quelque chose de similaire →"
+      }
+    },
+    "gqrly": {
+      "meta": {
+        "title": "GQRLY — Plateforme d'analyse de codes QR",
+        "description": "GQRLY est une plateforme de génération et d'analyse de codes QR."
+      },
+      "og": {
+        "title": "GQRLY — Plateforme d'analyse de codes QR",
+        "description": "GQRLY fournit la génération de codes QR avec analyses détaillées."
+      },
+      "label": "PRODUIT",
+      "title": "GQRLY",
+      "shortDescription": "Plateforme de génération et d'analyse de codes QR avec suivi en temps réel.",
+      "longDescription": "GQRLY fournit la génération de codes QR avec analyses détaillées.",
+      "aboutTitle": "À propos de GQRLY",
+      "keyFeaturesTitle": "Fonctionnalités clés",
+      "faqTitle": "Questions fréquentes",
+      "keyFeatures": [
+        "Génération de codes QR",
+        "Analyses en temps réel",
+        "Gestion de campagnes",
+        "Paramètres UTM",
+        "Collaboration",
+        "Export de données"
+      ],
+      "faqs": {
+        "0": {
+          "question": "Comment GQRLY suit-il les scans ?",
+          "answer": "GQRLY utilise des codes QR dynamiques."
+        },
+        "1": {
+          "question": "Puis-je créer des codes QR personnalisés ?",
+          "answer": "Oui."
+        },
+        "2": {
+          "question": "Y a-t-il une limite de codes QR ?",
+          "answer": "GQRLY offre des forfaits gratuits et payants."
+        },
+        "3": {
+          "question": "Comment GQRLY aide-t-il avec les campagnes ?",
+          "answer": "GQRLY fournit un suivi de campagne."
+        }
+      },
+      "ctas": {
+        "buildSimilar": "Construire quelque chose de similaire →"
+      }
+    },
+    "nextUp": {
+      "meta": {
+        "title": "NeXT Up — Application de rappels et productivité",
+        "description": "NeXT Up est une application de rappels multi-appareils."
+      },
+      "og": {
+        "title": "NeXT Up — Application de rappels et productivité",
+        "description": "NeXT Up vous organise sur tous vos appareils."
+      },
+      "label": "PRODUIT",
+      "title": "NeXT Up",
+      "shortDescription": "Application de rappels et de productivité multi-appareils avec synchronisation cloud.",
+      "longDescription": "NeXT Up vous organise sur tous vos appareils.",
+      "aboutTitle": "À propos de NeXT Up",
+      "keyFeaturesTitle": "Fonctionnalités clés",
+      "faqTitle": "Questions fréquentes",
+      "keyFeatures": [
+        "Synchronisation multi-appareils",
+        "Rappels intelligents",
+        "Gestion des tâches",
+        "Sauvegarde cloud",
+        "Fonctionnement hors ligne",
+        "Interface intuitive"
+      ],
+      "faqs": {
+        "0": {
+          "question": "Comment NeXT Up se synchronise-t-il ?",
+          "answer": "NeXT Up utilise la synchronisation cloud."
+        },
+        "1": {
+          "question": "Puis-je définir des rappels récurrents ?",
+          "answer": "Oui."
+        },
+        "2": {
+          "question": "NeXT Up fonctionne-t-il hors ligne ?",
+          "answer": "Oui."
+        },
+        "3": {
+          "question": "Puis-je organiser les tâches par catégories ?",
+          "answer": "Oui."
+        }
+      },
+      "ctas": {
+        "googlePlay": "Voir sur Google Play →",
+        "buildSimilar": "Construire quelque chose de similaire →"
+      }
+    },
+    "solarMerge": {
+      "meta": {
+        "title": "Solar Merge — Jeu mobile sur le thème solaire",
+        "description": "Solar Merge est un jeu de fusion casual sur le thème de l'énergie solaire."
+      },
+      "og": {
+        "title": "Solar Merge — Jeu mobile sur le thème solaire",
+        "description": "Solar Merge combine mécaniques de puzzle et éléments éducatifs."
+      },
+      "label": "PRODUIT",
+      "title": "Solar Merge",
+      "shortDescription": "Un jeu de fusion captivant sur le thème de l'énergie solaire pour appareils mobiles.",
+      "longDescription": "Solar Merge est un jeu mobile casual sur le thème de l'énergie solaire.",
+      "aboutTitle": "À propos de Solar Merge",
+      "keyFeaturesTitle": "Fonctionnalités clés",
+      "faqTitle": "Questions fréquentes",
+      "keyFeatures": [
+        "Mécaniques de fusion",
+        "Éléments éducatifs",
+        "Jeu hors ligne",
+        "Niveaux progressifs",
+        "Gameplay captivant",
+        "Interface mobile"
+      ],
+      "faqs": {
+        "0": {
+          "question": "Quel type de jeu est Solar Merge ?",
+          "answer": "Solar Merge est un jeu de puzzle de fusion casual."
+        },
+        "1": {
+          "question": "Solar Merge fonctionne-t-il hors ligne ?",
+          "answer": "Oui."
+        },
+        "2": {
+          "question": "Solar Merge est-il éducatif ?",
+          "answer": "Il combine puzzle et éléments éducatifs."
+        },
+        "3": {
+          "question": "Sur quelles plateformes est-il disponible ?",
+          "answer": "Actuellement sur Android."
+        }
+      },
+      "ctas": {
+        "buildSimilar": "Construire quelque chose de similaire →"
+      }
+    }
+  }
+}

@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import { Manrope, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
-import { Analytics } from "@/components/Analytics";
 import { siteConfig } from "@/lib/metadata";
 
 const manrope = Manrope({
@@ -77,15 +74,11 @@ export default function RootLayout({
               siteConfig.links.linkedin,
               siteConfig.links.github,
             ],
-
           }),
         }}
       />
       <body className="min-h-full flex flex-col antialiased">
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
-        <Analytics />
+        {children}
       </body>
     </html>
   );

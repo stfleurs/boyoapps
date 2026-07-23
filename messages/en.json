@@ -1,0 +1,2053 @@
+{
+  "header": {
+    "home": "Home",
+    "services": "Services",
+    "work": "Work",
+    "industries": "Industries",
+    "about": "About",
+    "blog": "Blog",
+    "letsTalk": "Let's Talk",
+    "ariaMenuOpen": "Open navigation menu",
+    "ariaMenuClose": "Close navigation menu"
+  },
+  "footer": {
+    "tagline": "Mobile & web applications built for the real world.",
+    "servicesHeading": "Services",
+    "workHeading": "Work",
+    "companyHeading": "Company",
+    "connectHeading": "Connect",
+    "serviceLinks": {
+      "mobile": "Mobile App Development",
+      "business": "Business Applications",
+      "web": "Web App Development",
+      "saas": "SaaS Development"
+    },
+    "workLinks": {
+      "vendrex": "Vendrex",
+      "tallyCart": "Tally Cart",
+      "solarAlign": "Solar Align",
+      "receetPro": "Receet Pro",
+      "viewAll": "View All Work"
+    },
+    "companyLinks": {
+      "about": "About",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "social": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "sendMessage": "Send a Message",
+      "email": "boyoapps@gmail.com"
+    },
+    "copyright": "© {year} Boyo Apps. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "terms": "Terms"
+  },
+  "home": {
+    "hero": {
+      "badge": "MOBILE • WEB • BUSINESS SOFTWARE",
+      "heading": "Boyo Apps Builds Apps That Solve",
+      "headingHighlight": "Real Business Problems.",
+      "description": "An independent software studio designing and developing custom mobile and web applications for businesses — from idea and architecture to launch and growth.",
+      "ctaStart": "Start Your Project",
+      "ctaViewWork": "View Our Work",
+      "tags": [
+        "Mobile Apps",
+        "Web Applications",
+        "Business Software",
+        "SaaS"
+      ],
+      "subheading": "From MVPs to production software — designed, developed and launched end-to-end.",
+      "badges": [
+        "Android",
+        "Web",
+        "Cross-Platform",
+        "Cloud"
+      ]
+    },
+    "productsBuilt": {
+      "label": "REAL PRODUCTS. REAL ENGINEERING.",
+      "title": "Products We've Built",
+      "description": "We build our own products to solve real problems. Now we help businesses do the same.",
+      "cta": "Explore All Products",
+      "googlePlay": "Google Play",
+      "viewCaseStudy": "View Case Study"
+    },
+    "customSoftware": {
+      "label": "WHAT WE DO",
+      "title": "Custom Software for Your Business",
+      "services": {
+        "item1": {
+          "title": "Mobile App Development",
+          "description": "Cross-platform and native mobile apps designed for performance, usability and real-world conditions."
+        },
+        "item2": {
+          "title": "Business Applications",
+          "description": "Inventory systems, POS, field tools, dashboards and internal software tailored to your operations."
+        },
+        "item3": {
+          "title": "Web Application Development",
+          "description": "Secure, scalable web apps that help you run and grow your business from anywhere."
+        },
+        "item4": {
+          "title": "SaaS Product Development",
+          "description": "From MVP to full-scale SaaS platforms with subscriptions, analytics and cloud infrastructure."
+        }
+      },
+      "learnMore": "Learn more"
+    },
+    "featuredCaseStudy": {
+      "label": "FEATURED CASE STUDY",
+      "title": "Vendrex",
+      "subtitle": "Building a complete POS and business management platform.",
+      "description": "Boyo Apps developed Vendrex to help businesses manage sales, inventory, customers, employees and reporting from a modern mobile and web platform.",
+      "tags": [
+        "POS",
+        "Inventory",
+        "Multi-currency",
+        "Offline",
+        "Barcode",
+        "Reports",
+        "Android",
+        "Web"
+      ],
+      "ctaCaseStudy": "View the Vendrex Case Study",
+      "ctaVisit": "Visit Vendrex",
+      "ctaGooglePlay": "Get it on Google Play"
+    },
+    "builtForRealWorld": {
+      "label": "BUILT FOR THE REAL WORLD",
+      "title": "Reliable Software.",
+      "title2": "Real Impact.",
+      "items": [
+        {
+          "title": "Offline-First",
+          "description": "Applications designed to remain operational during unreliable connectivity — proven in Vendrex and Tally Cart."
+        },
+        {
+          "title": "Multi-Currency & International",
+          "description": "Architecture supporting diverse currencies, languages and global market requirements."
+        },
+        {
+          "title": "Modern Technology & Best Practices",
+          "description": "Built using modern frameworks and secure cloud infrastructure designed to scale with your business."
+        },
+        {
+          "title": "Designed to Scale",
+          "description": "Clean software architecture that seamlessly grows alongside your users from MVP to full enterprise deployment."
+        }
+      ],
+      "cta": "About Boyo Apps"
+    },
+    "methodology": {
+      "label": "OUR METHODOLOGY",
+      "title": "From Idea to Launch",
+      "description": "A structured engineering process taking your vision seamlessly from initial concept to high-performing production app.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Discovery",
+          "description": "Understand the problem, users and requirements."
+        },
+        {
+          "step": "02",
+          "title": "Planning",
+          "description": "Determine functionality, architecture and scope."
+        },
+        {
+          "step": "03",
+          "title": "Design",
+          "description": "Create interfaces and workflows."
+        },
+        {
+          "step": "04",
+          "title": "Development",
+          "description": "Build the application and backend."
+        },
+        {
+          "step": "05",
+          "title": "Testing",
+          "description": "Test functionality, performance and reliability."
+        },
+        {
+          "step": "06",
+          "title": "Launch",
+          "description": "Deploy to production and app stores."
+        },
+        {
+          "step": "07",
+          "title": "Evolve",
+          "description": "Updates, monitoring and improvements."
+        }
+      ]
+    },
+    "behindBoyoApps": {
+      "label": "INDEPENDENT STUDIO",
+      "title": "Behind Boyo Apps",
+      "description": "Boyo Apps is an independent software studio focused on building practical mobile and web applications that solve real-world problems.",
+      "description2": "Our portfolio spans business management, retail, finance, solar technology, marketplaces, productivity and consumer applications.",
+      "cta": "About Boyo Apps"
+    },
+    "finalCta": {
+      "title": "Have an App Idea?",
+      "description": "Let's turn it into something people can actually use.",
+      "description2": "Tell us about your business, the problem you're trying to solve, and what you'd like to build.",
+      "cta": "Discuss Your Project"
+    }
+  },
+  "about": {
+    "pageTitle": "About Boyo Apps",
+    "sections": {
+      "theStudio": {
+        "title": "The Studio",
+        "paragraphs": [
+          "Boyo Apps is an independent software studio — a solo developer who builds and operates real products, not an agency that outsources.",
+          "That means you work directly with the person designing the architecture, writing the code, and maintaining the product. No project managers, no hand-offs, no junior devs learning on your dime.",
+          "The portfolio spans business management, retail, finance, solar technology, marketplaces, productivity and consumer applications — all built and shipped to Google Play and the web."
+        ]
+      },
+      "behindBoyoApps": {
+        "title": "Behind Boyo Apps",
+        "intro": "I don't just build software for clients. I build products of my own.",
+        "name": "Steeve St Fleur",
+        "bio": [
+          "Hi, I'm Steeve St Fleur, the developer and product builder behind Boyo Apps.",
+          "I started Boyo Apps because I enjoy taking real problems, breaking them down, and turning them into software people can actually use.",
+          "What began with building my own applications has grown into an independent software studio focused on custom mobile apps, web applications, business software, and SaaS products.",
+          "Today, the same thinking and engineering that go into my own products are available to businesses that need software built around the way they actually work."
+        ]
+      },
+      "fromIdeaToProduct": {
+        "title": "From an idea to a real product",
+        "paragraphs": [
+          "I've always been more interested in building complete things than simply writing code.",
+          "When I see a problem, my first questions are usually:",
+          "• How could this work better? What would the software need to do?",
+          "• And how do I make it simple enough that people will actually want to use it?",
+          "That approach has led me to build products across very different areas — from point-of-sale and inventory management to marketplaces, receipts, solar tools, QR technology, and other business applications.",
+          "Some ideas are small experiments. Others grow into complete platforms.",
+          "But each one teaches me more about what it takes to turn an idea into working software.",
+          "Because building the code is only part of the job.",
+          "A real product needs thoughtful design, solid architecture, reliable data, useful features, testing, deployment, and the ability to evolve after launch.",
+          "That's the experience I bring to every Boyo Apps project."
+        ]
+      },
+      "softwareBusinessesDependOn": {
+        "title": "I build the kind of software businesses depend on",
+        "paragraphs": [
+          "One of the projects that best represents how I approach development is Vendrex, a point-of-sale and business management platform built for real-world business operations.",
+          "Building a system like Vendrex means thinking beyond individual screens.",
+          "Sales affect inventory. Inventory affects reporting. Employees need different levels of access. Businesses may work with multiple currencies. Barcode scanning needs to feel immediate. And when internet access becomes unreliable, the business still needs to operate.",
+          "Those are the kinds of challenges I enjoy solving.",
+          "Across Boyo Apps products, I've worked on systems involving:"
+        ],
+        "items": [
+          "Point of sale",
+          "Inventory",
+          "Offline-first applications",
+          "Multi-currency systems",
+          "Marketplaces",
+          "Business reporting",
+          "Barcode scanning",
+          "QR technology",
+          "Cloud infrastructure",
+          "Mobile and web applications"
+        ],
+        "closing": [
+          "The goal isn't to add technology for the sake of technology.",
+          "It's to make the technology solve the problem well."
+        ]
+      },
+      "whyBuildMyOwn": {
+        "title": "Why I build my own products",
+        "paragraphs": [
+          "There's an important difference between knowing how to develop software and knowing what it feels like to be responsible for a product.",
+          "When you build your own products, you have to make the decisions.",
+          "• What should be built first?",
+          "• What can wait?",
+          "• Will users understand this?",
+          "• Is the architecture going to hold up as the product grows?",
+          "• What happens when something fails?",
+          "• How do you turn a large idea into something you can actually ship?",
+          "• And after launch, what comes next?",
+          "Building my own products has taught me to think about software from both sides: as a developer and as a product owner.",
+          "That matters when I work with clients.",
+          "I'm not here simply to take a list of features and turn them into code. I want to understand the problem behind those features and help find the right way to solve it."
+        ]
+      },
+      "smallStudio": {
+        "title": "Small studio. Direct collaboration.",
+        "paragraphs": [
+          "Boyo Apps is intentionally an independent software studio.",
+          "That means when you work with Boyo Apps, you're not being passed between salespeople, project managers, and developers who have never spoken to you.",
+          "You work directly with the person building your product.",
+          "I want to understand your business, what you're trying to accomplish, what isn't working today, and what success would actually look like for you.",
+          "Then we figure out what should be built.",
+          "For some projects, that might be a focused first version that solves one important problem extremely well.",
+          "For others, it could mean designing the foundation for a much larger platform.",
+          "Either way, the objective is the same:",
+          "• Build something useful, reliable, and capable of growing with the idea behind it."
+        ]
+      },
+      "builtBeyondPortfolio": {
+        "title": "Built beyond the portfolio",
+        "paragraphs": [
+          "The products shown on this website aren't here just to make the portfolio look impressive.",
+          "They're real software I've spent time designing, engineering, testing, improving, and — in several cases — publishing for people to use.",
+          "That experience has shaped the way I approach client projects.",
+          "I understand what it means to start with an empty project and eventually reach the point where someone else can open the finished application and depend on it.",
+          "That journey — from \"I have an idea\" to \"people are using it\" — is what Boyo Apps is built around."
+        ]
+      },
+      "whatICareAbout": {
+        "title": "What I care about",
+        "paragraphs": [
+          "I care about software that works.",
+          "Software that feels considered rather than thrown together.",
+          "Software whose architecture doesn't become a problem the moment the product starts growing.",
+          "And software that solves a genuine problem instead of existing simply because someone could build it.",
+          "I'm constantly learning, experimenting, building, and improving the way I work. Every product presents a different problem, and that's a big part of why I enjoy doing this.",
+          "There will always be another feature to figure out, another system to design, and another idea worth exploring."
+        ]
+      },
+      "haveSomethingToBuild": {
+        "title": "Have something you want to build",
+        "paragraphs": [
+          "You don't need to arrive with a finished technical specification.",
+          "Maybe you already know exactly what you need.",
+          "Maybe you have a business process that takes too much time.",
+          "Maybe your current software doesn't fit the way your company operates.",
+          "Or maybe you simply have an idea and aren't sure yet what it would take to turn it into a real product.",
+          "• Tell me about the problem.",
+          "We can start there."
+        ]
+      }
+    },
+    "finalCta": "Start Your Project →"
+  },
+  "contact": {
+    "pageTitle": "Have an App Idea?",
+    "description": "Let's turn it into something people can actually use. Tell us about your business, the problem you're trying to solve, and what you'd like to build.",
+    "faqTitle": "Frequently Asked Questions",
+    "faqDescription": "Quick answers before we hop on a call.",
+    "faqs": [
+      {
+        "question": "How much does it cost to build an app?",
+        "answer": "It depends on scope. A focused MVP typically runs $5,000–$25,000. A full-featured business application with offline sync, multi-currency, and cross-platform delivery can range $25,000–$100,000+. We provide a detailed proposal after understanding your requirements."
+      },
+      {
+        "question": "How long does app development take?",
+        "answer": "An MVP takes 8–16 weeks. Full-featured business applications with offline architecture, multi-currency, and cross-platform delivery typically range 4–9 months depending on complexity."
+      },
+      {
+        "question": "Can you improve an existing application?",
+        "answer": "Yes. We can audit, refactor, add features, fix bugs, or rebuild parts of an existing codebase. We first assess the current architecture and technical debt, then propose a phased improvement plan."
+      },
+      {
+        "question": "Do you build both the mobile app and backend?",
+        "answer": "Yes. We deliver full-stack: mobile front-end (Android/Flutter), web dashboard (Next.js/React), cloud backend (Firebase/Node.js), database, authentication, APIs, and sync infrastructure — all from one team."
+      },
+      {
+        "question": "Do you publish applications to Google Play and the App Store?",
+        "answer": "Yes. We handle the full release process: store listings, screenshots, privacy policies, compliance, test tracks, and production rollout. We've published multiple apps to Google Play and can guide iOS App Store submission."
+      },
+      {
+        "question": "Can my application work offline?",
+        "answer": "Yes. Offline-first architecture is a core specialty. We build apps that function fully without connectivity — local data storage, background sync queues, conflict resolution — and synchronize automatically when online. Vendrex and Tally Cart are production proof."
+      },
+      {
+        "question": "Do you provide ongoing maintenance and support?",
+        "answer": "Yes. We offer post-launch retainers for bug fixes, platform updates, feature additions, monitoring, and scaling. Our goal is a long-term partnership, not a handoff."
+      },
+      {
+        "question": "Do you work with international clients?",
+        "answer": "Yes. We've built software for businesses in multiple countries and time zones. Communication happens via email, video calls, and async tools. Our products (Vendrex, Receet Pro) already serve users globally with multi-currency and multi-language support."
+      },
+      {
+        "question": "Who owns the source code?",
+        "answer": "You do. All code, assets, and IP created for your project are yours. We deliver the full repository, documentation, and deployment credentials. No lock-in."
+      }
+    ],
+    "form": {
+      "labels": {
+        "name": "Name",
+        "email": "Email",
+        "company": "Company",
+        "projectType": "What would you like to build?",
+        "message": "Tell us about your project",
+        "budget": "Approximate Budget",
+        "timeline": "Target Timeline"
+      },
+      "placeholders": {
+        "name": "Your name",
+        "email": "you@example.com",
+        "company": "Your company (optional)",
+        "message": "Describe your project, goals, and any requirements..."
+      },
+      "projectTypes": {
+        "select": "Select an option",
+        "mobileApp": "Mobile App",
+        "businessApp": "Business Application",
+        "webApp": "Web Application",
+        "saas": "SaaS Product",
+        "existingApp": "Existing Application Improvement",
+        "notSure": "Not Sure Yet"
+      },
+      "budgetOptions": {
+        "select": "Select a range",
+        "under2500": "Under $2,500",
+        "2500to5000": "$2,500–$5,000",
+        "5000to10000": "$5,000–$10,000",
+        "10000to25000": "$10,000–$25,000",
+        "25000plus": "$25,000+",
+        "notSure": "Not sure yet"
+      },
+      "timelineOptions": {
+        "select": "Select a timeline",
+        "asap": "As soon as possible",
+        "1to3months": "1–3 months",
+        "3to6months": "3–6 months",
+        "6plusMonths": "6+ months",
+        "exploring": "Exploring an idea"
+      },
+      "honeypot": "Do not fill this field",
+      "submit": "Tell Us About Your Project",
+      "sending": "Sending…",
+      "error": "Something went wrong. Please try again later."
+    },
+    "success": {
+      "title": "Thanks — we've received your project details.",
+      "description": "We'll review what you've shared and get back to you shortly.",
+      "exploreWork": "Explore Our Work",
+      "backHome": "Back to Home"
+    }
+  },
+  "blog": {
+    "description": "Insights and technical articles from the Boyo Apps team on software development, mobile apps, and business technology.",
+    "posts": [
+      {
+        "date": "July 22, 2026",
+        "title": "How We Built an Offline-First POS System",
+        "description": "Lessons learned from building Vendrex, a POS platform designed to work reliably without constant internet connectivity.",
+        "readPost": "Read post →"
+      },
+      {
+        "date": "Coming soon",
+        "title": "Building Multi-Currency Software: What We Learned From Vendrex",
+        "description": "Multi-currency architecture isn't just about exchange rates. Here's what we discovered building a real-world multi-currency application."
+      },
+      {
+        "date": "Coming soon",
+        "title": "Mobile App vs Web App: Which Does Your Business Need?",
+        "description": "A practical guide to choosing the right platform for your business application."
+      }
+    ]
+  },
+  "blogPost": {
+    "label": "BLOG POST",
+    "title": "How We Built an Offline-First POS System",
+    "date": "Published July 22, 2026",
+    "sections": [
+      {
+        "paragraphs": [
+          "Most POS systems assume you have a reliable internet connection. Walk into any retail store in many parts of the world, and that assumption falls apart. When connectivity drops, cloud-only POS systems stop working — and that means lost sales, frustrated customers, and employees scrambling for paper receipts.",
+          "We built Vendrex to solve this problem. The result is a production POS platform that handles sales, inventory, purchasing, employee management, and financial reporting — all designed to work fully offline. Here is what we learned."
+        ]
+      },
+      {
+        "heading": "Why Offline-First Matters",
+        "paragraphs": [
+          "The core insight behind Vendrex is simple: businesses cannot control their internet provider. A POS system that stops working because the Wi-Fi is down is not a POS system — it is a liability. We designed Vendrex with a local-first architecture where every piece of operational data lives on the device. The cloud is a sync target, not a requirement."
+        ]
+      },
+      {
+        "heading": "The Sync Protocol",
+        "paragraphs": [
+          "The most significant engineering challenge was designing a sync protocol that could handle extended offline periods — days or weeks without connectivity. The system tracks changes at the record level, maintains a sync queue that survives app restarts, and handles conflicts through timestamp-based reconciliation.",
+          "When the device reconnects, changes are transmitted in order. If the same record was modified on two devices, the most recent change wins. This strategy is simple, predictable, and has proven reliable in production."
+        ]
+      },
+      {
+        "heading": "Multi-Currency Done Right",
+        "paragraphs": [
+          "Many POS systems treat multi-currency as a display feature — convert the price and move on. Reality is more complex. A customer may pay in one currency while the product cost of goods sold is tracked in another. Vendrex stores every transaction with its original currency, the settlement currency, and the accounting base currency, alongside the exchange rate at the time of the transaction."
+        ]
+      },
+      {
+        "heading": "Barcode Scanning in the Wild",
+        "paragraphs": [
+          "Barcode scanning sounds simple until you try to scan a faded, damaged label under fluorescent lighting with a phone camera. We spent significant time tuning focus parameters, lighting detection, and decode algorithms to achieve acceptable scan rates in real-world retail environments."
+        ]
+      },
+      {
+        "heading": "The Result",
+        "paragraphs": [
+          "Vendrex is live and in production. It handles thousands of transactions across multiple businesses. It works online, offline, and everywhere in between. The full case study with architecture details is available on our site."
+        ]
+      }
+    ],
+    "links": {
+      "caseStudy": "Read the full Vendrex case study →",
+      "backToBlog": "← Back to blog"
+    }
+  },
+  "notFound": {
+    "code": "404",
+    "message": "Page not found.",
+    "backHome": "Back to Home"
+  },
+  "services": {
+    "mobile": {
+      "label": "SERVICE",
+      "title": "Custom Mobile App Development",
+      "description": "Cross-platform mobile applications designed around your business, users and real-world requirements. From Android to cross-platform solutions, we build apps that work reliably in the conditions your users actually operate in.",
+      "whatWeBuild": {
+        "title": "What We Build",
+        "description": "We build mobile applications that solve real operational problems — not just simple front-end apps, but full-featured mobile software with offline capabilities, cloud synchronization, hardware integration, and complex business logic. Our portfolio includes point-of-sale systems, collaborative shopping tools, field measurement applications, and productivity apps, all running on Android devices in production use.",
+        "items": [
+          {
+            "title": "Business mobile apps",
+            "description": "Full-featured mobile applications for inventory management, sales processing, field operations, and internal business workflows."
+          },
+          {
+            "title": "Consumer mobile applications",
+            "description": "User-friendly apps designed for everyday use — shopping, finance, productivity, and lifestyle tools with polished interfaces."
+          },
+          {
+            "title": "Offline-first mobile experiences",
+            "description": "Applications that function fully without internet connectivity, with automatic cloud synchronization when connectivity is restored."
+          },
+          {
+            "title": "Barcode scanning & data capture",
+            "description": "Camera-based barcode scanning integrated into POS, inventory, and data collection workflows for rapid product identification and tracking."
+          },
+          {
+            "title": "Real-time collaboration",
+            "description": "Shared data models that allow multiple users to view and modify the same information simultaneously from different devices."
+          },
+          {
+            "title": "Multi-currency & internationalized apps",
+            "description": "Applications designed for global use with support for multiple currencies, languages, and regional formatting standards."
+          }
+        ]
+      },
+      "approach": {
+        "title": "Our Approach to Mobile Development",
+        "sections": [
+          {
+            "title": "Offline-First Architecture",
+            "description": "Many mobile applications fail in production because they assume constant connectivity. We design with an offline-first mindset from day one. Data is stored locally on the device, the application operates with full functionality without a network, and changes sync to the cloud when connectivity becomes available. This approach — proven in our Vendrex POS and Tally Cart applications — ensures your app works reliably in the field, on the sales floor, or wherever your users actually are."
+          },
+          {
+            "title": "Cross-Platform by Default",
+            "description": "We build Android applications that leverage the full capabilities of modern mobile hardware — cameras for barcode scanning, sensors for measurement, GPS for location services, and Bluetooth for peripheral connectivity. When a web dashboard or companion app is needed, we design the architecture so the same data layer and business logic serve both platforms without duplication."
+          },
+          {
+            "title": "Real-World Testing",
+            "description": "Mobile apps are used in bright sunlight, on bumpy buses, in low-signal areas, and by users with varying technical comfort. We build and test for these conditions. Our applications handle screen glare with high-contrast interfaces, tolerate intermittent connectivity through offline-first data models, and are designed for users who need to complete tasks quickly with minimal friction."
+          }
+        ]
+      },
+      "techCapabilities": {
+        "title": "Technical Capabilities",
+        "items": [
+          "Native Android development",
+          "Cross-platform architecture",
+          "Offline data synchronization",
+          "Camera & barcode integration",
+          "Bluetooth & peripheral support",
+          "GPS & location-based features",
+          "Cloud synchronization & backup",
+          "Push notifications"
+        ]
+      },
+      "relatedWork": {
+        "title": "Related Work",
+        "description": "These products demonstrate our mobile development capabilities:",
+        "items": [
+          {
+            "name": "Tally Cart",
+            "description": "Collaborative grocery with barcode scanning"
+          },
+          {
+            "name": "Vendrex",
+            "description": "Offline-first POS & inventory management"
+          },
+          {
+            "name": "Solar Align Pro",
+            "description": "Sensor-based solar panel alignment"
+          },
+          {
+            "name": "Receet Pro",
+            "description": "OCR receipt scanning & finance tracking"
+          },
+          {
+            "name": "NeXT Up",
+            "description": "Cross-device reminders & productivity"
+          }
+        ],
+        "view": "View →"
+      },
+      "whyChoose": {
+        "title": "Why Businesses Choose Boyo Apps",
+        "items": [
+          {
+            "title": "We Build Our Own Products",
+            "description": "Every app we build for clients benefits from lessons learned building our own eight-product portfolio that ships to real users."
+          },
+          {
+            "title": "Offline-First Expertise",
+            "description": "Our speciality is building apps that work without reliable connectivity — a capability most development shops cannot deliver."
+          },
+          {
+            "title": "Full-Stack Capability",
+            "description": "We handle the entire stack — mobile front-end, cloud backend, database architecture, and deployment infrastructure."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Do you build for both Android and iOS?",
+          "answer": "Our primary mobile platform is Android. We design our data layers and business logic to be platform-independent, so expanding to iOS or adding a web companion app is architecturally straightforward. Let us know your platform requirements and we will advise on the best approach."
+        },
+        {
+          "question": "How do you handle apps that need to work offline?",
+          "answer": "We use a local-first architecture where all data is stored on the device and the app functions fully without connectivity. A sync layer in the background transmits changes to the cloud when a connection is available, with conflict resolution to prevent data loss."
+        },
+        {
+          "question": "Can you integrate hardware like barcode scanners or printers?",
+          "answer": "Yes. Our applications integrate with device cameras for barcode scanning, Bluetooth and Wi-Fi printers for receipt printing, GPS for location services, and device sensors for measurement and alignment applications."
+        },
+        {
+          "question": "How long does it take to build a mobile app?",
+          "answer": "Timelines depend on complexity. A focused MVP can take 8 to 16 weeks. Full-featured applications with offline sync, hardware integration, and cloud backends typically range from 4 to 9 months depending on scope."
+        },
+        {
+          "question": "Do you provide ongoing support after launch?",
+          "answer": "Yes. We offer post-launch maintenance, updates, monitoring, and feature development. Our goal is to build a long-term partnership, not just deliver a project and walk away."
+        },
+        {
+          "question": "Can you build an app that syncs with our existing business systems?",
+          "answer": "Yes. We build custom API layers and integration adapters that connect mobile applications to existing ERP, accounting, CRM, or inventory systems. This is a standard part of our business application development process."
+        }
+      ],
+      "cta": "Start Your Mobile Project →"
+    },
+    "web": {
+      "label": "SERVICE",
+      "title": "Custom Web Application Development",
+      "description": "Secure, scalable web applications that allow your team and customers to access your software from anywhere, on any device — from administrative dashboards to customer-facing platforms.",
+      "whatWeBuild": {
+        "title": "What We Build",
+        "description": "Web applications are the backbone of modern business operations. They power back-office management, customer self-service portals, analytics dashboards, marketplace platforms, and the administrative interfaces that keep organizations running. Our web applications are built to be responsive, performant, and maintainable over the long term.",
+        "items": [
+          {
+            "title": "Cloud-Based Business Applications",
+            "description": "Full-featured web applications for managing inventory, processing orders, tracking finances, and running business operations from any browser."
+          },
+          {
+            "title": "Admin Dashboards & Management Panels",
+            "description": "Data-rich dashboards that display key metrics, enable data exploration, and provide administrative control over your business systems."
+          },
+          {
+            "title": "Customer Portals",
+            "description": "Self-service portals where customers can view their data, manage accounts, submit requests, and track order or service status."
+          },
+          {
+            "title": "E-Commerce & Marketplace Platforms",
+            "description": "Custom online selling platforms with product catalogs, cart and checkout workflows, payment processing, and seller management."
+          },
+          {
+            "title": "API Development & Integration",
+            "description": "Custom APIs that connect your web application with mobile apps, third-party services, payment gateways, and legacy systems."
+          },
+          {
+            "title": "SaaS Platforms",
+            "description": "Multi-tenant subscription-based web applications with user authentication, billing integration, and tiered access control."
+          }
+        ]
+      },
+      "approach": {
+        "title": "Our Approach to Web Development",
+        "sections": [
+          {
+            "title": "Modern Framework Foundation",
+            "description": "We build web applications using modern frameworks that provide performance, developer productivity, and long-term maintainability. Our stack typically includes React or Next.js for the front-end with Node.js or Firebase for the backend. We choose technologies based on the specific requirements of each project rather than applying a one-size-fits-all approach."
+          },
+          {
+            "title": "Responsive by Default",
+            "description": "Every web application we build works across desktop, tablet, and mobile browsers. The interface adapts to screen size without losing functionality — not just resizing content but restructuring navigation, data tables, and forms to remain usable on smaller screens."
+          },
+          {
+            "title": "Cloud-Native Architecture",
+            "description": "Web applications hosted on modern cloud infrastructure scale from a handful of users to thousands without architectural changes. We design for horizontal scaling, implement database indexing strategies, and set up monitoring and alerting from day one. The result is an application that stays performant as your user base grows."
+          },
+          {
+            "title": "Security as a Design Principle",
+            "description": "Authentication, authorization, data validation, and encryption are built into the architecture, not added as an afterthought. We implement industry-standard security practices including HTTPS enforcement, CSRF protection, input sanitization, and secure session management in every web application we deliver."
+          }
+        ]
+      },
+      "techCapabilities": {
+        "title": "Technical Capabilities",
+        "items": [
+          "React, Next.js & modern front-end frameworks",
+          "Node.js, Firebase & serverless backends",
+          "REST API design",
+          "Cloud database architecture",
+          "Responsive design across all devices",
+          "Authentication & authorization systems",
+          "Cloud hosting & deployment (Firebase)",
+          "CI/CD pipelines & automated testing"
+        ]
+      },
+      "ourExperience": {
+        "title": "Our Web Experience",
+        "description": "Our products span web-based POS, inventory dashboards, analytics platforms, marketplace interfaces and SaaS applications — all built with modern technologies. This site itself is a Next.js web application, demonstrating our front-end and deployment capabilities firsthand.",
+        "description2": "The Vendrex web dashboard, GQRLY analytics platform, and multiple product landing pages we operate are examples of our web development work running in production."
+      },
+      "whyChoose": {
+        "title": "Why Businesses Choose Boyo Apps for Web Development",
+        "items": [
+          {
+            "title": "Full-Stack Delivery",
+            "description": "We handle front-end, back-end, database, and deployment — delivering a complete web application rather than just a front-end design."
+          },
+          {
+            "title": "Mobile + Web Together",
+            "description": "If you need both a mobile app and a web dashboard, we build them on a shared architecture so data stays consistent across platforms."
+          },
+          {
+            "title": "Long-Term Maintainability",
+            "description": "Clean code, documentation, and modern frameworks mean your web application remains maintainable and extensible years after launch."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "What technologies do you use for web applications?",
+          "answer": "We primarily build with React and Next.js for front-end applications paired with Node.js or Firebase for back-end services. Our database choices depend on the application requirements. We deploy on Firebase, which provides reliable cloud infrastructure as the user base grows."
+        },
+        {
+          "question": "Can you build a web app that works alongside our mobile app?",
+          "answer": "Yes. This is one of our core strengths. We design shared data layers and API architectures that serve both web dashboards and mobile applications from the same backend. This ensures inventory counts, customer data, and transaction records are consistent across all platforms."
+        },
+        {
+          "question": "How do you handle performance as user numbers grow?",
+          "answer": "We design for scale from the start. This means efficient database queries, proper indexing, pagination for data-heavy views, caching strategies, and cloud infrastructure that can scale horizontally as traffic increases."
+        },
+        {
+          "question": "Do you build e-commerce or marketplace platforms?",
+          "answer": "Yes. We built BoyoMart, a local marketplace platform with product listings, location-based discovery, in-app messaging, and seller profiles. We can build similar custom e-commerce and marketplace solutions tailored to your specific business model."
+        },
+        {
+          "question": "Can you integrate payment processing into a web application?",
+          "answer": "Yes. We integrate payment gateways such as Stripe into web applications. We handle the full payment flow — checkout, receipt generation, refund processing, and transaction history. We can also work with region-specific processors as needed."
+        },
+        {
+          "question": "How long does it take to build a custom web application?",
+          "answer": "A focused MVP web application typically takes 6 to 14 weeks depending on complexity. Full-featured platforms with multiple user roles, integrations, and advanced functionality typically range from 3 to 8 months."
+        }
+      ],
+      "cta": "Start Your Web Project →"
+    },
+    "business": {
+      "label": "SERVICE",
+      "title": "Custom Business Applications",
+      "description": "Inventory systems, POS applications, dashboards, internal tools and custom software — built around your actual business operations, not forced into generic templates.",
+      "whatWeBuild": {
+        "title": "What We Build",
+        "description": "Business software is fundamentally different from consumer apps. It must handle complex data models, enforce business rules, support multiple user roles, integrate with existing systems, and remain operational during every critical business hour. Our approach to business applications reflects these realities.",
+        "items": [
+          {
+            "title": "Point-of-Sale (POS) Systems",
+            "description": "Complete POS platforms that handle sales processing, receipt printing, payment recording, and transaction history — online and offline."
+          },
+          {
+            "title": "Inventory Management",
+            "description": "Real-time inventory tracking with barcode scanning, stock level alerts, purchase order management, and multi-location support."
+          },
+          {
+            "title": "Internal Business Dashboards",
+            "description": "Web-based dashboards for monitoring sales, inventory turnover, employee performance, and operational metrics at a glance."
+          },
+          {
+            "title": "Employee Management",
+            "description": "Role-based access, time tracking, performance logging, and staff management tools integrated into your business workflow."
+          },
+          {
+            "title": "Customer Management",
+            "description": "Customer records, purchase history, loyalty tracking, and communication tools that help you build better customer relationships."
+          },
+          {
+            "title": "Reporting & Analytics",
+            "description": "Custom report builders and analytics views that transform operational data into actionable business intelligence."
+          }
+        ]
+      },
+      "approach": {
+        "title": "Our Approach to Business Software",
+        "sections": [
+          {
+            "title": "Offline-First by Necessity",
+            "description": "When offline operation is important to the business, we design applications with local data storage and synchronization so critical workflows can continue during connectivity interruptions. This approach is proven in production by Vendrex, our offline-first POS platform deployed in real retail environments."
+          },
+          {
+            "title": "Multi-Currency & International",
+            "description": "Businesses operating across borders or serving international customers need software that handles multiple currencies natively — not as a display conversion, but as a core data model capability. Our business applications track transactions in their original currency, convert for reporting as needed, and maintain accurate financial records regardless of the currencies involved."
+          },
+          {
+            "title": "Role-Based Access & Security",
+            "description": "Different employees need different levels of access. Owners see financial reports and employee data. Managers handle inventory and purchasing. Cashiers process sales. Our applications implement granular role-based access controls that ensure each user sees and does only what their role requires."
+          },
+          {
+            "title": "Built to Integrate",
+            "description": "Business software does not exist in isolation. We design custom API layers that connect your new application with existing accounting systems, e-commerce platforms, payment processors, and third-party services. Data flows between systems automatically, eliminating duplicate data entry and reducing errors."
+          }
+        ]
+      },
+      "techCapabilities": {
+        "title": "Technical Capabilities",
+        "items": [
+          "Offline-first data architecture",
+          "Multi-currency financial data models",
+          "Role-based access control",
+          "Barcode & QR code scanning",
+          "Receipt printing (Bluetooth & Wi-Fi)",
+          "Real-time data synchronization",
+          "Custom API & integration layer"
+        ]
+      },
+      "proofInProduction": {
+        "title": "Proof in Production",
+        "description": "Our flagship business application:",
+        "item": {
+          "name": "Vendrex",
+          "description": "Complete POS and inventory management platform with offline-first architecture, multi-currency support, and cross-platform Android + web deployment.",
+          "viewCaseStudy": "View case study →"
+        }
+      },
+      "whyChoose": {
+        "title": "Why Businesses Choose Boyo Apps",
+        "items": [
+          {
+            "title": "We Operate Our Own Business Software",
+            "description": "Vendrex runs in production. We eat our own cooking. Every lesson we learn from supporting real users goes directly into the applications we build for clients."
+          },
+          {
+            "title": "We Understand Operational Reality",
+            "description": "We build for the conditions businesses actually operate in — intermittent connectivity, multi-currency transactions, varied user skill levels, and demanding hours."
+          },
+          {
+            "title": "Long-Term Partnership",
+            "description": "Business software evolves. We build applications that can grow with your business and we stay engaged after launch for ongoing support and development."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "How do you handle data security in business applications?",
+          "answer": "We implement role-based access control, encrypt data both locally and in transit, and follow security best practices for authentication and session management. For sensitive financial data, we design audit trails and access logging into the application architecture."
+        },
+        {
+          "question": "Can you integrate with our existing accounting or ERP system?",
+          "answer": "Yes. We build custom API adapters that connect your new application to existing systems. Whether you use a third-party platform, custom ERP software, or a legacy database, we can design the integration layer to sync data automatically."
+        },
+        {
+          "question": "Do you build mobile business apps, web apps, or both?",
+          "answer": "We build both. Many of our business applications combine an Android mobile app for field or floor operations with a web dashboard for back-office management. We design the architecture so both platforms share the same data and business logic."
+        },
+        {
+          "question": "What if my business needs a very specific workflow?",
+          "answer": "That is exactly why businesses come to us. Unlike off-the-shelf software that forces you to adapt your process, we build applications around your specific workflows, business rules, and operational requirements."
+        },
+        {
+          "question": "How do you handle offline data to prevent loss?",
+          "answer": "We use local-first storage with a sync engine that queues changes made offline and transmits them in order when connectivity returns. Conflict resolution strategies — typically last-writer-wins with timestamp tracking — prevent data loss when multiple devices modify the same records."
+        },
+        {
+          "question": "How much does custom business software cost?",
+          "answer": "Costs vary significantly based on complexity, platform requirements, integrations, and timeline. We provide detailed project proposals after understanding your specific needs. Contact us to discuss your project and we will provide a scope and estimate."
+        }
+      ],
+      "cta": "Discuss Your Business App →"
+    },
+    "saas": {
+      "label": "SERVICE",
+      "title": "SaaS Product Development",
+      "description": "From MVP to full-scale subscription platforms with authentication, billing, analytics and cloud infrastructure. We take SaaS products from concept to launch and beyond.",
+      "whatWeBuild": {
+        "title": "What We Build",
+        "description": "SaaS products are fundamentally different from one-off software projects. They must support multiple tenants, handle subscription billing, scale efficiently as the user base grows, and provide ongoing value that justifies recurring payments. Our approach to SaaS development reflects these realities from the first line of code.",
+        "items": [
+          {
+            "title": "MVP Development & Validation",
+            "description": "Minimum viable products designed to test market assumptions quickly, with just enough functionality to validate demand and gather user feedback."
+          },
+          {
+            "title": "Subscription Billing Systems",
+            "description": "Complete billing infrastructure with tiered pricing, free trials, payment gateway integration, invoicing, and subscription management dashboards."
+          },
+          {
+            "title": "User Authentication & Authorization",
+            "description": "Secure sign-up, login, password management, social authentication, and role-based access control for multi-user SaaS platforms."
+          },
+          {
+            "title": "Analytics & Reporting Dashboards",
+            "description": "Data visualization dashboards that give SaaS operators visibility into user activity, revenue metrics, churn rates, and feature adoption."
+          },
+          {
+            "title": "Cloud Architecture & Scaling",
+            "description": "Cloud infrastructure designed to scale from dozens to thousands of users without major architectural changes, with monitoring and alerting built in."
+          },
+          {
+            "title": "API-First Platforms",
+            "description": "SaaS products designed with APIs at the core, enabling integrations, third-party developer access, and headless front-end architectures."
+          }
+        ]
+      },
+      "approach": {
+        "title": "Our Approach to SaaS Development",
+        "sections": [
+          {
+            "title": "Start with an MVP, Build Toward Scale",
+            "description": "We believe in launching early and iterating based on real user feedback. Our SaaS development process begins with identifying the core value proposition and building only what is needed to test it in the market. The architecture is designed to support future growth, but we do not build features for hypothetical users. As the product gains traction, we expand functionality based on actual usage patterns and customer requests."
+          },
+          {
+            "title": "Multi-Tenant Architecture",
+            "description": "For SaaS products that benefit from shared infrastructure, we typically use a multi-tenant architecture where each customer's data is isolated and secure while sharing the same application infrastructure. This approach keeps operational costs low as the customer base grows and simplifies deployment. For products with stricter isolation requirements, we can adapt the architecture accordingly."
+          },
+          {
+            "title": "Billing & Subscription Integration",
+            "description": "Subscription billing is one of the most critical components of a SaaS product. We integrate payment gateways such as Stripe with support for tiered pricing, free trials, usage-based billing, coupon codes, and automated invoice generation. The billing system is designed to handle failed payments, subscription upgrades and downgrades, and prorated charges without manual intervention."
+          },
+          {
+            "title": "Analytics-First Mindset",
+            "description": "SaaS businesses need visibility into how their product is being used. We build analytics tracking into the application from day one — monitoring user sign-ups, activation rates, feature adoption, retention, and revenue metrics. These analytics inform product decisions and help identify opportunities for improvement."
+          }
+        ]
+      },
+      "techCapabilities": {
+        "title": "Technical Capabilities",
+        "items": [
+          "Multi-tenant architecture & data isolation",
+          "Subscription billing & payment integration",
+          "User authentication & role management",
+          "Real-time data & collaboration features",
+          "Cloud infrastructure & deployment (Firebase)",
+          "Analytics tracking & reporting dashboards",
+          "REST API design",
+          "CI/CD pipeline & automated deployment"
+        ]
+      },
+      "saasExperience": {
+        "title": "SaaS Experience in Production",
+        "description": "Our products include subscription-based applications and cloud-synced services that demonstrate our SaaS development capabilities:",
+        "items": [
+          {
+            "name": "Vendrex",
+            "description": "Cross-platform POS with cloud sync and multi-user access"
+          },
+          {
+            "name": "GQRLY",
+            "description": "QR code generation & analytics platform"
+          },
+          {
+            "name": "Tally Cart",
+            "description": "Collaborative shopping with shared real-time data"
+          }
+        ],
+        "view": "View →"
+      },
+      "whyChoose": {
+        "title": "Why Businesses Choose Boyo Apps for SaaS Development",
+        "items": [
+          {
+            "title": "We Build Our Own SaaS Products",
+            "description": "We operate SaaS platforms ourselves. We understand subscription metrics, user retention, and the operational challenges that SaaS founders face because we live them."
+          },
+          {
+            "title": "Full-Lifecycle Development",
+            "description": "We take SaaS products from initial concept through MVP, launch, growth, and ongoing iteration — not just the initial build phase."
+          },
+          {
+            "title": "Cross-Platform by Design",
+            "description": "Many SaaS products benefit from both a web platform and a mobile companion app. We build both, sharing architecture and data layers between them."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "How do you handle multi-tenancy in SaaS applications?",
+          "answer": "We use a shared-database, isolated-data approach where all tenants share the same application infrastructure but each tenant's data is scoped through row-level tenant identifiers. This keeps operational costs low while maintaining data isolation and security."
+        },
+        {
+          "question": "What payment systems do you integrate for SaaS billing?",
+          "answer": "We integrate Stripe for subscription billing, with support for tiered pricing, free trials, usage-based billing, coupon codes, and automated invoice generation. We can also integrate region-specific payment processors as needed."
+        },
+        {
+          "question": "How long does it take to build an MVP for a SaaS product?",
+          "answer": "A focused SaaS MVP with core functionality, user authentication, and basic billing can typically be built in 8 to 14 weeks. The timeline depends on complexity, the number of user roles, and integration requirements."
+        },
+        {
+          "question": "Can you build both a web SaaS and a mobile companion app?",
+          "answer": "Yes. Many of our SaaS products combine a web dashboard for administration and analytics with a mobile application for end users. We design a shared backend architecture that serves both platforms from the same data layer."
+        },
+        {
+          "question": "Do you provide ongoing support after the SaaS product launches?",
+          "answer": "Yes. SaaS products require continuous development — feature requests, bug fixes, infrastructure maintenance, and platform updates. We offer ongoing retainer-based support and development partnerships for post-launch growth."
+        },
+        {
+          "question": "What if I only have an idea and no technical background?",
+          "answer": "That is a common starting point. We guide founders through the process — from refining the concept, defining the MVP scope, choosing the right technology stack, and building the product. You do not need a technical background to work with us; you just need a clear understanding of the problem you are solving."
+        }
+      ],
+      "cta": "Discuss Your SaaS Idea →"
+    }
+  },
+  "industries": {
+    "retail": {
+      "meta": {
+        "title": "Retail Software Solutions",
+        "description": "Custom retail software including POS, inventory management, and business operations tools for retail businesses."
+      },
+      "title": "Software for Retail Businesses",
+      "description": "From point-of-sale systems to inventory management, we build retail software that works reliably in real-world conditions — online and offline, across currencies, and at scale.",
+      "cardsTitle": "What Retail Software We Build",
+      "cards": [
+        {
+          "title": "Point of Sale",
+          "description": "Modern POS systems with offline capability, multi-currency support, and real-time inventory tracking. Process sales, print receipts, and accept payments even when the internet is down."
+        },
+        {
+          "title": "Inventory Management",
+          "description": "Track stock across locations, manage purchase orders, receive low-stock alerts, and get real-time inventory insights from any device."
+        },
+        {
+          "title": "Multi-Currency & Multi-Store",
+          "description": "Handle sales and inventory across multiple currencies and store locations from a single platform, with accurate financial reporting in your base currency."
+        },
+        {
+          "title": "Barcode & Scanning",
+          "description": "Camera-based barcode scanning for rapid checkout, inventory receiving, stock counts, and product lookup across thousands of SKUs."
+        }
+      ],
+      "whyCustomSoftware": {
+        "title": "Why Retail Businesses Need Custom Software",
+        "paragraphs": [
+          "Off-the-shelf retail software forces businesses to adapt their operations to the software. Custom solutions do the opposite. When you need a specific workflow — accepting multiple currencies at the register, tracking inventory by case and unit, printing receipts in a specific format, or generating customized sales reports — generic POS systems either cannot do it or require expensive workarounds.",
+          "We build retail software from the ground up around your actual operations. Our offline-first approach means your business never stops selling, even when the Wi-Fi goes down. Multi-currency is built into the data model, not added as an afterthought. Inventory updates happen in real time, whether scanned at the register or adjusted from the back office."
+        ]
+      },
+      "relatedCapabilities": {
+        "title": "Related Capabilities",
+        "items": [
+          {
+            "title": "Offline-First Architecture",
+            "description": "Full POS and inventory functionality without internet connectivity, with automatic cloud sync when reconnected."
+          },
+          {
+            "title": "Purchase Order Management",
+            "description": "Create, approve, and track purchase orders. Receive stock against POs with barcode verification."
+          },
+          {
+            "title": "Employee & Role Management",
+            "description": "Granular permissions for cashiers, managers, and owners. Track who performed which action and when."
+          },
+          {
+            "title": "Reporting & Analytics",
+            "description": "Sales summaries, inventory turnover, profit analysis, and employee performance metrics accessible from any device."
+          }
+        ]
+      },
+      "seeVendrex": {
+        "link": "See Vendrex →",
+        "description": "Our offline-first POS and business management platform — the real product behind our retail expertise"
+      },
+      "cta": "Discuss Your Retail Project →"
+    },
+    "smallBusiness": {
+      "meta": {
+        "title": "Small Business Software Solutions",
+        "description": "Custom software solutions for small businesses including POS, inventory, and business management tools."
+      },
+      "title": "Software for Small Businesses",
+      "description": "Replace spreadsheets, paper processes, and disconnected tools with custom software designed for how your business actually operates.",
+      "cards": [
+        {
+          "title": "Business Management",
+          "description": "Manage customers, sales, employees, and reporting from one platform."
+        },
+        {
+          "title": "Inventory Tracking",
+          "description": "Real-time inventory management with barcode scanning and purchase orders."
+        },
+        {
+          "title": "Mobile Solutions",
+          "description": "Give your team access to business tools from anywhere."
+        },
+        {
+          "title": "Multi-Currency",
+          "description": "Software that handles operations across multiple currencies."
+        }
+      ],
+      "cta": "Discuss Your Project →"
+    },
+    "solar": {
+      "meta": {
+        "title": "Solar Energy Software Solutions",
+        "description": "Custom software for the solar energy industry including panel alignment tools, ROI calculators, and field applications."
+      },
+      "title": "Software for Solar Energy",
+      "description": "Custom applications for solar energy professionals including alignment tools, ROI analysis, and field data collection.",
+      "cards": [
+        {
+          "title": "Solar Panel Alignment",
+          "description": "Sensor-based alignment tools for optimal panel positioning."
+        },
+        {
+          "title": "ROI Analysis",
+          "description": "Calculate and project solar investment returns."
+        },
+        {
+          "title": "Field Applications",
+          "description": "Mobile tools for solar technicians and installers."
+        },
+        {
+          "title": "Energy Monitoring",
+          "description": "Track and analyze energy production data."
+        }
+      ],
+      "seeSolarAlign": {
+        "link": "See Solar Align Pro →",
+        "description": "Our solar optimization application"
+      },
+      "cta": "Discuss Your Energy Project →"
+    }
+  },
+  "work": {
+    "meta": {
+      "title": "Our Work",
+      "description": "Explore the products and applications built by Boyo Apps. Real engineering, real products, real results."
+    },
+    "title": "Our Work",
+    "description": "Real products. Real engineering. Every application here was designed, built and shipped by Boyo Apps.",
+    "statusBadges": {
+      "inDevelopment": "In Development",
+      "concept": "Concept"
+    },
+    "googlePlay": "Get it on Google Play",
+    "viewDetails": "View details →",
+    "products": [
+      {
+        "name": "Vendrex",
+        "category": "POS & Business Management",
+        "description": "Complete POS and inventory management software with offline support, multi-currency operations and business management tools."
+      },
+      {
+        "name": "Tally Cart",
+        "category": "Shopping & Budget Application",
+        "description": "Shared grocery lists and budget tracking with real-time collaboration, shelf-price scanning and shopping totals."
+      },
+      {
+        "name": "Solar Align Pro",
+        "category": "Solar Optimization",
+        "description": "Solar panel alignment and ROI tools using device sensors, location data and specialized calculations."
+      },
+      {
+        "name": "Receet Pro",
+        "category": "Personal Finance",
+        "description": "Personal finance management with receipt scanning, multi-currency tracking, budgets and financial insights."
+      },
+      {
+        "name": "GQRLY",
+        "category": "QR Code Analytics",
+        "description": "QR code generation and analytics platform with real-time tracking and campaign management."
+      },
+      {
+        "name": "NeXT Up",
+        "category": "Productivity",
+        "description": "Cross-device reminder and productivity application with cloud synchronization."
+      },
+      {
+        "name": "BoyoMart",
+        "category": "Marketplace",
+        "description": "Local buy-and-sell marketplace with listings, location-based discovery, messaging and search."
+      },
+      {
+        "name": "Solar Merge",
+        "category": "Mobile Game",
+        "description": "An engaging solar-themed merge game for mobile devices."
+      }
+    ]
+  },
+  "products": {
+    "vendrex-pos": {
+      "name": "Vendrex",
+      "category": "POS & Business Management",
+      "shortDescription": "Complete POS and inventory management software with offline support, multi-currency operations and business management tools."
+    },
+    "tally-cart": {
+      "name": "Tally Cart",
+      "category": "Shopping & Budget Application",
+      "shortDescription": "Shared grocery lists and budget tracking with real-time collaboration, shelf-price scanning and shopping totals."
+    },
+    "solar-align": {
+      "name": "Solar Align Pro",
+      "category": "Solar Optimization",
+      "shortDescription": "Solar panel alignment and ROI tools using device sensors, location data and specialized calculations."
+    },
+    "receet-pro": {
+      "name": "Receet Pro",
+      "category": "Personal Finance",
+      "shortDescription": "Personal finance management with receipt scanning, multi-currency tracking, budgets and financial insights."
+    },
+    "gqrly": {
+      "name": "GQRLY",
+      "category": "QR Code Analytics",
+      "shortDescription": "QR code generation and analytics platform with real-time tracking and campaign management."
+    },
+    "next-up": {
+      "name": "NeXT Up",
+      "category": "Productivity",
+      "shortDescription": "Cross-device reminder and productivity application with cloud synchronization."
+    },
+    "boyomart": {
+      "name": "BoyoMart",
+      "category": "Marketplace",
+      "shortDescription": "Local buy-and-sell marketplace with listings, location-based discovery, messaging and search."
+    },
+    "solar-merge": {
+      "name": "Solar Merge",
+      "category": "Mobile Game",
+      "shortDescription": "An engaging solar-themed merge game for mobile devices."
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Privacy Policy"
+    },
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: July 2026",
+    "sections": {
+      "infoWeCollect": {
+        "title": "1. Information We Collect",
+        "content": "We collect information you provide directly, such as your name and email address when you submit our contact form. We also collect standard web analytics data including page views and referral sources."
+      },
+      "howWeUseInfo": {
+        "title": "2. How We Use Your Information",
+        "content": "We use your information to respond to your inquiries, improve our website, and communicate about our services. We do not sell your personal information to third parties."
+      },
+      "dataSecurity": {
+        "title": "3. Data Security",
+        "content": "We implement reasonable security measures to protect your personal information. However, no method of electronic transmission is 100% secure."
+      },
+      "thirdParty": {
+        "title": "4. Third-Party Services",
+        "content": "We may use third-party services for analytics and form processing. These services have their own privacy policies governing data handling."
+      },
+      "contact": {
+        "title": "5. Contact",
+        "content": "If you have questions about this privacy policy, please <link>contact us</link>."
+      }
+    }
+  },
+  "terms": {
+    "meta": {
+      "title": "Terms of Service"
+    },
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: July 2026",
+    "sections": {
+      "services": {
+        "title": "1. Services",
+        "content": "Boyo Apps provides software development services. The specific terms of each engagement will be outlined in a separate agreement between Boyo Apps and the client."
+      },
+      "intellectualProperty": {
+        "title": "2. Intellectual Property",
+        "content": "Upon full payment, the client retains ownership of the custom software developed specifically for their project. Boyo Apps retains the right to display the work in its portfolio unless otherwise agreed."
+      },
+      "limitationOfLiability": {
+        "title": "3. Limitation of Liability",
+        "content": "Boyo Apps shall not be liable for any indirect, incidental, or consequential damages arising from the use of our services or products."
+      },
+      "contact": {
+        "title": "4. Contact",
+        "content": "For questions about these terms, please <link>contact us</link>."
+      }
+    }
+  },
+  "caseStudies": {
+    "vendrex": {
+      "meta": {
+        "title": "Vendrex POS — Offline-First POS & Inventory Management System",
+        "description": "How Boyo Apps built Vendrex: a complete offline-first POS and inventory management platform with multi-currency support, barcode scanning, and real-time cloud sync for businesses."
+      },
+      "og": {
+        "title": "Vendrex POS — Offline-First POS & Inventory Case Study",
+        "description": "How Boyo Apps built an offline-first, multi-currency POS and inventory management platform for businesses in connectivity-constrained markets."
+      },
+      "label": "CASE STUDY",
+      "title": "Vendrex POS — Offline-First POS & Inventory Platform",
+      "theProblem": {
+        "title": "The Problem",
+        "description": "Small businesses need to manage sales and inventory even when internet connectivity isn't reliable."
+      },
+      "theChallenge": {
+        "title": "The Challenge",
+        "description": "The system needed to support:",
+        "items": [
+          "Offline transaction processing",
+          "Inventory synchronization across devices",
+          "Barcode scanning in variable lighting",
+          "Multi-currency pricing and reporting",
+          "Employee access controls",
+          "Sales and financial reporting",
+          "Android + Web cross-platform delivery"
+        ]
+      },
+      "theSolution": {
+        "title": "The Solution",
+        "description": "Boyo Apps designed an offline-first POS architecture that allows businesses to continue operating without a reliable connection, then synchronize their data automatically when connectivity returns. Every transaction, inventory change, and employee action works locally first — the cloud is a sync target, not a requirement."
+      },
+      "engineering": {
+        "title": "Engineering",
+        "tech": [
+          "Flutter",
+          "Firebase",
+          "Cloud Functions",
+          "Offline persistence",
+          "Camera barcode scanning",
+          "Multi-currency data model"
+        ]
+      },
+      "result": {
+        "title": "Result",
+        "description": "A complete production-ready business management platform available across mobile and web.",
+        "detail": "Vendrex handles sales, inventory, purchasing, employee management, and financial reporting. It runs in production across multiple businesses, processing transactions online and offline, and synchronizing data seamlessly when connectivity is available."
+      },
+      "engineeringDeepDive": {
+        "title": "Engineering Deep Dive",
+        "sections": [
+          {
+            "title": "Offline Data Synchronization",
+            "description": "The most significant engineering challenge was designing a sync protocol that could handle extended offline periods — days or weeks without connectivity — while ensuring no data loss when the device reconnected. The system had to track changes at the record level, maintain a sync queue that could survive app restarts, and handle conflicts when the same record was modified on multiple devices."
+          },
+          {
+            "title": "Multi-Currency Data Model",
+            "description": "Every financial transaction in Vendrex involved multiple currencies: the sale currency, the settlement currency, and the accounting base currency. The data model had to store all three alongside real-time exchange rates, ensuring that reports could be generated in any currency without rounding errors or reconciliation issues."
+          },
+          {
+            "title": "Barcode Scanning Performance",
+            "description": "Barcode scanning had to work reliably across a wide range of products and label conditions — damaged barcodes, low-contrast printing, and reflective surfaces. The camera-based scanner required careful tuning of focus parameters, lighting detection, and decode algorithms to achieve acceptable scan rates in real-world retail environments."
+          },
+          {
+            "title": "Cross-Platform Architecture",
+            "description": "Maintaining feature parity between the Android POS app and the web dashboard required a shared business logic layer and consistent API contracts. The web dashboard had to handle large inventory datasets and complex reporting queries that the mobile app did not need, while still sharing the same data model and business rules."
+          }
+        ]
+      },
+      "keyFeatures": {
+        "title": "Key Features",
+        "items": [
+          "Complete POS with receipt printing",
+          "Real-time inventory tracking",
+          "Multi-currency support",
+          "Offline-first architecture",
+          "Barcode scanning",
+          "Purchase order management",
+          "Employee management",
+          "Sales reporting & analytics"
+        ]
+      },
+      "architectureHighlights": {
+        "title": "Architecture Highlights",
+        "items": [
+          "Offline data synchronization with timestamp-based conflict resolution",
+          "Real-time multi-currency conversion engine with exchange rate management",
+          "Cross-platform Android + Web architecture with shared data layer",
+          "Cloud sync with local-first data storage and offline queue",
+          "Role-based access control for employees, managers, and administrators",
+          "Barcode scanning integrated directly into POS and inventory workflows",
+          "Receipt printing over Bluetooth and Wi-Fi thermal printers"
+        ]
+      },
+      "faqTitle": "Frequently Asked Questions",
+      "whatItDemonstrates": {
+        "title": "What Vendrex Demonstrates About Boyo Apps",
+        "paragraphs": [
+          "Vendrex showcases Boyo Apps' ability to design and deliver production-grade business software that operates reliably in real-world conditions. The project required deep thinking about data synchronization, multi-currency financial modeling, and cross-platform architecture — the same engineering disciplines that apply to building custom business applications for clients.",
+          "It also demonstrates our approach to product design: understanding the actual working conditions of end users and building software that adapts to those conditions rather than requiring users to adapt to the software."
+        ]
+      },
+      "faqs": {
+        "0": {
+          "question": "How does Vendrex handle offline transactions?",
+          "answer": "Vendrex stores all transaction data locally on the device using an embedded database. When connectivity is restored, changes sync automatically to the cloud with conflict resolution to prevent data loss or duplication."
+        },
+        "1": {
+          "question": "Can Vendrex manage multiple currencies simultaneously?",
+          "answer": "Yes. Vendrex includes a built-in multi-currency engine that supports real-time conversion, separate pricing per currency, and accurate financial reporting across currencies."
+        },
+        "2": {
+          "question": "Is Vendrex available on both mobile and desktop?",
+          "answer": "Vendrex is available as an Android mobile application for in-store operations and as a web application for back-office management, inventory oversight, and reporting."
+        },
+        "3": {
+          "question": "Does Vendrex support barcode scanning for inventory?",
+          "answer": "Yes. Vendrex integrates with device cameras for barcode scanning, enabling quick product lookup, price retrieval, and inventory updates during receiving and sales."
+        },
+        "4": {
+          "question": "What kind of reporting does Vendrex provide?",
+          "answer": "Vendrex provides sales reporting, inventory turnover analysis, employee performance metrics, purchase order tracking, and financial summaries that help businesses make data-driven decisions."
+        },
+        "5": {
+          "question": "Who typically uses Vendrex?",
+          "answer": "Vendrex is designed for retail stores, grocery shops, wholesale distributors, and small to medium businesses that need a reliable POS system that works in real-world connectivity conditions."
+        }
+      },
+      "relatedServices": {
+        "title": "Related Services",
+        "description": "Looking to build similar software for your business? Boyo Apps offers mobile app development, business application development, and web application development services. We also build SaaS products for companies launching subscription-based platforms."
+      },
+      "ctas": {
+        "googlePlay": "Get it on Google Play",
+        "visit": "Visit Vendrex →",
+        "buildSimilar": "Build Something Similar →"
+      },
+      "tags": [
+        "POS",
+        "Inventory",
+        "Multi-currency",
+        "Offline",
+        "Barcode",
+        "Reports",
+        "Android",
+        "Web"
+      ],
+      "crossPlatform": {
+        "title": "Cross-Platform Considerations",
+        "paragraphs": [
+          "The Android POS application was designed for use on handheld devices and tablets with touch-first interactions, barcode scanner integration, and Bluetooth printer support. The web dashboard targeted desktop browsers with keyboard and mouse workflows optimized for data entry, reporting, and batch operations.",
+          "Both platforms share a common API layer and data model, ensuring that inventory counts, sales records, and customer data remain consistent regardless of which platform is used to access or modify them. This cross-platform approach allows businesses to use Android devices on the sales floor and web browsers in the back office, all working from the same dataset."
+        ]
+      }
+    },
+    "tallyCart": {
+      "meta": {
+        "title": "Tally Cart — Real-Time Collaborative Grocery & Budget App",
+        "description": "How Boyo Apps built Tally Cart: a real-time collaborative grocery list and budget tracking app with shelf-price barcode scanning, multi-currency support, and offline functionality."
+      },
+      "og": {
+        "title": "Tally Cart — Collaborative Grocery & Budget App Case Study",
+        "description": "How Boyo Apps built a real-time collaborative grocery and budget application with barcode scanning, price tracking, and multi-currency support."
+      },
+      "label": "CASE STUDY",
+      "title": "Building a Real-Time Collaborative Grocery & Budget App",
+      "projectOverview": {
+        "title": "Project Overview",
+        "paragraphs": [
+          "Tally Cart is a mobile application designed and built by Boyo Apps that transforms grocery shopping from a solo errand into a collaborative, budget-aware experience. It combines shared shopping lists with real-time synchronization, barcode-based shelf price scanning, trip-level budget tracking, and multi-currency support in a single intuitive app.",
+          "The app addresses a universal problem: households struggle to coordinate grocery shopping across multiple people, track what they are spending while in the store, and maintain visibility into their grocery expenses over time. Tally Cart solves these problems by making the shopping list a live, shared document that updates in real time as anyone adds, checks off, or scans items."
+        ]
+      },
+      "userProblem": {
+        "title": "The User Problem",
+        "paragraphs": [
+          "Families, roommates, and partners face a familiar frustration: coordinating grocery shopping across multiple people without duplicate purchases, forgotten items, or budget surprises. A family member picks up milk on the way home, not knowing someone else already bought it. A roommate shops without checking the shared list and misses items. The weekly grocery bill exceeds expectations because nobody tracked spending while shopping.",
+          "Existing solutions — generic notes apps, messaging groups, or paper lists — lack the features needed for effective grocery coordination. They do not provide real-time updates, price tracking, budget awareness, or the ability to scan shelf labels for accurate cost comparison."
+        ]
+      },
+      "whyCustom": {
+        "title": "Why a Custom Solution Was Required",
+        "paragraphs": [
+          "Generic productivity and notes applications lack several capabilities that grocery shopping specifically requires. Real-time collaboration in a notes app requires all users to be online and actively refreshing. Budget tracking requires manual data entry of prices. Barcode scanning — the fastest way to identify a product and its price — is absent from most list applications.",
+          "Building a purpose-built application allowed Boyo Apps to design the entire experience around the grocery shopping workflow: starting a trip, sharing access with household members, scanning items as they go into the cart, watching the running total approach the budget, and reviewing the completed trip afterward."
+        ]
+      },
+      "solution": {
+        "title": "Our Approach & Solution",
+        "paragraphs": [
+          "Tally Cart was built as a native Android application with a cloud-connected data layer designed for real-time synchronization. Each shopping trip is a shared session. When one user scans a barcode or checks off an item, the change propagates to all connected devices within seconds.",
+          "The barcode scanning feature uses the device camera to read product barcodes and look up prices from a curated product database. When a price is not available in the database, users can manually enter it, contributing to the shared knowledge base for future trips.",
+          "Budget tracking is integrated directly into the shopping experience. Each trip has a configurable budget target. As items are added with their scanned or entered prices, the running total updates in real time, color-coding the progress from green to amber to red as the budget is approached."
+        ]
+      },
+      "keyFeatures": {
+        "title": "Key Features",
+        "items": [
+          "Real-time list collaboration",
+          "Shelf price barcode scanning",
+          "Budget tracking per shopping trip",
+          "Offline functionality",
+          "Multi-currency support",
+          "Subscription management",
+          "Internationalization",
+          "Cloud synchronization"
+        ]
+      },
+      "engineeringChallenges": {
+        "title": "Technical & Engineering Challenges",
+        "sections": [
+          {
+            "title": "Real-Time Synchronization at Scale",
+            "description": "The core technical challenge was delivering real-time list updates without requiring always-on connectivity. A shared shopping list may have multiple participants — one in the store scanning items, two at home adding to the list — and every change must reach every participant promptly. The solution combines a local-first data store with a cloud sync layer that propagates changes incrementally, minimizing data transfer while maintaining consistency."
+          },
+          {
+            "title": "Barcode Scanning Reliability",
+            "description": "Scanning shelf labels in a grocery store presents unique challenges: glossy packaging creates reflections, curved surfaces on bottles distort barcodes, and low-light conditions in some store aisles reduce camera performance. The scanning pipeline had to handle these conditions gracefully while delivering fast decode times. The solution involved tuning camera focus modes, implementing adaptive exposure, and applying image preprocessing before decode attempts."
+          },
+          {
+            "title": "Multi-Currency Pricing",
+            "description": "Users in different countries or cross-border households need to see prices in their preferred currency. The app maintains a currency conversion layer that displays prices in the user's chosen currency while storing base prices in their original currency to avoid rounding accumulation across conversions."
+          },
+          {
+            "title": "Offline-First Data Model",
+            "description": "A shopping trip cannot pause because connectivity drops. Tally Cart stores all list data, scan history, and budget records locally on the device. When connectivity is restored, changes sync to the cloud and propagate to other participants. The sync protocol uses change tracking to transmit only what has changed since the last sync, keeping data transfer minimal."
+          }
+        ]
+      },
+      "architectureHighlights": {
+        "title": "Architecture Highlights",
+        "items": [
+          "Local-first architecture with cloud synchronization",
+          "Real-time data propagation across multiple devices",
+          "Integrated barcode scanning with adaptive camera pipeline",
+          "Multi-currency support with configurable display preferences",
+          "Offline operation with automatic sync recovery",
+          "Trip-level budget tracking with real-time running totals",
+          "Internationalization for language and regional formatting"
+        ]
+      },
+      "crossPlatform": {
+        "title": "Cross-Platform Considerations",
+        "paragraphs": [
+          "Tally Cart was initially developed for Android, with the architecture designed to support future expansion to other platforms. The data layer and synchronization protocol are platform-agnostic, meaning the same cloud backend can serve Android and future iOS or web clients. The barcode scanning pipeline is specific to the Android camera API, but the product lookup and price database are shared services.",
+          "The user interface follows Material Design guidelines for a familiar Android experience, while maintaining a clean, uncluttered layout that works across phone screen sizes from compact handsets to large tablets."
+        ]
+      },
+      "whatItDemonstrates": {
+        "title": "What Tally Cart Demonstrates About Boyo Apps",
+        "paragraphs": [
+          "Tally Cart demonstrates Boyo Apps' ability to build consumer mobile applications with real-time collaborative features, offline-first reliability, and practical everyday utility. The project showcases our expertise in real-time data synchronization, camera-based scanning, multi-currency handling, and internationalization — technical capabilities that transfer directly to business and enterprise applications.",
+          "It also reflects our product design philosophy: identify a specific, universal problem, and solve it with software that is simple to use but technically robust under the surface."
+        ]
+      },
+      "faqTitle": "Frequently Asked Questions",
+      "relatedServices": {
+        "title": "Related Services",
+        "description": "If you are considering building a collaborative mobile application or a consumer app with real-time features, Boyo Apps provides mobile app development and SaaS development services. We also build web applications and business software with similar real-time and offline capabilities."
+      },
+      "faqs": {
+        "0": {
+          "question": "How does Tally Cart handle real-time list collaboration?",
+          "answer": "Tally Cart uses a cloud-synchronized data model where list changes made by one user appear instantly on all connected devices. Each user sees item additions, removals, and check-offs in real time during the shopping trip."
+        },
+        "1": {
+          "question": "Can I scan barcodes to check prices in-store?",
+          "answer": "Yes. Tally Cart includes a barcode scanner that lets you scan shelf labels to retrieve prices and add items to your list with their current price, helping you track spending as you shop."
+        },
+        "2": {
+          "question": "Does Tally Cart work without internet?",
+          "answer": "Yes. Tally Cart functions fully offline, storing data locally on the device. Lists, scans, and budget updates sync automatically when connectivity is restored."
+        },
+        "3": {
+          "question": "Can I track spending against a budget?",
+          "answer": "Tally Cart lets you set a budget for each shopping trip. As items are scanned or added, the running total updates in real time, helping you stay within your target."
+        },
+        "4": {
+          "question": "Does Tally Cart support international users?",
+          "answer": "Yes. Tally Cart supports multiple languages and handles multiple currencies, making it suitable for users in different countries and international households."
+        },
+        "5": {
+          "question": "What makes Tally Cart different from a simple notes app?",
+          "answer": "Tally Cart is purpose-built for grocery shopping. It provides real-time collaboration, barcode-based price scanning, budget tracking per trip, expense history, and multi-currency support — features no generic notes app can offer."
+        }
+      },
+      "ctas": {
+        "visit": "Visit Tally Cart →",
+        "googlePlay": "View on Google Play →",
+        "buildSimilar": "Build Something Similar →"
+      },
+      "tags": [
+        "Real-time collaboration",
+        "Price tracking",
+        "Barcode scanning",
+        "Offline functionality",
+        "Budget tracking",
+        "Shopping lists",
+        "Internationalization",
+        "Android"
+      ]
+    },
+    "receetPro": {
+      "meta": {
+        "title": "Receet Pro — Personal Finance App with Receipt Scanning & OCR",
+        "description": "How Boyo Apps built Receet Pro: a personal finance application with OCR-based receipt scanning, multi-currency expense tracking, budgeting tools, and financial insights."
+      },
+      "og": {
+        "title": "Receet Pro — Personal Finance & Receipt Scanning Case Study",
+        "description": "How Boyo Apps built a personal finance application with OCR receipt scanning, multi-currency expense tracking, budgeting, and financial insights."
+      },
+      "label": "CASE STUDY",
+      "title": "Building a Personal Finance & Receipt Scanning App",
+      "projectOverview": {
+        "title": "Project Overview",
+        "paragraphs": [
+          "Receet Pro is a personal finance management application designed and built by Boyo Apps that combines optical character recognition for receipt scanning with multi-currency expense tracking, budgeting tools, and financial analytics — all in a single mobile application.",
+          "The app addresses a common financial pain point: tracking where money actually goes. Physical receipts get lost or fade. Digital records are scattered across banking apps, email confirmations, and paper statements. Understanding spending patterns across currencies and categories requires manual effort that most people do not sustain. Receet Pro automates the data entry work and provides the visibility needed to make informed financial decisions."
+        ]
+      },
+      "userProblem": {
+        "title": "The User Problem",
+        "paragraphs": [
+          "Managing personal finances across multiple currencies is a challenge that grows with every international transaction, cross-border purchase, or multi-currency income stream. Receipts accumulate in wallets and drawers. Credit card statements arrive in different currencies. Understanding total spending requires manual conversion and categorization that few people have the time or discipline to maintain.",
+          "Existing expense tracking applications typically require manual entry of every transaction or depend on bank account integration that may not be available for all financial institutions, particularly in emerging markets. Cash transactions — still a significant portion of spending in many economies — are invisible to card-linked tracking apps, creating a gap in financial visibility."
+        ]
+      },
+      "whyCustom": {
+        "title": "Why a Custom Solution Was Required",
+        "paragraphs": [
+          "Most personal finance applications are designed for single-currency users with bank account integration in developed financial markets. They do not handle multi-currency cash expenses well, nor do they provide receipt scanning that works across different receipt formats and languages.",
+          "Building Receet Pro as a custom solution allowed Boyo Apps to design the expense capture workflow around the universal starting point of financial tracking — the receipt — rather than assuming bank connectivity or manual data entry. The application was designed from the start for users who deal with multiple currencies, cash transactions, and diverse receipt formats."
+        ]
+      },
+      "solution": {
+        "title": "Our Approach & Solution",
+        "paragraphs": [
+          "Receet Pro's core workflow is simple: take a photo of a receipt, and the app extracts the relevant financial data. The OCR pipeline processes the receipt image to identify the merchant, transaction date, line items, individual amounts, total, currency, and payment method. The user reviews and confirms the extracted data — a process that takes seconds — and the expense is automatically categorized and recorded.",
+          "Behind the scanning interface, Receet Pro maintains a structured expense database organized by date, category, currency, merchant, and budget period. The analytics engine transforms this data into spending trends, category breakdowns, and budget tracking visualizations that give users a clear picture of their financial habits without requiring them to manually compile or analyze anything.",
+          "Budget management is integrated into the expense tracking flow. Users define monthly budgets by category — groceries, transport, dining, utilities — and Receet Pro tracks spending against each budget in real time, sending notifications when limits are approached or exceeded."
+        ]
+      },
+      "keyFeatures": {
+        "title": "Key Features",
+        "items": [
+          "Receipt scanning with OCR data extraction",
+          "Multi-currency expense tracking",
+          "Budget management with real-time tracking",
+          "Financial insights and spending reports",
+          "Automatic expense categorization",
+          "Cloud synchronization for data backup"
+        ]
+      },
+      "engineeringChallenges": {
+        "title": "Technical & Engineering Challenges",
+        "sections": [
+          {
+            "title": "OCR Accuracy Across Receipt Formats",
+            "description": "Receipts come in an enormous variety of formats: thermal paper that fades over time, faded ink on aged receipts, densely packed item lists, multiple currencies on a single receipt, handwritten totals on printed receipts, and receipts in different languages. The OCR pipeline had to handle this variability while reliably extracting the data fields that matter — merchant, date, total, and currency. The solution combines image preprocessing techniques — adaptive thresholding, deskewing, and contrast enhancement — with a structured extraction layer that understands common receipt layouts. Rather than treating the receipt as raw text, the extraction engine looks for patterns: dates in expected formats, totals near the bottom, currency symbols preceding amounts."
+          },
+          {
+            "title": "Multi-Currency Financial Data Model",
+            "description": "Every expense in Receet Pro stores the original currency and amount alongside the user's base currency equivalent. This dual-currency data model ensures that reports can be generated in any currency without introducing conversion rounding errors. The exchange rate at the time of the transaction is stored with each record, providing an audit trail for historical analysis."
+          },
+          {
+            "title": "Categorization Engine",
+            "description": "Automatically categorizing expenses requires mapping merchant names and transaction types to spending categories. Receet Pro implements a rule-based categorization system that learns from user corrections over time. When a user re-categorizes a transaction, the engine updates its rules to handle similar future transactions correctly — reducing manual categorization effort as the user continues using the app."
+          },
+          {
+            "title": "Offline Scanning and Sync",
+            "description": "Users scan receipts in stores, markets, and restaurants — locations where connectivity may be limited. Receet Pro performs the full OCR pipeline on the device, storing extracted data locally. Cloud synchronization runs in the background when connectivity is available, ensuring data is backed up without requiring the user to be online during the scanning workflow."
+          }
+        ]
+      },
+      "architectureHighlights": {
+        "title": "Architecture Highlights",
+        "items": [
+          "On-device OCR pipeline with receipt-specific image preprocessing",
+          "Multi-currency data model with per-transaction exchange rate storage",
+          "Rule-based categorization engine with learning from user corrections",
+          "Offline-first architecture with background cloud synchronization",
+          "Budget tracking with category-level spending limits and notifications",
+          "Spending analytics with trend analysis and comparative reporting",
+          "Secure local storage with encrypted data transmission"
+        ]
+      },
+      "crossPlatform": {
+        "title": "Cross-Platform Considerations",
+        "paragraphs": [
+          "Receet Pro was developed for Android with the OCR pipeline and financial data model designed as portable modules. The categorization engine, multi-currency data model, and budget tracking logic are platform-independent, allowing the same business logic to be reused in a future web dashboard or iOS application.",
+          "The user interface is optimized for phone-sized screens, where receipt scanning is most natural, while maintaining a structure that would scale to tablet and desktop layouts for the analytics and reporting features."
+        ]
+      },
+      "whatItDemonstrates": {
+        "title": "What Receet Pro Demonstrates About Boyo Apps",
+        "paragraphs": [
+          "Receet Pro showcases Boyo Apps' ability to build applications that integrate computer vision — OCR-based data extraction from real-world documents — with financial data processing and analytics. This combination of image processing, financial data modeling, and user experience design demonstrates the cross-disciplinary engineering capability that we bring to custom software projects.",
+          "The project also reflects our approach to building applications that work in the user's actual environment — full offline support, multi-currency handling, and adaptability to diverse input formats — rather than requiring users to fit their workflow to the software's assumptions."
+        ]
+      },
+      "faqTitle": "Frequently Asked Questions",
+      "relatedServices": {
+        "title": "Related Services",
+        "description": "Applications that require document scanning, OCR, or financial data processing share architectural patterns that Boyo Apps has experience delivering. Our mobile app development services cover camera integration, image processing, and on-device machine learning. We also develop SaaS products with analytics dashboards and business applications that handle complex financial data processing."
+      },
+      "faqs": {
+        "0": {
+          "question": "How does Receet Pro scan receipts?",
+          "answer": "Receet Pro uses the device camera to capture receipt images and applies optical character recognition to extract merchant names, dates, line items, amounts, and currency information automatically."
+        },
+        "1": {
+          "question": "Does Receet Pro support multiple currencies?",
+          "answer": "Yes. Receet Pro tracks expenses in multiple currencies and provides consolidated reporting in a user-selected base currency with real-time conversion rates."
+        },
+        "2": {
+          "question": "Can I set budgets and track spending?",
+          "answer": "Receet Pro includes budget management tools that let you set spending limits by category or overall, track progress throughout the month, and receive notifications when approaching limits."
+        },
+        "3": {
+          "question": "How are expenses categorized automatically?",
+          "answer": "Receet Pro uses a rule-based categorization engine that assigns categories based on merchant names, transaction types, and user-defined rules. Users can override or refine categories manually."
+        },
+        "4": {
+          "question": "Is my financial data stored securely?",
+          "answer": "Yes. Receet Pro encrypts data both locally on the device and during cloud synchronization. Receipt images and financial records are stored securely with access controlled through device authentication."
+        },
+        "5": {
+          "question": "What kind of financial insights does Receet Pro provide?",
+          "answer": "Receet Pro provides spending trends by category, monthly comparison reports, merchant-level expense breakdowns, currency exposure analysis, and budget adherence tracking to help users understand their financial habits."
+        }
+      },
+      "ctas": {
+        "buildSimilar": "Build Something Similar →"
+      },
+      "tags": [
+        "Receipt scanning",
+        "Multi-currency tracking",
+        "Budget management",
+        "Financial insights",
+        "Expense categorization",
+        "Android"
+      ]
+    },
+    "solarAlign": {
+      "meta": {
+        "title": "Solar Align Pro — Solar Panel Alignment & ROI Tool",
+        "description": "How Boyo Apps built Solar Align Pro: a mobile application that uses device sensors and location data to calculate optimal solar panel positioning and provide ROI projections for solar energy professionals."
+      },
+      "og": {
+        "title": "Solar Align Pro — Solar Optimization Case Study",
+        "description": "How Boyo Apps built a solar panel alignment and ROI tool using device sensors, location-based calculations, and solar position algorithms."
+      },
+      "label": "CASE STUDY",
+      "title": "Building a Solar Optimization Application",
+      "projectOverview": {
+        "title": "Project Overview",
+        "paragraphs": [
+          "Solar Align Pro is a mobile application built by Boyo Apps that helps solar energy professionals and enthusiasts optimize solar panel positioning using the device's built-in sensors combined with location-based solar calculations and financial analysis.",
+          "The application replaces expensive dedicated alignment instruments with a smartphone-based solution that measures panel tilt and orientation, calculates optimal positioning based on solar geometry, and projects return on investment based on expected energy production improvements."
+        ]
+      },
+      "industryProblem": {
+        "title": "The Industry Problem",
+        "paragraphs": [
+          "Solar panel efficiency is directly tied to alignment. Panels that are not positioned at the optimal tilt and orientation for their geographic location can underperform by 20 percent or more. Despite this, many solar installations are positioned based on rough estimates, roof geometry constraints, or rules of thumb rather than precise measurements.",
+          "Professional solar installers have access to digital inclinometers and solar path calculators, but these tools are expensive, specialize in a single function, and are not always available during site surveys. Smaller installers and individual system owners often rely on mobile compass apps or printed solar charts — tools that were never designed for this purpose and lack the accuracy needed for optimal panel placement.",
+          "Furthermore, even when alignment measurements are taken, the financial case for adjustment — how much additional energy a re-aligned panel will produce, and what that means in terms of payback period — requires calculations that most installers perform manually or skip entirely."
+        ]
+      },
+      "whyCustom": {
+        "title": "Why a Custom Solution Was Required",
+        "paragraphs": [
+          "Existing mobile alignment tools fell into two categories, neither of which was adequate. General-purpose compass and level applications provide raw sensor data without any solar-specific context. Dedicated solar calculator apps exist, but they typically require manual data entry of tilt and orientation measurements taken separately, adding friction to the workflow.",
+          "What was missing was an application that combines measurement and calculation in a single workflow: place the phone on the panel, capture the alignment data, and immediately see the optimal positioning recommendation alongside the financial impact. Building a custom solution allowed Boyo Apps to design this integrated experience from the ground up."
+        ]
+      },
+      "solution": {
+        "title": "Our Approach & Solution",
+        "paragraphs": [
+          "Solar Align Pro was designed around a simple measurement workflow that mirrors how solar professionals actually work. The user places their device flat against the solar panel surface. The app reads the accelerometer to determine panel tilt and the magnetometer to determine azimuth orientation. GPS provides the installation location.",
+          "Once the current alignment is captured, the app calculates the optimal tilt angle for the installation's latitude and the current season using standard solar geometry algorithms. The difference between current and optimal alignment is displayed visually, along with the estimated efficiency gain from adjustment.",
+          "The ROI module takes the analysis further by factoring in local energy costs, system capacity, installation adjustment costs, and estimated production gains to calculate payback periods and long-term savings. This turns a technical measurement into a business case that installers can present to clients."
+        ]
+      },
+      "keyFeatures": {
+        "title": "Key Features",
+        "items": [
+          "Device sensor-based panel alignment measurement",
+          "Location-aware solar position calculations",
+          "ROI analysis and financial projections",
+          "Offline functionality for field use",
+          "Solar position tracking throughout the day/year",
+          "Professional-grade accuracy for installation work"
+        ]
+      },
+      "engineeringChallenges": {
+        "title": "Technical & Engineering Challenges",
+        "sections": [
+          {
+            "title": "Sensor Fusion and Calibration",
+            "description": "The quality of alignment data depends entirely on sensor accuracy, but smartphone sensors vary significantly between devices. The accelerometer provides reliable tilt when the device is stationary, but the magnetometer (compass) is susceptible to electromagnetic interference from nearby equipment, metal structures, and even the solar panels themselves. Solar Align Pro implements sensor fusion techniques that combine accelerometer, magnetometer, and gyroscope data to produce stable orientation readings, along with calibration guidance that walks users through the figure-8 calibration pattern when interference is detected."
+          },
+          {
+            "title": "Solar Geometry Calculations",
+            "description": "Computing the sun's position at a given location and time requires implementing solar declination, hour angle, and elevation-azimuth conversion algorithms. These calculations must account for latitude, longitude, time zone, day of year, and local atmospheric refraction. The app implements standard solar position algorithms that are accurate enough for professional installation work while running efficiently on mobile hardware."
+          },
+          {
+            "title": "ROI Calculation Engine",
+            "description": "The financial model needs to estimate annual energy production based on panel specifications, local insolation data, alignment angles, and shading factors. It then computes payback periods using local electricity rates, installation adjustment costs, and applicable solar incentives. Building an ROI engine that produces credible, defensible numbers required research into standard photovoltaic performance modeling approaches adapted for mobile computation."
+          },
+          {
+            "title": "Field-Usable Interface",
+            "description": "Solar Align Pro is used outdoors — on rooftops, in solar farms, and at installation sites — where screen glare, sunlight readability, and one-handed operation are real constraints. The interface uses high-contrast colors, large touch targets, and a simplified measurement flow that minimizes the number of screen interactions required to capture and save alignment data."
+          }
+        ]
+      },
+      "architectureHighlights": {
+        "title": "Architecture Highlights",
+        "items": [
+          "Sensor fusion combining accelerometer, magnetometer, and gyroscope data",
+          "On-device solar position calculation using standard solar geometry algorithms",
+          "ROI projection engine with local energy rate and insolation modeling",
+          "Offline-capable architecture with local data persistence",
+          "GPS-integrated location services for automated positioning context",
+          "Calibration guidance system for sensor accuracy assurance"
+        ]
+      },
+      "crossPlatform": {
+        "title": "Cross-Platform Considerations",
+        "paragraphs": [
+          "Solar Align Pro is built for Android, targeting the wide range of devices that solar professionals use in the field. The sensor access layer abstracts device-specific differences in accelerometer and magnetometer hardware, applying calibration corrections per sensor class where needed.",
+          "The solar calculation and ROI engines are implemented as platform-independent modules, meaning they could be reused in a web-based planning dashboard or an iOS version of the app without reimplementation. This architectural separation between sensor-dependent measurement and platform-independent calculation was a deliberate design decision to support future platform expansion."
+        ]
+      },
+      "whatItDemonstrates": {
+        "title": "What Solar Align Pro Demonstrates About Boyo Apps",
+        "paragraphs": [
+          "Solar Align Pro showcases Boyo Apps' ability to build applications that bridge hardware sensors and complex scientific computation. This project required understanding sensor physics, implementing solar geometry algorithms, and building a financial modeling engine — all within the constraints of a mobile application.",
+          "It demonstrates that we can design software for specialized, technical domains where domain knowledge and computational rigor are as important as user experience design. These capabilities apply directly to building field operations tools, IoT applications, and data-driven business software for clients in energy, engineering, and scientific industries."
+        ]
+      },
+      "faqTitle": "Frequently Asked Questions",
+      "relatedServices": {
+        "title": "Related Services",
+        "description": "Building sensor-integrated mobile applications requires specialized expertise. Boyo Apps offers mobile app development services that cover hardware integration, sensor data processing, and custom algorithm implementation. We also develop business applications for field operations, asset management, and data-driven decision-making."
+      },
+      "faqs": {
+        "0": {
+          "question": "How does Solar Align Pro calculate optimal panel tilt?",
+          "answer": "Solar Align Pro uses the device's accelerometer and magnetometer combined with location data to measure current panel orientation, then calculates the optimal tilt angle based on latitude, time of year, and solar declination."
+        },
+        "1": {
+          "question": "Does Solar Align Pro require an internet connection?",
+          "answer": "Solar Align Pro functions offline for core alignment measurements. Location-based solar calculations are performed on-device. Some features such as map data may require connectivity."
+        },
+        "2": {
+          "question": "How accurate is the sensor-based alignment?",
+          "answer": "Accuracy depends on the device's sensor quality, but Solar Align Pro applies sensor fusion algorithms and calibration guidance to deliver reliable alignment readings suitable for professional solar installation work."
+        },
+        "3": {
+          "question": "Can Solar Align Pro calculate ROI for solar installations?",
+          "answer": "Yes. Solar Align Pro includes an ROI analysis module that factors in panel efficiency gains from optimal alignment, local energy rates, installation costs, and estimated annual production to project payback periods and long-term savings."
+        },
+        "4": {
+          "question": "Who is Solar Align Pro designed for?",
+          "answer": "Solar Align Pro is designed for solar installation professionals, energy consultants, and solar enthusiasts who need accurate panel alignment measurements and financial projections without expensive specialized equipment."
+        },
+        "5": {
+          "question": "Does the app track solar position throughout the day?",
+          "answer": "Yes. Solar Align Pro calculates the sun's position at any given time and location, allowing users to understand how shadows and seasonal changes affect panel performance throughout the day and year."
+        }
+      },
+      "ctas": {
+        "buildSimilar": "Build Something Similar →"
+      },
+      "tags": [
+        "Device sensors",
+        "Location-based calculations",
+        "ROI analysis",
+        "Solar panel positioning",
+        "Android",
+        "Offline functionality"
+      ]
+    },
+    "boyomart": {
+      "meta": {
+        "title": "BoyoMart — Local Marketplace",
+        "description": "BoyoMart is a local buy-and-sell marketplace with listings, location-based discovery, messaging and search, built by Boyo Apps."
+      },
+      "og": {
+        "title": "BoyoMart — Local Marketplace",
+        "description": "BoyoMart is a local marketplace platform connecting buyers and sellers with location-based discovery, in-app messaging, and powerful search."
+      },
+      "label": "PRODUCT",
+      "title": "BoyoMart",
+      "shortDescription": "Local buy-and-sell marketplace with listings, location-based discovery, messaging and search.",
+      "longDescription": "BoyoMart is a local marketplace platform connecting buyers and sellers with location-based discovery, in-app messaging, and powerful search.",
+      "aboutTitle": "About BoyoMart",
+      "keyFeaturesTitle": "Key Features",
+      "faqTitle": "Frequently Asked Questions",
+      "keyFeatures": [
+        "Location-based discovery",
+        "In-app messaging for buyers and sellers",
+        "Powerful search and filtering",
+        "Seller profiles and ratings",
+        "Real-time listing updates",
+        "Mobile-optimized interface"
+      ],
+      "faqs": {
+        "0": {
+          "question": "How does BoyoMart help buyers find local sellers?",
+          "answer": "BoyoMart uses location-based discovery to show nearby listings sorted by distance, helping buyers find local sellers and merchants conveniently."
+        },
+        "1": {
+          "question": "Can sellers manage their listings through the app?",
+          "answer": "Yes. BoyoMart provides seller dashboards with listing management, order tracking, and in-app messaging to communicate with buyers."
+        },
+        "2": {
+          "question": "Does BoyoMart support payments?",
+          "answer": "BoyoMart facilitates marketplace connections between buyers and sellers, with payment processing handled outside the app as per local regulations."
+        },
+        "3": {
+          "question": "What types of items and services are available on BoyoMart?",
+          "answer": "BoyoMart supports a wide range of categories including electronics, furniture, vehicles, real estate, services, and local business listings to meet diverse community needs."
+        }
+      },
+      "ctas": {
+        "googlePlay": "View on Google Play →",
+        "buildSimilar": "Build Something Similar →"
+      }
+    },
+    "gqrly": {
+      "meta": {
+        "title": "GQRLY — QR Code Analytics Platform",
+        "description": "GQRLY is a QR code generation and analytics platform with real-time tracking and campaign management by Boyo Apps."
+      },
+      "og": {
+        "title": "GQRLY — QR Code Analytics Platform",
+        "description": "GQRLY provides QR code generation with detailed analytics, scan tracking, and campaign management for businesses."
+      },
+      "label": "PRODUCT",
+      "title": "GQRLY",
+      "shortDescription": "QR code generation and analytics platform with real-time tracking and campaign management.",
+      "longDescription": "GQRLY provides QR code generation with detailed analytics, scan tracking, and campaign management for businesses.",
+      "aboutTitle": "About GQRLY",
+      "keyFeaturesTitle": "Key Features",
+      "faqTitle": "Frequently Asked Questions",
+      "keyFeatures": [
+        "QR code generation with branding options",
+        "Real-time scan analytics and tracking",
+        "Campaign management dashboard",
+        "UTM parameter support",
+        "Multi-user collaboration",
+        "Exportable scan data"
+      ],
+      "faqs": {
+        "0": {
+          "question": "How does GQRLY track QR code scans?",
+          "answer": "GQRLY uses dynamic QR codes that redirect through its servers, enabling real-time tracking of scan events including timestamp, location, device, and referrer information."
+        },
+        "1": {
+          "question": "Can I create custom QR codes with my branding?",
+          "answer": "Yes. GQRLY allows you to customize QR code colors to match your brand, add logo overlays, and modify the visual appearance while maintaining scannability."
+        },
+        "2": {
+          "question": "Is there a limit to how many QR codes I can generate?",
+          "answer": "GQRLY offers both free and paid plans with different limits on the number of active QR codes, scan history retention, and analytics features."
+        },
+        "3": {
+          "question": "How does GQRLY help with campaign management?",
+          "answer": "GQRLY provides campaign tracking with custom URLs, UTM parameter support, and analytics dashboards that help businesses measure QR code performance across different marketing channels."
+        }
+      },
+      "ctas": {
+        "buildSimilar": "Build Something Similar →"
+      }
+    },
+    "nextUp": {
+      "meta": {
+        "title": "NeXT Up — Cross-Device Reminder & Productivity App",
+        "description": "NeXT Up is a cross-device reminder and productivity application with cloud synchronization, built by Boyo Apps."
+      },
+      "og": {
+        "title": "NeXT Up — Cross-Device Reminder & Productivity App",
+        "description": "NeXT Up keeps you organized across devices with smart reminders, task management, and seamless cloud sync."
+      },
+      "label": "PRODUCT",
+      "title": "NeXT Up",
+      "shortDescription": "Cross-device reminder and productivity application with cloud synchronization.",
+      "longDescription": "NeXT Up keeps you organized across devices with smart reminders, task management, and seamless cloud sync.",
+      "aboutTitle": "About NeXT Up",
+      "keyFeaturesTitle": "Key Features",
+      "faqTitle": "Frequently Asked Questions",
+      "keyFeatures": [
+        "Cross-device synchronization",
+        "Smart reminders with customizable intervals",
+        "Task management with categories",
+        "Cloud backup and restore",
+        "Offline functionality",
+        "Intuitive mobile interface"
+      ],
+      "faqs": {
+        "0": {
+          "question": "How does NeXT Up sync across devices?",
+          "answer": "NeXT Up uses cloud synchronization to keep your reminders and tasks updated across all your devices in real time."
+        },
+        "1": {
+          "question": "Can I set recurring reminders?",
+          "answer": "Yes. NeXT Up supports recurring reminders with customizable intervals including daily, weekly, monthly, and custom patterns."
+        },
+        "2": {
+          "question": "Does NeXT Up work offline?",
+          "answer": "NeXT Up stores data locally on your device and syncs to the cloud when connectivity is available, ensuring your reminders are always accessible."
+        },
+        "3": {
+          "question": "Can I organize tasks with categories or labels?",
+          "answer": "Yes. NeXT Up allows you to categorize tasks and reminders, making it easy to filter and focus on specific areas of your work or life."
+        }
+      },
+      "ctas": {
+        "googlePlay": "View on Google Play →",
+        "buildSimilar": "Build Something Similar →"
+      }
+    },
+    "solarMerge": {
+      "meta": {
+        "title": "Solar Merge — Solar-Themed Mobile Game",
+        "description": "Solar Merge is a casual solar-themed merge game for mobile devices, built by Boyo Apps."
+      },
+      "og": {
+        "title": "Solar Merge — Solar-Themed Mobile Game",
+        "description": "Solar Merge is a casual mobile game with solar energy themes, combining puzzle mechanics with educational elements."
+      },
+      "label": "PRODUCT",
+      "title": "Solar Merge",
+      "shortDescription": "An engaging solar-themed merge game for mobile devices.",
+      "longDescription": "Solar Merge is a casual mobile game with solar energy themes, combining puzzle mechanics with educational elements.",
+      "aboutTitle": "About Solar Merge",
+      "keyFeaturesTitle": "Key Features",
+      "faqTitle": "Frequently Asked Questions",
+      "keyFeatures": [
+        "Solar-themed merge puzzle mechanics",
+        "Educational renewable energy elements",
+        "Offline gameplay support",
+        "Progressive level system",
+        "Engaging casual gameplay",
+        "Mobile-optimized interface"
+      ],
+      "faqs": {
+        "0": {
+          "question": "What type of game is Solar Merge?",
+          "answer": "Solar Merge is a casual merge puzzle game where players combine solar-themed elements to progress through levels while learning about renewable energy concepts."
+        },
+        "1": {
+          "question": "Does Solar Merge work offline?",
+          "answer": "Yes. Solar Merge is designed for offline gameplay, making it perfect for playing anywhere without an internet connection."
+        },
+        "2": {
+          "question": "Is Solar Merge educational?",
+          "answer": "Solar Merge combines puzzle mechanics with educational elements about solar energy and renewable resources, making learning fun and engaging."
+        },
+        "3": {
+          "question": "What platforms is Solar Merge available on?",
+          "answer": "Solar Merge is currently available for Android devices. Future platform expansion is being considered."
+        }
+      },
+      "ctas": {
+        "buildSimilar": "Build Something Similar →"
+      }
+    }
+  }
+}

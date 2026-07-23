@@ -7,7 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const today = new Date();
 
   const routes = [
-    { path: "", lastModified: today, changeFrequency: "weekly" as const, priority: 1 },
+    { path: "/", lastModified: today, changeFrequency: "weekly" as const, priority: 1 },
     { path: "/about/", lastModified: today, changeFrequency: "monthly" as const, priority: 0.9 },
     { path: "/contact/", lastModified: today, changeFrequency: "monthly" as const, priority: 0.7 },
     { path: "/blog/", lastModified: today, changeFrequency: "monthly" as const, priority: 0.6 },
@@ -31,10 +31,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/industries/solar-energy/", lastModified: today, changeFrequency: "monthly" as const, priority: 0.6 },
   ];
 
-  return routes.map((route) => ({
-    url: `${baseUrl}${route.path}`,
-    lastModified: route.lastModified,
-    changeFrequency: route.changeFrequency,
-    priority: route.priority,
-  }));
+  const locales = ["en", "fr"];
+
+  return routes.flatMap((route) => {
+    if (route.path === "/") {
+      return [
+        { url: baseUrl + "/", lastModified: route.lastModified, changeFrequency: route.changeFrequency, priority: route.priority },
+        { url: baseUrl + "/fr/", lastModified: route.lastModified, changeFrequency: route.changeFrequency, priority: route.priority },
+      ];
+    }
+    return locales.map((locale) => ({
+      url: `${baseUrl}/${locale}${route.path}`,
+      lastModified: route.lastModified,
+      changeFrequency: route.changeFrequency,
+      priority: route.priority,
+    }));
+  });
 }

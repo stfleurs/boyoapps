@@ -1,19 +1,12 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { useState, useEffect } from "react";
-
-const navLinks = [
-  { href: "/", label: "Home" },
-  { href: "/services/mobile-app-development/", label: "Services" },
-  { href: "/work/", label: "Work" },
-  { href: "/industries/retail/", label: "Industries" },
-  { href: "/about/", label: "About" },
-  { href: "/blog/", label: "Blog" },
-];
+import { useTranslations } from "next-intl";
 
 export function Header() {
+  const t = useTranslations("header");
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -22,6 +15,15 @@ export function Header() {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  const navLinks = [
+    { href: "/", label: t("home") },
+    { href: "/services/mobile-app-development/", label: t("services") },
+    { href: "/work/", label: t("work") },
+    { href: "/industries/retail/", label: t("industries") },
+    { href: "/about/", label: t("about") },
+    { href: "/blog/", label: t("blog") },
+  ];
 
   return (
     <header
@@ -57,14 +59,14 @@ export function Header() {
             href="/contact/"
             className="rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition-all hover:bg-primary-light hover:shadow-md hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
           >
-            Let&apos;s Talk
+            {t("letsTalk")}
           </Link>
         </nav>
 
         <button
           onClick={() => setOpen(!open)}
           className="flex flex-col gap-1.5 p-1 md:hidden"
-          aria-label={open ? "Close navigation menu" : "Open navigation menu"}
+          aria-label={open ? t("ariaMenuClose") : t("ariaMenuOpen")}
           aria-expanded={open}
         >
           <span className={`h-0.5 w-6 bg-primary transition-all duration-300 ${open ? "translate-y-2 rotate-45" : ""}`} />
@@ -91,7 +93,7 @@ export function Header() {
               onClick={() => setOpen(false)}
               className="mt-2 rounded-full bg-primary px-5 py-3 text-center text-sm font-semibold text-white shadow-sm transition-colors hover:bg-primary-light"
             >
-              Let&apos;s Talk
+              {t("letsTalk")}
             </Link>
           </nav>
         </div>
@@ -99,4 +101,3 @@ export function Header() {
     </header>
   );
 }
-
