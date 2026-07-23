@@ -1,30 +1,10 @@
 import type { Metadata } from "next";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { CTA } from "@/components/CTA";
-import { siteConfig } from "@/lib/metadata";
+import { siteConfig, buildAlternates } from "@/lib/metadata";
 import Script from "next/script";
 
-const siteUrl = siteConfig.url;
-
-export const metadata: Metadata = {
-  title: "SaaS Product Development Company",
-  description:
-    "From MVP to full-scale subscription platforms with authentication, billing, analytics and cloud infrastructure. We build SaaS applications that scale.",
-  alternates: { canonical: `${siteUrl}/services/saas-development/` },
-  openGraph: {
-    title: "SaaS Product Development",
-    description:
-      "From MVP to full-scale subscription platforms with authentication, billing, analytics and cloud infrastructure.",
-    url: `${siteUrl}/services/saas-development/`,
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "SaaS Product Development",
-    description:
-      "From MVP to full-scale subscription platforms with authentication, billing, analytics and cloud infrastructure.",
-  },
-};
+const path = "/services/saas-development/";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -40,6 +20,27 @@ const jsonLd = {
 type Props = {
   params: Promise<{ locale: string }>;
 };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  return {
+    title: "SaaS Product Development Company",
+    description: "From MVP to full-scale subscription platforms with authentication, billing, analytics and cloud infrastructure. We build SaaS applications that scale.",
+    ...buildAlternates(path, locale),
+    openGraph: {
+      title: "SaaS Product Development",
+      description: "From MVP to full-scale subscription platforms with authentication, billing, analytics and cloud infrastructure.",
+      url: `${siteConfig.url}/services/saas-development/`,
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "SaaS Product Development",
+      description: "From MVP to full-scale subscription platforms with authentication, billing, analytics and cloud infrastructure.",
+    },
+  };
+}
 
 export default async function SaaSDevelopment({ params }: Props) {
   const { locale } = await params;

@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { CTA } from "@/components/CTA";
 import { products } from "@/lib/products";
-import { siteConfig } from "@/lib/metadata";
+import { siteConfig, buildAlternates } from "@/lib/metadata";
 import Script from "next/script";
 
 const product = products.find((p) => p.slug === "receet-pro")!;
 const siteUrl = siteConfig.url;
+const pathname = "/work/receet-pro/";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -20,7 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t("meta.title"),
     description: t("meta.description"),
-    alternates: { canonical: `${siteUrl}/work/receet-pro/` },
+    ...buildAlternates(pathname, locale),
     openGraph: {
       title: t("og.title"),
       description: t("og.description"),

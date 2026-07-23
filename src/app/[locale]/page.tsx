@@ -1,7 +1,9 @@
 import Image from "next/image";
+import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
 import { FadeIn } from "@/components/FadeIn";
+import { buildAlternates } from "@/lib/metadata";
 import { CTA } from "@/components/CTA";
 import { AppIcon } from "@/components/AppIcon";
 import Link from "next/link";
@@ -20,6 +22,16 @@ const productIcons: Record<string, string> = {
 type Props = {
   params: Promise<{ locale: string }>;
 };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  return {
+    title: "Boyo Apps — Custom Mobile & Web Application Development",
+    description: "Boyo Apps builds custom mobile apps, web applications and business software. Explore our products and turn your business idea into reliable software.",
+    ...buildAlternates("/", locale),
+  };
+}
 
 export default async function Home({ params }: Props) {
   const { locale } = await params;

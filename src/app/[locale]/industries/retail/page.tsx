@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildAlternates } from "@/lib/metadata";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { CTA } from "@/components/CTA";
 
@@ -14,6 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t("meta.title"),
     description: t("meta.description"),
+    ...buildAlternates("/industries/retail/", locale),
   };
 }
 

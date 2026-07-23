@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Allow: /_next/static/
+Disallow: /_next/
 
 Sitemap: https://boyoapps.web.app/sitemap.xml

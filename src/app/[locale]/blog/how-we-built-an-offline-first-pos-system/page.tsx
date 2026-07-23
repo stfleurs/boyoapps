@@ -1,17 +1,19 @@
 import type { Metadata } from "next";
 import { Link } from "@/i18n/navigation";
 import { setRequestLocale, getTranslations } from "next-intl/server";
-import { siteConfig } from "@/lib/metadata";
+import { siteConfig, buildAlternates } from "@/lib/metadata";
 
 const siteUrl = siteConfig.url;
+const pathname = "/blog/how-we-built-an-offline-first-pos-system/";
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "blogPost" });
   return {
     title: t("title"),
     description: t.raw("sections")[0].paragraphs[0].substring(0, 160),
-    alternates: { canonical: `${siteUrl}/blog/how-we-built-an-offline-first-pos-system/` },
+    ...buildAlternates(pathname, locale),
   };
 }
 

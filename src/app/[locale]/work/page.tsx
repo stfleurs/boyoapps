@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildAlternates } from "@/lib/metadata";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
@@ -27,6 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t("meta.title"),
     description: t("meta.description"),
+    ...buildAlternates("/work/", locale),
   };
 }
 

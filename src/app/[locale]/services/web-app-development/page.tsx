@@ -1,30 +1,10 @@
 import type { Metadata } from "next";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { CTA } from "@/components/CTA";
-import { siteConfig } from "@/lib/metadata";
+import { siteConfig, buildAlternates } from "@/lib/metadata";
 import Script from "next/script";
 
-const siteUrl = siteConfig.url;
-
-export const metadata: Metadata = {
-  title: "Custom Web Application Development",
-  description:
-    "Scalable web applications, admin dashboards, customer portals, and cloud-based business software built with modern technologies and designed for real-world use.",
-  alternates: { canonical: `${siteUrl}/services/web-app-development/` },
-  openGraph: {
-    title: "Custom Web Application Development",
-    description:
-      "Secure, scalable web applications that allow your team and customers to access your software from anywhere, on any device.",
-    url: `${siteUrl}/services/web-app-development/`,
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Custom Web Application Development",
-    description:
-      "Secure, scalable web applications that allow your team and customers to access your software from anywhere, on any device.",
-  },
-};
+const path = "/services/web-app-development/";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -40,6 +20,27 @@ const jsonLd = {
 type Props = {
   params: Promise<{ locale: string }>;
 };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  return {
+    title: "Custom Web Application Development",
+    description: "Scalable web applications, admin dashboards, customer portals, and cloud-based business software built with modern technologies and designed for real-world use.",
+    ...buildAlternates(path, locale),
+    openGraph: {
+      title: "Custom Web Application Development",
+      description: "Secure, scalable web applications that allow your team and customers to access your software from anywhere, on any device.",
+      url: `${siteConfig.url}/services/web-app-development/`,
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Custom Web Application Development",
+      description: "Secure, scalable web applications that allow your team and customers to access your software from anywhere, on any device.",
+    },
+  };
+}
 
 export default async function WebAppDevelopment({ params }: Props) {
   const { locale } = await params;

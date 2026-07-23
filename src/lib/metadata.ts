@@ -1,3 +1,5 @@
+import type { Metadata } from "next";
+
 export const siteConfig = {
   name: "Boyo Apps",
   description:
@@ -10,3 +12,20 @@ export const siteConfig = {
     github: "https://github.com/stfleurs",
   },
 };
+
+const locales = ["en", "fr"];
+
+export function buildAlternates(path: string, locale: string) {
+  const baseUrl = siteConfig.url;
+  const languages: Record<string, string> = {};
+  for (const l of locales) {
+    languages[l] = `${baseUrl}/${l}${path}`;
+  }
+  languages["x-default"] = `${baseUrl}/en${path}`;
+  return {
+    alternates: {
+      canonical: `${baseUrl}/${locale}${path}`,
+      languages,
+    },
+  };
+}

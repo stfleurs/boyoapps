@@ -1,30 +1,10 @@
 import type { Metadata } from "next";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { CTA } from "@/components/CTA";
-import { siteConfig } from "@/lib/metadata";
+import { siteConfig, buildAlternates } from "@/lib/metadata";
 import Script from "next/script";
 
-const siteUrl = siteConfig.url;
-
-export const metadata: Metadata = {
-  title: "Custom Business Application Development",
-  description:
-    "POS systems, inventory management, dashboards, internal tools and custom business software built for real-world operations — offline-first, multi-currency, and designed to scale.",
-  alternates: { canonical: `${siteUrl}/services/business-app-development/` },
-  openGraph: {
-    title: "Custom Business Application Development",
-    description:
-      "Inventory systems, POS applications, dashboards, internal tools and custom software tailored to your business operations.",
-    url: `${siteUrl}/services/business-app-development/`,
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Custom Business Application Development",
-    description:
-      "Inventory systems, POS applications, dashboards, internal tools and custom software tailored to your business operations.",
-  },
-};
+const path = "/services/business-app-development/";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -40,6 +20,27 @@ const jsonLd = {
 type Props = {
   params: Promise<{ locale: string }>;
 };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  return {
+    title: "Custom Business Application Development",
+    description: "POS systems, inventory management, dashboards, internal tools and custom business software built for real-world operations — offline-first, multi-currency, and designed to scale.",
+    ...buildAlternates(path, locale),
+    openGraph: {
+      title: "Custom Business Application Development",
+      description: "Inventory systems, POS applications, dashboards, internal tools and custom software tailored to your business operations.",
+      url: `${siteConfig.url}/services/business-app-development/`,
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Custom Business Application Development",
+      description: "Inventory systems, POS applications, dashboards, internal tools and custom software tailored to your business operations.",
+    },
+  };
+}
 
 export default async function BusinessAppDevelopment({ params }: Props) {
   const { locale } = await params;

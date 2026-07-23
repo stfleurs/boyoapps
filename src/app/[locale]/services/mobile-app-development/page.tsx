@@ -1,30 +1,10 @@
 import type { Metadata } from "next";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { CTA } from "@/components/CTA";
-import { siteConfig } from "@/lib/metadata";
+import { siteConfig, buildAlternates } from "@/lib/metadata";
 import Script from "next/script";
 
-const siteUrl = siteConfig.url;
-
-export const metadata: Metadata = {
-  title: "Custom Mobile App Development for Business",
-  description:
-    "Cross-platform and Android mobile applications designed for real-world business conditions — offline-first, cloud-synced, with barcode scanning, multi-currency, and real-time collaboration built in.",
-  alternates: { canonical: `${siteUrl}/services/mobile-app-development/` },
-  openGraph: {
-    title: "Custom Mobile App Development for Business",
-    description:
-      "Cross-platform mobile applications designed around your business, users and real-world requirements. Android, offline-first, cloud-synced apps.",
-    url: `${siteUrl}/services/mobile-app-development/`,
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Custom Mobile App Development for Business",
-    description:
-      "Cross-platform mobile applications designed around your business, users and real-world requirements. Android, offline-first, cloud-synced apps.",
-  },
-};
+const path = "/services/mobile-app-development/";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -40,6 +20,27 @@ const jsonLd = {
 type Props = {
   params: Promise<{ locale: string }>;
 };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  return {
+    title: "Custom Mobile App Development for Business",
+    description: "Cross-platform and Android mobile applications designed for real-world business conditions — offline-first, cloud-synced, with barcode scanning, multi-currency, and real-time collaboration built in.",
+    ...buildAlternates(path, locale),
+    openGraph: {
+      title: "Custom Mobile App Development for Business",
+      description: "Cross-platform mobile applications designed around your business, users and real-world requirements. Android, offline-first, cloud-synced apps.",
+      url: `${siteConfig.url}/services/mobile-app-development/`,
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Custom Mobile App Development for Business",
+      description: "Cross-platform mobile applications designed around your business, users and real-world requirements. Android, offline-first, cloud-synced apps.",
+    },
+  };
+}
 
 export default async function MobileAppDevelopment({ params }: Props) {
   const { locale } = await params;
