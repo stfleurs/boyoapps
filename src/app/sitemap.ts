@@ -33,18 +33,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const locales = ["en", "fr"];
 
-  return routes.flatMap((route) => {
-    if (route.path === "/") {
-      return [
-        { url: baseUrl + "/", lastModified: route.lastModified, changeFrequency: route.changeFrequency, priority: route.priority },
-        { url: baseUrl + "/fr/", lastModified: route.lastModified, changeFrequency: route.changeFrequency, priority: route.priority },
-      ];
-    }
-    return locales.map((locale) => ({
+  return routes.flatMap((route) =>
+    locales.map((locale) => ({
       url: `${baseUrl}/${locale}${route.path}`,
       lastModified: route.lastModified,
       changeFrequency: route.changeFrequency,
       priority: route.priority,
-    }));
-  });
+    }))
+  );
 }

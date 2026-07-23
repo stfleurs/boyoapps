@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { setRequestLocale, getTranslations } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -41,7 +42,7 @@ export default async function Terms({ params }: Props) {
           <p className="mt-2">
             {t.rich("sections.contact.content", {
               link: (chunks) => (
-                <a href="/contact/" className="text-accent underline underline-offset-2">{chunks}</a>
+                <Link href="/contact/" className="text-accent underline underline-offset-2">{chunks}</Link>
               ),
             })}
           </p>
