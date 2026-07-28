@@ -6,8 +6,9 @@ import { FadeIn } from "@/components/FadeIn";
 import { buildAlternates } from "@/lib/metadata";
 import { CTA } from "@/components/CTA";
 import { AppIcon } from "@/components/AppIcon";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { featuredProducts } from "@/lib/products";
+import { NutritionDemo } from "@/components/NutritionDemo";
 
 const productIcons: Record<string, string> = {
   "vendrex-pos": "/images/icons/vendrex-pos.webp",
@@ -27,8 +28,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   setRequestLocale(locale);
   return {
-    title: "Boyo Apps — Custom Mobile & Web Application Development",
-    description: "Boyo Apps builds custom mobile apps, web applications and business software. Explore our products and turn your business idea into reliable software.",
+    title: "Custom Software Built Around Your Business | Boyo Apps",
+    description: "Boyo Apps builds custom internal tools, web applications, and business software around the way your business already operates. Tell us what slows you down.",
     ...buildAlternates("/", locale),
   };
 }
@@ -212,7 +213,7 @@ export default async function Home({ params }: Props) {
                           <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M11.5 4.45c-.02-.26-.19-.49-.45-.57-.23-.07-.47.04-.61.23l-2.3 3.01c-.25.33-.53.38-.81.15-.14-.12-.28-.26-.44-.41-.25-.23-.55-.23-.82 0-.16.15-.3.29-.44.41-.28.23-.55.29-.81.15L6.98 5.55c-.14-.19-.37-.28-.61-.23-.26.08-.43.31-.45.57-.05.72-.08 1.46-.08 2.19 0 2.85.27 5.57.8 8.12.14.67.7 1.09 1.14.67.52-.5 1.17-.82 1.84-.82.35 0 .7.12 1 .32.5.34.86.86 1.07 1.42.22.62.19 1.29-.1 1.87-.32.65-.85 1.07-1.43 1.16-.07.01-.13 0-.19-.02-.41-.14-.76-.38-1.02-.7-.3-.4-.5-.9-.54-1.42a28.9 28.9 0 0 1-.04-1.71c0-.39 0-.77-.02-1.15-.02-.6-.04-1.2-.05-1.8zm7.86 10.04c-.56.58-1.38.94-2.25 1.05-.88.11-1.75-.09-2.5-.54-.74-.45-1.29-1.13-1.59-1.91-.3-.78-.34-1.58-.11-2.34.27-.86.84-1.47 1.58-1.8.73-.33 1.53-.39 2.31-.16.78.23 1.39.75 1.76 1.35.32.51.4 1.08.25 1.65-.15.59-.6.96-1.14 1.15zM8.42 15.9c.53-.61 1.25-1 2.12-1.17.88-.17 1.76.07 2.5.64.74.58 1.31 1.44 1.62 2.39.32.97.37 1.97.1 2.92-.3.97-.94 1.67-1.73 2.07-.78.4-1.61.45-2.44.12-.84-.33-1.49-.96-1.87-1.75-.38-.79-.45-1.66-.15-2.46.32-.82.94-1.39 1.7-1.71zM9.12 9.04c-.19.19-.33.43-.4.69-.12.42-.05.87.18 1.2.23.32.56.5.93.5.38 0 .71-.18.93-.5.22-.33.3-.78.11-1.2-.19-.42-.45-.66-.71-.85-.26-.18-.56-.25-.9-.25-.34 0-.64.07-.9.22-.27.15-.45.38-.52.66z" />
                           </svg>
-                          {t("productsBuilt.googlePlay")}
+                           {t("productsBuilt.googlePlay")}
                         </a>
                       )}
                     </div>
@@ -252,7 +253,7 @@ export default async function Home({ params }: Props) {
                   num: "01",
                   title: t("customSoftware.services.item1.title"),
                   desc: t("customSoftware.services.item1.description"),
-                  href: "/services/mobile-app-development/",
+                  href: "/contact/",
                   icon: (
                     <svg className="h-7 w-7 text-accent-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
                       <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />
@@ -264,7 +265,7 @@ export default async function Home({ params }: Props) {
                   num: "02",
                   title: t("customSoftware.services.item2.title"),
                   desc: t("customSoftware.services.item2.description"),
-                  href: "/services/business-app-development/",
+                  href: "/services/web-app-development/",
                   icon: (
                     <svg className="h-7 w-7 text-accent-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
                       <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
@@ -276,7 +277,7 @@ export default async function Home({ params }: Props) {
                   num: "03",
                   title: t("customSoftware.services.item3.title"),
                   desc: t("customSoftware.services.item3.description"),
-                  href: "/services/web-app-development/",
+                  href: "/services/mobile-app-development/",
                   icon: (
                     <svg className="h-7 w-7 text-accent-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
                       <circle cx="12" cy="12" r="10" />
@@ -297,7 +298,7 @@ export default async function Home({ params }: Props) {
                   ),
                 },
               ].map((service) => (
-                <a
+                <Link
                   key={service.href}
                   href={service.href}
                   className="group flex flex-col justify-between px-8 py-10 transition-colors hover:bg-white/[0.03] first:pl-0 last:pr-0 lg:py-4"
@@ -322,9 +323,167 @@ export default async function Home({ params }: Props) {
                       <line x1="5" y1="12" x2="19" y2="12" />
                       <polyline points="12 5 19 12 12 19" />
                     </svg>
-                  </div>
-                </a>
+                   </div>
+                </Link>
               ))}
+            </div>
+          </div>
+        </section>
+      </FadeIn>
+
+      {/* ─── CUSTOM BUSINESS TOOLS ─── */}
+      <FadeIn>
+        <section className="px-6 py-28 lg:px-8">
+          <div className="mx-auto max-w-7xl">
+            <div className="mx-auto max-w-3xl text-center">
+              <p className="mb-3 text-xs font-bold tracking-[0.2em] text-accent uppercase">
+                {t("customBusinessTools.label")}
+              </p>
+              <h2 className="text-[clamp(2rem,3.5vw,3.25rem)] font-extrabold tracking-tight text-primary">
+                {t("customBusinessTools.title")}
+              </h2>
+              <p className="mt-4 text-lg text-muted max-w-xl mx-auto">
+                {t("customBusinessTools.subtitle")}
+              </p>
+              <p className="mt-3 text-base text-muted max-w-xl mx-auto">
+                {t("customBusinessTools.description")}
+              </p>
+            </div>
+
+            <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+              {(t.raw("customBusinessTools.steps") as Array<{ step: string; title: string; description: string }>).map((item: { step: string; title: string; description: string }) => (
+                <div key={item.step} className="flex flex-col rounded-2xl border border-border/80 bg-white p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-accent/5 hover:border-accent/20">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-accent/10 text-sm font-bold text-accent">
+                    {item.step}
+                  </div>
+                  <h3 className="mt-5 text-lg font-bold text-primary">{item.title}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-muted">{item.description}</p>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-24 mx-auto max-w-3xl text-center">
+              <p className="mb-3 text-xs font-bold tracking-[0.2em] text-accent uppercase">
+                {t("customBusinessTools.whatItCouldDo.label")}
+              </p>
+              <h2 className="text-[clamp(1.5rem,3vw,2.5rem)] font-extrabold tracking-tight text-primary">
+                {t("customBusinessTools.whatItCouldDo.title")}
+              </h2>
+              <p className="mt-4 text-base text-muted max-w-xl mx-auto">
+                {t("customBusinessTools.whatItCouldDo.description")}
+              </p>
+            </div>
+
+            <div className="mt-12 grid gap-4 sm:grid-cols-2 max-w-4xl mx-auto">
+              {(t.raw("customBusinessTools.whatItCouldDo.items") as string[]).map((item: string) => (
+                <div key={item} className="flex gap-3 items-start rounded-xl border border-border/60 bg-surface/50 p-5">
+                  <div className="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-accent/10 text-accent">
+                    <svg className="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                  </div>
+                  <p className="text-sm leading-relaxed text-muted">{item}</p>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-12 text-center">
+              <CTA href="/contact/">{t("customBusinessTools.cta")}</CTA>
+            </div>
+
+            <div className="mt-24">
+              <div className="mx-auto max-w-3xl text-center">
+                <p className="mb-3 text-xs font-bold tracking-[0.2em] text-accent uppercase">
+                  {t("customBusinessTools.caseStudy.label")}
+                </p>
+                <h2 className="text-[clamp(1.5rem,3vw,2.5rem)] font-extrabold tracking-tight text-primary">
+                  {t("customBusinessTools.caseStudy.title")}
+                </h2>
+                <p className="mt-4 text-base text-muted max-w-xl mx-auto">
+                  {t("customBusinessTools.caseStudy.description")}
+                </p>
+              </div>
+
+              <div className="mt-12 mx-auto max-w-4xl">
+                <div className="relative overflow-hidden rounded-xl border border-border/80 bg-white shadow-2xl shadow-primary/10">
+                  <div className="flex items-center gap-1.5 border-b border-border/60 bg-surface/90 px-4 py-2.5 backdrop-blur-sm">
+                    <span className="h-2.5 w-2.5 rounded-full bg-rose-400" />
+                    <span className="h-2.5 w-2.5 rounded-full bg-amber-400" />
+                    <span className="h-2.5 w-2.5 rounded-full bg-emerald-400" />
+                    <span className="ml-2 text-[11px] font-semibold text-muted">Custom Nutrition Planning Tool</span>
+                  </div>
+                  <div className="relative">
+                    <Image
+                      src={locale === "fr" ? "/images/nutritional_tool/nutritional_tool_screenshot_fr.webp" : "/images/nutritional_tool/nutritional_tool_screenshot_en.webp"}
+                      alt={locale === "fr" ? "Outil de nutrition sur mesure montrant la description d'un repas et les ingr\u00e9dients structur\u00e9s g\u00e9n\u00e9r\u00e9s avec quantit\u00e9s, cat\u00e9gories et informations nutritionnelles" : "Custom nutrition tool showing meal description input and generated structured ingredients with quantities, categories and nutritional information"}
+                      width={1200}
+                      height={750}
+                      className="w-full object-cover"
+                    />
+                    <div className="absolute top-4 left-4 flex flex-col gap-2 sm:flex-row">
+                      <span className="inline-flex items-center gap-1.5 rounded-lg bg-primary/90 px-3 py-1.5 text-xs font-bold text-white shadow-lg backdrop-blur-sm">
+                        <span className="flex h-4 w-4 items-center justify-center rounded-full bg-white/20 text-[10px]">1</span>
+                        {t("customBusinessTools.screenshotLabels.step1")}
+                      </span>
+                      <span className="inline-flex items-center gap-1.5 rounded-lg bg-accent/90 px-3 py-1.5 text-xs font-bold text-white shadow-lg backdrop-blur-sm">
+                        <span className="flex h-4 w-4 items-center justify-center rounded-lg bg-white/20 text-[10px]">2</span>
+                        {t("customBusinessTools.screenshotLabels.step2")}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div className="mx-auto -mt-1 h-3 w-[55%] rounded-b-lg border border-t-0 border-border/60 bg-surface shadow-sm" />
+              </div>
+
+              <div className="mt-12 mx-auto max-w-4xl">
+                <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
+                  <div className="flex items-center gap-3 rounded-xl border border-border/60 bg-surface/50 px-5 py-3 text-center">
+                    <span className="text-xs font-bold text-accent uppercase tracking-wider">{t("customBusinessTools.flow.input")}</span>
+                    <span className="text-sm text-muted">{t("customBusinessTools.flow.inputExample")}</span>
+                  </div>
+                  <svg className="hidden h-5 w-5 text-accent sm:block flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12" />
+                    <polyline points="12 5 19 12 12 19" />
+                  </svg>
+                  <div className="flex items-center gap-3 rounded-xl border border-accent/30 bg-accent/5 px-5 py-3 text-center">
+                    <span className="text-xs font-bold text-accent uppercase tracking-wider">{t("customBusinessTools.flow.rules")}</span>
+                    <span className="text-sm text-muted">{t("customBusinessTools.flow.rulesExample")}</span>
+                  </div>
+                  <svg className="hidden h-5 w-5 text-accent sm:block flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12" />
+                    <polyline points="12 5 19 12 12 19" />
+                  </svg>
+                  <div className="flex items-center gap-3 rounded-xl border border-accent/30 bg-accent/5 px-5 py-3 text-center">
+                    <span className="text-xs font-bold text-accent uppercase tracking-wider">{t("customBusinessTools.flow.output")}</span>
+                    <span className="text-sm text-muted">{t("customBusinessTools.flow.outputExample")}</span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-16 mx-auto max-w-2xl">
+                <div className="mb-6 text-center">
+                  <h3 className="text-lg font-bold text-primary">{t("customBusinessTools.demo.title")}</h3>
+                  <p className="mt-1 text-sm text-muted">{t("customBusinessTools.demo.subtitle")}</p>
+                </div>
+                <NutritionDemo locale={locale} />
+              </div>
+
+              <div className="mt-16 mx-auto max-w-2xl text-center">
+                <div className="rounded-2xl bg-surface/80 border border-border/40 px-8 py-10">
+                  <p className="text-lg font-bold text-primary">
+                    {t("customBusinessTools.imagine.title")}
+                  </p>
+                  <p className="mt-3 text-sm text-muted leading-relaxed">
+                    {t("customBusinessTools.imagine.list")}
+                  </p>
+                  <p className="mt-4 text-base font-semibold text-primary">
+                    {t("customBusinessTools.imagine.closing")}
+                  </p>
+                  <div className="mt-8">
+                    <CTA href="/contact/">{t("customBusinessTools.cta")}</CTA>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>

@@ -17,6 +17,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/services/business-app-development/", lastModified: today, changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/services/web-app-development/", lastModified: today, changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/services/saas-development/", lastModified: today, changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/custom-business-tools/", lastModified: today, changeFrequency: "monthly" as const, priority: 0.9 },
+    { path: "/custom-business-tools/spreadsheet-replacement/", lastModified: today, changeFrequency: "monthly" as const, priority: 0.85 },
     { path: "/work/", lastModified: today, changeFrequency: "monthly" as const, priority: 0.9 },
     { path: "/work/vendrex-pos/", lastModified: today, changeFrequency: "monthly" as const, priority: 0.9 },
     { path: "/work/tally-cart/", lastModified: today, changeFrequency: "monthly" as const, priority: 0.85 },

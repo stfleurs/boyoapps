@@ -11,7 +11,7 @@
     "ariaMenuClose": "Fermer le menu de navigation"
   },
   "footer": {
-    "tagline": "Applications mobiles et web conçues pour le monde réel.",
+    "tagline": "Un logiciel sur mesure construit pour le monde réel.",
     "servicesHeading": "Services",
     "workHeading": "Réalisations",
     "companyHeading": "Entreprise",
@@ -46,19 +46,19 @@
   },
   "home": {
     "hero": {
-      "badge": "MOBILE • WEB • LOGICIEL PROFESSIONNEL",
-      "heading": "Boyo Apps crée des applications qui résolvent",
-      "headingHighlight": "de vrais problèmes professionnels.",
-      "description": "Un studio de logiciel indépendant qui conçoit et développe des applications mobiles et web sur mesure pour les entreprises — de l'idée et de l'architecture jusqu'au lancement et à la croissance.",
-      "ctaStart": "Lancez votre projet",
+      "badge": "SITES WEB • APPS WEB • OUTILS BUSINESS SUR MESURE",
+      "heading": "Un logiciel sur mesure construit autour de",
+      "headingHighlight": "votre entreprise.",
+      "description": "Votre entreprise a sa propre façon de fonctionner. Votre logiciel aussi. Boyo Apps crée des outils internes sur mesure qui aident les entreprises à simplifier le travail répétitif, organiser l'information et transformer les processus complexes en workflows plus simples.",
+      "ctaStart": "Parlez-nous de ce qui vous ralentit",
       "ctaViewWork": "Voir nos réalisations",
       "tags": [
-        "Apps mobiles",
-        "Applications web",
-        "Logiciels professionnels",
+        "Sites web",
+        "Apps web",
+        "Outils business sur mesure",
         "SaaS"
       ],
-      "subheading": "Des MVP aux logiciels de production — conçus, développés et lancés de bout en bout.",
+      "subheading": "De l'idée au logiciel fonctionnel — conçu, développé et lancé autour de la façon dont votre entreprise opère déjà.",
       "badges": [
         "Android",
         "Web",
@@ -75,20 +75,20 @@
       "viewCaseStudy": "Voir l'étude de cas"
     },
     "customSoftware": {
-      "label": "NOTRE SAVOIR-FAIRE",
-      "title": "Des logiciels sur mesure pour votre entreprise",
+      "label": "CE QUE NOUS CRÉONS",
+      "title": "Un logiciel construit autour de votre entreprise",
       "services": {
         "item1": {
-          "title": "Développement d'applications mobiles",
-          "description": "Applications mobiles multiplateformes et natives conçues pour la performance, l'ergonomie et les conditions réelles d'utilisation."
+          "title": "Outils business sur mesure",
+          "description": "Transformez le travail répétitif, les feuilles de calcul en désordre et les processus manuels en un outil conçu pour votre workflow."
         },
         "item2": {
-          "title": "Applications professionnelles",
-          "description": "Systèmes d'inventaire, POS, outils terrain, tableaux de bord et logiciels internes adaptés à vos opérations."
+          "title": "Applications web",
+          "description": "Applications web sécurisées et évolutives qui aident votre équipe à gérer l'information et à servir vos clients."
         },
         "item3": {
-          "title": "Développement d'applications web",
-          "description": "Applications web sécurisées et évolutives qui vous aident à gérer et développer votre entreprise où que vous soyez."
+          "title": "Développement d'applications mobiles",
+          "description": "Applications mobiles multiplateformes et natives conçues pour la performance et les conditions réelles d'utilisation."
         },
         "item4": {
           "title": "Développement de produits SaaS",
@@ -185,15 +185,356 @@
     "behindBoyoApps": {
       "label": "STUDIO INDÉPENDANT",
       "title": "Derrière Boyo Apps",
-      "description": "Boyo Apps est un studio de logiciel indépendant spécialisé dans la création d'applications mobiles et web pratiques qui résolvent des problèmes concrets.",
-      "description2": "Notre portefeuille couvre la gestion d'entreprise, le commerce de détail, la finance, la technologie solaire, les places de marché, la productivité et les applications grand public.",
+      "description": "Boyo Apps est un studio de logiciel indépendant qui crée des outils business sur mesure, des applications web, des applications mobiles et des logiciels pratiques qui résolvent des problèmes concrets.",
+      "description2": "Notre portefeuille couvre la gestion d’entreprise, le commerce de détail, la finance, la technologie solaire, les places de marché, la productivité et les applications grand public.",
       "cta": "À propos de Boyo Apps"
     },
     "finalCta": {
-      "title": "Vous avez une idée d'application ?",
-      "description": "Transformons-la en quelque chose que les gens pourront vraiment utiliser.",
-      "description2": "Parlez-nous de votre entreprise, du problème que vous cherchez à résoudre et de ce que vous souhaitez créer.",
-      "cta": "Discuter de votre projet"
+      "title": "Qu'est-ce que vous faites encore de la vieille façon ?",
+      "description": "Pensez à la partie de votre entreprise où vous dites régulièrement : « Il doit y avoir moyen de faire ça plus facilement. »",
+      "description2": "Parlez-nous-en. Nous apprendrons comment votre processus actuel fonctionne et explorerons si Boyo Apps peut construire quelque chose de mieux autour de celui-ci.",
+      "cta": "Parlez-nous de votre workflow"
+    },
+    "customBusinessTools": {
+      "label": "OUTILS BUSINESS SUR MESURE",
+      "title": "Vous connaissez déjà votre entreprise. Nous construisons l'outil.",
+      "subtitle": "Vous n'avez pas besoin de savoir quel logiciel vous need. Vous n'avez pas besoin de comprendre la programmation. Et vous n'avez pas besoin de repenser toute votre entreprise.",
+      "description": "Montrez-nous un processus qui prend trop de temps, semble inutilement compliqué ou vous oblige à répéter le même travail encore et encore. Nous examinerons votre façon de faire actuelle et déterminerions si un outil sur mesure pourrait la rendre plus rapide et plus facile.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Montrez-nous votre workflow",
+          "description": "Décrivez ce que vous faites aujourd'hui et ce qui prend le plus de temps."
+        },
+        {
+          "step": "02",
+          "title": "Nous trouvons l'opportunité",
+          "description": "Nous identifions où un outil sur mesure pourrait éliminer les étapes répétitives."
+        },
+        {
+          "step": "03",
+          "title": "Nous construisons autour de votre entreprise",
+          "description": "S'il existe une bonne solution, Boyo Apps conçoit et développe un outil spécifiquement adapté à votre workflow."
+        },
+        {
+          "step": "04",
+          "title": "Vous gardez le contrôle",
+          "description": "L'objectif n'est pas de remplacer votre expertise. C'est de vous donner de meilleurs outils pour l'utiliser."
+        }
+      ],
+      "whatItCouldDo": {
+        "label": "QUE POURRAIT FAIRE UN OUTIL SUR MESURE POUR VOTRE ENTREPRISE ?",
+        "title": "Pensez au travail que vous répétez chaque jour",
+        "description": "Peut-être créez-vous constamment des estimations, reconstruisez des documents, organisez des informations clients, calculez des prix, préparez des rapports, gérez des tableurs ou copiez des informations entre différents systèmes.",
+        "items": [
+          "Transformer les demandes ou notes clients en informations de projet organisées",
+          "Créer des estimations, propositions, rapports ou autres documents plus rapidement",
+          "Construire des modèles réutilisables pour un travail que vous effectuez de façon répétée",
+          "Organiser les informations clients, projets, produits ou services",
+          "Automatiser les calculs basés sur vos propres règles métier",
+          "Remplacer les tableurs compliqués par un outil conçu pour votre workflow",
+          "Réduire la saisie de données répétitive et le travail de copier-coller",
+          "Réunir plusieurs étapes d'un processus métier dans une seule interface simple"
+        ]
+      },
+      "caseStudy": {
+        "label": "OUTIL RÉEL SUR MESURE",
+        "title": "D’une description simple à des données professionnelles structurées",
+        "description": "Un nutritionniste avait besoin d’un moyen plus rapide de créer des modules de repas réutilisables. Nous avons construit un outil interne qui prend une description simple d’un repas et la transforme en informations structurées que le professionnel peut examiner et ajuster."
+      },
+      "cta": "Parlez-nous de ce qui vous ralentit",
+      "screenshotLabels": {
+        "step1": "Décrivez le repas naturellement",
+        "step2": "Examinez les informations structurées"
+      },
+      "flow": {
+        "input": "Entrée",
+        "inputExample": "Informations du client ou du professionnel",
+        "rules": "Vos règles métier",
+        "rulesExample": "Modèles, calculs, données enregistrées",
+        "output": "Sortie",
+        "outputExample": "Résultats structurés"
+      },
+      "demo": {
+        "title": "Voyez le workflow en action",
+        "subtitle": "Cette démo simplifiée utilise des données prédéfinies pour montrer comment un outil sur mesure peut transformer des entrées en résultats utiles pour votre entreprise."
+      },
+      "imagine": {
+        "title": "Maintenant imaginez cela construit autour de votre entreprise.",
+        "list": "Estimations. Rapports. Demandes clients. Plans de projet. Calculs. Documents. Processus internes.",
+        "closing": "Vous connaissez le processus. Nous construisons l’outil."
+      }
+    }
+  },
+  "customBusinessTools": {
+    "pageTitle": "Des outils business sur mesure construits autour de votre façon de travailler",
+    "metaDescription": "Boyo Apps crée des outils internes sur mesure, des logiciels professionnels et des applications de workflow adaptés à la façon dont votre entreprise opère déjà. Parlez-nous de ce qui vous ralentit.",
+    "hero": {
+      "label": "OUTILS BUSINESS SUR MESURE",
+      "title": "Des outils business sur mesure construits autour de votre façon de travailler",
+      "description": "Votre entreprise a sa propre façon de fonctionner. Au lieu de forcer votre équipe à s'adapter à un autre logiciel, Boyo Apps crée des outils internes sur mesure conçus autour de votre vrai workflow."
+    },
+    "story": {
+      "label": "UN VRAI PROBLÈME. UN VRAI LOGICIEL.",
+      "title": "D'un workflow répétitif à un logiciel sur mesure",
+      "paragraph1": "Un nutritionniste passait un temps considérable à créer des plans individualisés à partir d'informations réutilisables. Chaque plan exigeait d'interpréter une description de repas, d'organiser les ingrédients en quantités et catégories structurées, et de connecter les informations nutritionnelles — des étapes répétées pour chaque nouveau plan.",
+      "paragraph2": "Au lieu de continuer ce processus manuellement, Boyo Apps a construit un logiciel autour.",
+      "paragraph3": "Le résultat est un outil interne qui prend une description simple de repas et la transforme en informations structurées et vérifiables — des modules réutilisables, des ingrédients organisés, des quantités ajustées et des données nutritionnelles connectées."
+    },
+    "screenshotLabels": {
+      "step1": "Décrivez le repas naturellement",
+      "step2": "Examinez les informations structurées"
+    },
+    "flow": {
+      "input": "Entrée",
+      "inputExample": "Informations du client ou du professionnel",
+      "rules": "Vos règles métier",
+      "rulesExample": "Modèles, calculs, données enregistrées",
+      "output": "Sortie",
+      "outputExample": "Résultats structurés"
+    },
+    "demo": {
+      "title": "Voyez le workflow en action",
+      "subtitle": "Cette démo simplifiée utilise des données prédéfinies pour montrer comment un outil sur mesure peut transformer des entrées en résultats utiles pour votre entreprise."
+    },
+    "imagine": {
+      "title": "Maintenant imaginez cela construit autour de votre entreprise.",
+      "list": "Estimations. Rapports. Demandes clients. Plans de projet. Calculs. Documents. Processus internes.",
+      "closing": "Vous connaissez le processus. Nous construisons l'outil."
+    },
+    "sections": {
+      "spreadsheet": {
+        "title": "Remplacez les tableurs compliqués par un logiciel conçu pour votre workflow",
+        "paragraph1": "Les tableurs sont excellents jusqu'à ce qu'un processus métier nécessite plusieurs feuilles, des calculs répétitifs, des informations copiées, des modèles et des vérifications manuelles. C'est là que les choses cassent.",
+        "paragraph2": "Un outil Boyo Apps sur mesure remplace cette complexité avec une interface conçue spécifiquement : formulaires structurés, calculs automatiques, modèles enregistrés, accès par rôle et une seule source de vérité."
+      },
+      "turnInfo": {
+        "title": "Transformez les informations clients en estimations, rapports et documents",
+        "paragraph1": "Vos entrées ne doivent pas être des ingrédients nutritionnels. Un entrepreneur pourrait saisir les mesures d'un projet et les notes de chantier. Un consultant pourrait saisir les informations d'un client.",
+        "paragraph2": "Le même schéma s'applique : entrées structurées, vos règles métier appliquées automatiquement, et une sortie organisée prête à utiliser."
+      }
+    },
+    "industryExamples": {
+      "contractor": {
+        "label": "Entrepreneur",
+        "input": "Détails du projet",
+        "rules": "Matériaux + main-d'œuvre + règles métier",
+        "output": "Estimation"
+      },
+      "consultant": {
+        "label": "Consultant",
+        "input": "Informations client",
+        "rules": "Modèles + workflow professionnel",
+        "output": "Rapport"
+      },
+      "serviceBusiness": {
+        "label": "Entreprise de services",
+        "input": "Demande client",
+        "rules": "Services + tarification + règles d'ordonnancement",
+        "output": "Devis / Travail"
+      }
+    },
+    "broaderLesson": {
+      "title": "Votre entreprise n'a pas besoin d'être dans la nutrition.",
+      "description": "La valeur consiste à prendre un processus que votre entreprise comprend déjà et à construire un logiciel autour. Chaque industrie a des workflows répétitifs qui pourraient être plus rapides, plus cohérents et plus faciles à gérer avec le bon outil sur mesure."
+    },
+    "process": {
+      "label": "NOTRE MÉTHODE",
+      "title": "Vous nous montrez le workflow. Nous construisons l'outil.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Montrez-nous votre workflow",
+          "description": "Décrivez ce que vous faites aujourd'hui et ce qui prend le plus de temps."
+        },
+        {
+          "step": "02",
+          "title": "Nous trouvons l'opportunité",
+          "description": "Nous identifions où un outil sur mesure pourrait éliminer les étapes répétitives."
+        },
+        {
+          "step": "03",
+          "title": "Nous construisons autour de votre entreprise",
+          "description": "Boyo Apps conçoit et développe un outil spécifiquement adapté à votre workflow."
+        },
+        {
+          "step": "04",
+          "title": "Vous gardez le contrôle",
+          "description": "L'objectif n'est pas de remplacer votre expertise. C'est de vous donner de meilleurs outils pour l'utiliser."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Qu'est-ce que vous faites encore de la vieille façon ?",
+      "description": "Parlez-nous de la partie de votre entreprise où vous dites régulièrement : « Il doit y avoir moyen de faire ça plus facilement. »",
+      "button": "Parlez-nous de ce qui vous ralentit"
+    }
+  },
+  "spreadsheetReplacement": {
+    "pageTitle": "Remplacez vos tableurs par un logiciel sur mesure | Boyo Apps",
+    "metaDescription": "Votre tableur a dépassé son objectif. Boyo Apps remplace les tableurs critiques par un logiciel sur mesure — formulaires structurés, calculs automatiques, accès par rôle et une seule source de vérité.",
+    "hero": {
+      "label": "REMPLACEMENT DE TABLEUR",
+      "title": "Remplacez votre tableur critique par un logiciel qui correspond vraiment",
+      "description": "Votre entreprise fonctionne avec un tableur qui n'a jamais été conçu pour être un logiciel professionnel. Ça marche... jusqu'à ce que ça ne marche plus — jusqu'à ce que trois personnes l'éditent en même temps, qu'une formule casse, ou que personne ne sache quelle version contient les bons chiffres. Boyo Apps construit un logiciel sur mesure autour du workflow que votre tableur essaie de gérer."
+    },
+    "problem": {
+      "label": "LE PROBLÈME",
+      "title": "Quand votre tableur devient votre système",
+      "paragraph1": "Ça commence toujours de la même façon. Quelqu'un crée un tableur pour suivre quelque chose de simple. Puis des onglets s'ajoutent. Les formules se multiplient. Des macros apparaissent. Avant de s'en rendre compte, cinq personnes en dépendent quotidiennement et personne ne comprend vraiment comment ça fonctionne.",
+      "paragraph2": "Ce n'est plus un tableur. C'est un logiciel que vous n'avez pas conçu — et ça se voit.",
+      "signs": [
+        {
+          "title": "Plusieurs personnes éditent en même temps",
+          "description": "Deux membres d'équipe modifient la même cellule. Les modifications de l'un écrasent celles de l'autre. Le contrôle de version disparaît."
+        },
+        {
+          "title": "Les formules cassent sans avertissement",
+          "description": "Une ligne est supprimée, une colonne se décale, et soudain vos calculs sont erronés. Personne ne le remarque jusqu'à ce que les chiffres ne collent plus."
+        },
+        {
+          "title": "Aucun contrôle d'accès",
+          "description": "Tout le monde peut tout voir. Tarifs, salaires, détails clients — tout dans un fichier non protégé qui circule par email."
+        },
+        {
+          "title": "Les données critiques vivent dans des cellules libres",
+          "description": "Notes, statuts et catégories sont saisis à la main. 'Terminé', 'complet', 'fini' signifient la même chose mais personne ne les saisit de la même façon."
+        },
+        {
+          "title": "Les rapports demandent du copier-coller",
+          "description": "Chaque lundi matin, quelqu'un exporte, formate et envoie le même rapport. Ça prend une heure. Ça pourrait prendre un clic."
+        },
+        {
+          "title": "La formation des nouveaux prend trop de temps",
+          "description": "Le tableur 'fonctionne' — mais seulement si vous savez où tout est caché. Accueillir un nouvel employé signifie leshadowing pendant une semaine."
+        }
+      ]
+    },
+    "beforeAfter": {
+      "label": "CE QUI CHANGE",
+      "title": "Avant et après",
+      "scenarios": [
+        {
+          "before": {
+            "title": "Avant : Tableur partagé",
+            "items": [
+              "Google Sheet avec 12 onglets et plus de 200 lignes",
+              "Le personnel met à jour le statut en tapant dans les cellules",
+              "Le propriétaire filtre par statut chaque matin",
+              "Pas de recherche, pas de permissions, pas de piste d'audit"
+            ]
+          },
+          "after": {
+            "title": "Après : Application web sur mesure",
+            "items": [
+              "Interface propre basée sur des formulaires",
+              "Mise à jour du statut en un clic",
+              "Le tableau de bord affiche les priorités automatiquement",
+              "Recherche complète, accès par rôle, historique des changements"
+            ]
+          }
+        },
+        {
+          "before": {
+            "title": "Avant : Suivi des commissions",
+            "items": [
+              "Fichier Excel avec un onglet par mois",
+              "Les formules calculent les taux de commission",
+              "Les formules cassent quand des lignes sont ajoutées",
+              "Deux heures en fin de mois pour corriger les erreurs"
+            ]
+          },
+          "after": {
+            "title": "Après : Système de commissions",
+            "items": [
+              "Les ventes sont enregistrées en temps réel",
+              "Les commissions sont calculées automatiquement",
+              "Le rapport se génère en un clic",
+              "Exact à chaque fois, aucune correction manuelle"
+            ]
+          }
+        }
+      ]
+    },
+    "process": {
+      "label": "COMMENT ÇA MARCHE",
+      "title": "Du tableur au logiciel en 5 étapes",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Partagez votre tableur",
+          "description": "Envoyez-nous le fichier. Nous examinerons la structure, les formules et le workflow pour comprendre ce qu'il fait réellement."
+        },
+        {
+          "step": "02",
+          "title": "Nous cartographions le workflow",
+          "description": "Nous identifions chaque champ de données, calcul, règle et rôle utilisateur. Nous posons des questions sur ce qui casse et ce qui compte le plus."
+        },
+        {
+          "step": "03",
+          "title": "Nous concevons la solution",
+          "description": "Vous voyez l'interface proposée avant qu'elle ne soit construite. Formulaires, tableaux de bord, rapports — conçus autour de votre vrai processus."
+        },
+        {
+          "step": "04",
+          "title": "Nous développons et ajustons",
+          "description": "Cycles de développement courts. Vous voyez les progrès en cours de route. Les retours se font en temps réel, pas après un long cycle de développement."
+        },
+        {
+          "step": "05",
+          "title": "Migration et lancement",
+          "description": "Vos données existantes migrent dans le nouveau système. Nous faisons fonctionner les deux en parallèle jusqu'à ce que vous soyez confiant. Puis le tableur prend sa retraite."
+        }
+      ]
+    },
+    "whoFor": {
+      "label": "POUR QUI",
+      "title": "Est-ce que ça vous ressemble ?",
+      "items": [
+        "Votre équipe partage un tableur dont plusieurs personnes dépendent quotidiennement",
+        "Vous avez ajouté tellement d'onglets et de formules que le fichier est fragile",
+        "Vous passez du temps chaque semaine à corriger, formater ou traiter manuellement des données",
+        "Vous avez besoin de permissions mais ne pouvez pas contrôler qui voit quoi dans un tableur",
+        "Vous avez envisagé des outils SaaS mais ils ne correspondent pas à votre vrai workflow",
+        "Vous savez que le tableur doit devenir un vrai logiciel mais vous ne savez pas par où commencer"
+      ]
+    },
+    "pricing": {
+      "label": "INVESTISSEMENT",
+      "title": "Combien ça coûte ?",
+      "paragraph1": "Chaque workflow est différent. Un outil interne ciblé peut être relativement simple, tandis que le remplacement d'un tableur critique utilisé par toute une équipe peut devenir un projet logiciel plus important.",
+      "paragraph2": "Après avoir examiné votre tableur et compris comment votre équipe l'utilise, nous recommanderons une approche et vous donnerons un prix clair avant le début du développement."
+    },
+    "faq": {
+      "label": "QUESTIONS FRÉQUENTES",
+      "title": "Questions fréquentes",
+      "items": [
+        {
+          "question": "Combien de temps prend le remplacement d'un tableur ?",
+          "answer": "Un projet typique dure 3 à 6 semaines, de la première conversation au logiciel fonctionnel. Nous commençons par le workflow principal et ajoutons des fonctionnalités de manière itérative."
+        },
+        {
+          "question": "Qu'advient-il de nos données existantes ?",
+          "answer": "Vos données migrent dans le nouveau système. Nous faisons fonctionner les deux en parallèle pendant une période pour nous assurer que rien n'est perdu. L'ancien tableur est archivé, jamais supprimé."
+        },
+        {
+          "question": "Pouvons-nous utiliser le tableur en parallèle du nouvel outil ?",
+          "answer": "Oui. Nous recommandons une période de fonctionnement parallèle où les deux systèmes opèrent. Une fois que vous êtes confiant que le nouvel outil fonctionne correctement, le tableur passe en lecture seule."
+        },
+        {
+          "question": "Et si notre tableur est trop complexe pour être remplacé ?",
+          "answer": "Les tableurs complexes peuvent en fait être d'excellents candidats pour un logiciel sur mesure car leurs formules, règles et workflows nous donnent un point de départ pour comprendre comment l'entreprise fonctionne déjà."
+        },
+        {
+          "question": "Doit-on savoir quelle technologie utiliser ?",
+          "answer": "Non. Vous nous décrivez le tableur et le workflow. Nous recommandons la bonne approche et expliquons pourquoi. Vous prenez les décisions basées sur des options claires."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Prêt à mettre votre tableur à la retraite ?",
+      "description": "Envoyez-nous le tableur qui freine votre entreprise. Nous l'examinerons, poserons quelques questions et reviendrons avec un plan clair.",
+      "button": "Parlez-nous de votre tableur"
     }
   },
   "about": {
@@ -324,11 +665,11 @@
         ]
       }
     },
-    "finalCta": "Lancez votre projet →"
+    "finalCta": "Parlez-nous de ce qui vous ralentit"
   },
   "contact": {
-    "pageTitle": "Vous avez une idée d'application ?",
-    "description": "Transformons-la en quelque chose que les gens pourront vraiment utiliser. Parlez-nous de votre entreprise, du problème que vous cherchez à résoudre et de ce que vous souhaitez créer.",
+    "pageTitle": "Parlez-nous de votre workflow",
+    "description": "Vous avez peut-être déjà l'idée parfaite pour un outil sur mesure sans le savoir. Dites-nous la partie de votre entreprise où vous dites régulièrement « Il doit y avoir moyen de faire ça plus facilement. »",
     "faqTitle": "Questions fréquentes",
     "faqDescription": "Des réponses rapides avant que nous n'échangions.",
     "faqs": [
@@ -374,7 +715,7 @@
         "name": "Nom",
         "email": "E-mail",
         "company": "Entreprise",
-        "projectType": "Que souhaitez-vous construire ?",
+        "projectType": "Quelle partie de votre entreprise aimeriez-vous simplifier ?",
         "message": "Parlez-nous de votre projet",
         "budget": "Budget approximatif",
         "timeline": "Calendrier visé"
@@ -383,16 +724,8 @@
         "name": "Votre nom",
         "email": "vous@exemple.com",
         "company": "Votre entreprise (facultatif)",
-        "message": "Décrivez votre projet, vos objectifs et vos besoins..."
-      },
-      "projectTypes": {
-        "select": "Sélectionnez une option",
-        "mobileApp": "Application mobile",
-        "businessApp": "Application professionnelle",
-        "webApp": "Application web",
-        "saas": "Produit SaaS",
-        "existingApp": "Amélioration d'une application existante",
-        "notSure": "Pas encore sûr"
+        "message": "Décrivez le processus qui prend trop longtemps, le travail que vous répétez, ou le workflow que vous aimeriez simplifier...",
+        "projectType": "Décrivez le processus qui prend trop de temps, le travail que vous répétez, ou le workflow que vous aimeriez simplifier..."
       },
       "budgetOptions": {
         "select": "Sélectionnez une fourchette",
@@ -412,7 +745,7 @@
         "exploring": "Exploration d'une idée"
       },
       "honeypot": "Ne pas remplir ce champ",
-      "submit": "Parlez-nous de votre projet",
+      "submit": "Parlez-nous de ce qui vous ralentit",
       "sending": "Envoi en cours…",
       "error": "Une erreur s'est produite. Veuillez réessayer plus tard."
     },

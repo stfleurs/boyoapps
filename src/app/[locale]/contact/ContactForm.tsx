@@ -41,7 +41,6 @@ export function ContactForm() {
   const form = t.raw("form") as {
     labels: Record<string, string>;
     placeholders: Record<string, string>;
-    projectTypes: Record<string, string>;
     budgetOptions: Record<string, string>;
     timelineOptions: Record<string, string>;
     honeypot: string;
@@ -135,20 +134,14 @@ export function ContactForm() {
         <label htmlFor="type" className="block text-sm font-medium text-primary">
           {form.labels.projectType} <span className="text-accent">*</span>
         </label>
-        <select
+        <textarea
           id="type"
           name="type"
+          rows={3}
           required
-          className="mt-1.5 block w-full rounded-lg border border-border bg-white px-4 py-3 text-sm text-primary focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent"
-        >
-          <option value="">{form.projectTypes.select}</option>
-          <option value="Mobile App">{form.projectTypes.mobileApp}</option>
-          <option value="Business Application">{form.projectTypes.businessApp}</option>
-          <option value="Web Application">{form.projectTypes.webApp}</option>
-          <option value="SaaS Product">{form.projectTypes.saas}</option>
-          <option value="Existing App Improvement">{form.projectTypes.existingApp}</option>
-          <option value="Not Sure Yet">{form.projectTypes.notSure}</option>
-        </select>
+          className="mt-1.5 block w-full rounded-lg border border-border bg-white px-4 py-3 text-sm text-primary placeholder-muted focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent"
+          placeholder={form.placeholders.projectType}
+        />
       </div>
 
       <div>

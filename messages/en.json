@@ -11,7 +11,7 @@
     "ariaMenuClose": "Close navigation menu"
   },
   "footer": {
-    "tagline": "Mobile & web applications built for the real world.",
+    "tagline": "Custom software built for the real world.",
     "servicesHeading": "Services",
     "workHeading": "Work",
     "companyHeading": "Company",
@@ -46,19 +46,19 @@
   },
   "home": {
     "hero": {
-      "badge": "MOBILE • WEB • BUSINESS SOFTWARE",
-      "heading": "Boyo Apps Builds Apps That Solve",
-      "headingHighlight": "Real Business Problems.",
-      "description": "An independent software studio designing and developing custom mobile and web applications for businesses — from idea and architecture to launch and growth.",
-      "ctaStart": "Start Your Project",
-      "ctaViewWork": "View Our Work",
+      "badge": "WEBSITES • WEB APPS • CUSTOM BUSINESS TOOLS",
+      "heading": "Custom Software Built Around",
+      "headingHighlight": "Your Business.",
+      "description": "Your business has its own way of working. Your software should too. Boyo Apps builds custom internal tools that help businesses simplify repetitive work, organize information, and turn complicated processes into easier workflows.",
+      "ctaStart": "Tell Us What's Slowing You Down",
+      "ctaViewWork": "See What We've Built",
       "tags": [
-        "Mobile Apps",
-        "Web Applications",
-        "Business Software",
+        "Websites",
+        "Web Apps",
+        "Custom Business Tools",
         "SaaS"
       ],
-      "subheading": "From MVPs to production software — designed, developed and launched end-to-end.",
+      "subheading": "From idea to working software — designed, built and launched around the way your business already operates.",
       "badges": [
         "Android",
         "Web",
@@ -75,20 +75,20 @@
       "viewCaseStudy": "View Case Study"
     },
     "customSoftware": {
-      "label": "WHAT WE DO",
-      "title": "Custom Software for Your Business",
+      "label": "WHAT WE BUILD",
+      "title": "Software Built Around Your Business",
       "services": {
         "item1": {
-          "title": "Mobile App Development",
-          "description": "Cross-platform and native mobile apps designed for performance, usability and real-world conditions."
+          "title": "Custom Business Tools",
+          "description": "Turn repetitive work, messy spreadsheets, and manual processes into a purpose-built tool designed around your workflow."
         },
         "item2": {
-          "title": "Business Applications",
-          "description": "Inventory systems, POS, field tools, dashboards and internal software tailored to your operations."
+          "title": "Web Applications",
+          "description": "Secure, scalable web apps that help your team manage information, serve customers, and run operations from anywhere."
         },
         "item3": {
-          "title": "Web Application Development",
-          "description": "Secure, scalable web apps that help you run and grow your business from anywhere."
+          "title": "Mobile App Development",
+          "description": "Cross-platform and native mobile apps designed for performance, usability and real-world conditions."
         },
         "item4": {
           "title": "SaaS Product Development",
@@ -185,15 +185,356 @@
     "behindBoyoApps": {
       "label": "INDEPENDENT STUDIO",
       "title": "Behind Boyo Apps",
-      "description": "Boyo Apps is an independent software studio focused on building practical mobile and web applications that solve real-world problems.",
+      "description": "Boyo Apps is an independent software studio building custom business tools, web applications, mobile apps, and practical software that solves real-world problems.",
       "description2": "Our portfolio spans business management, retail, finance, solar technology, marketplaces, productivity and consumer applications.",
       "cta": "About Boyo Apps"
     },
     "finalCta": {
-      "title": "Have an App Idea?",
-      "description": "Let's turn it into something people can actually use.",
-      "description2": "Tell us about your business, the problem you're trying to solve, and what you'd like to build.",
-      "cta": "Discuss Your Project"
+      "title": "What Are You Still Doing the Hard Way?",
+      "description": "Think about the part of your business where you regularly say: \"There has to be an easier way to do this.\"",
+      "description2": "Tell us about it. We'll learn how your current process works and explore whether Boyo Apps can build something better around it.",
+      "cta": "Tell Us About Your Workflow"
+    },
+    "customBusinessTools": {
+      "label": "CUSTOM BUSINESS TOOLS",
+      "title": "You Already Know Your Business. We Build the Tool.",
+      "subtitle": "You don't need to know what software you need. You don't need to understand programming. And you don't need to redesign your entire business.",
+      "description": "Show us a process that takes too long, feels unnecessarily complicated, or requires you to repeat the same work over and over. We'll look at how you're currently doing it and determine whether a custom tool could make it faster and easier.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Show Us Your Workflow",
+          "description": "Tell us what you're doing today and which parts take the most time."
+        },
+        {
+          "step": "02",
+          "title": "We Find the Opportunity",
+          "description": "We identify where a custom tool could remove repetitive steps or make the process easier."
+        },
+        {
+          "step": "03",
+          "title": "We Build Around Your Business",
+          "description": "If there's a good solution, Boyo Apps designs and builds a tool specifically around your workflow."
+        },
+        {
+          "step": "04",
+          "title": "You Stay in Control",
+          "description": "The goal isn't to replace your expertise. It's to give you better tools for using it."
+        }
+      ],
+      "whatItCouldDo": {
+        "label": "WHAT COULD A CUSTOM TOOL DO FOR YOUR BUSINESS?",
+        "title": "Think About the Work You Repeat Every Day",
+        "description": "Maybe you're constantly creating estimates, rebuilding documents, organizing customer information, calculating prices, preparing reports, managing spreadsheets, or copying information between different systems. Those are exactly the kinds of problems we want to hear about.",
+        "items": [
+          "Turn customer requests or notes into organized project information",
+          "Create estimates, proposals, reports, or other business documents faster",
+          "Build reusable templates and modules for work you perform repeatedly",
+          "Organize customer, project, product, or service information",
+          "Automate calculations based on your own business rules",
+          "Replace complicated spreadsheets with a tool designed for your workflow",
+          "Reduce repetitive data entry and copy-and-paste work",
+          "Bring multiple steps of a business process into one simple interface"
+        ]
+      },
+      "caseStudy": {
+        "label": "REAL CUSTOM TOOL",
+        "title": "From a simple description to structured professional data",
+        "description": "A nutrition professional needed a faster way to create reusable meal modules. We built an internal tool that takes a simple meal description and turns it into structured information the professional can review and adjust."
+      },
+      "cta": "Tell Us What's Slowing You Down",
+      "screenshotLabels": {
+        "step1": "Describe the meal naturally",
+        "step2": "Review structured information"
+      },
+      "flow": {
+        "input": "Input",
+        "inputExample": "Customer or professional information",
+        "rules": "Your Business Rules",
+        "rulesExample": "Templates, calculations, saved data",
+        "output": "Output",
+        "outputExample": "Structured results"
+      },
+      "demo": {
+        "title": "See the Workflow in Action",
+        "subtitle": "This simplified demo uses predefined data to show how a custom tool can turn inputs into useful business outputs."
+      },
+      "imagine": {
+        "title": "Now imagine this built around your business.",
+        "list": "Estimates. Reports. Customer requests. Project plans. Calculations. Documents. Internal processes.",
+        "closing": "You know the process. We build the tool."
+      }
+    }
+  },
+  "customBusinessTools": {
+    "pageTitle": "Custom Business Tools Built Around the Way You Work",
+    "metaDescription": "Boyo Apps builds custom internal tools, business software and workflow applications around the way your business already operates. Tell us what slows you down.",
+    "hero": {
+      "label": "CUSTOM BUSINESS TOOLS",
+      "title": "Custom Business Tools Built Around the Way You Work",
+      "description": "Your business has its own way of working. Instead of forcing your team to adapt to another piece of software, Boyo Apps builds custom internal tools designed around your actual workflow."
+    },
+    "story": {
+      "label": "REAL PROBLEM. REAL SOFTWARE.",
+      "title": "From repetitive workflow to custom software",
+      "paragraph1": "A nutrition professional was spending significant time creating individualized plans from reusable information. Every plan required interpreting a meal description, organizing ingredients into structured quantities and categories, and connecting nutritional information — steps repeated for every new plan.",
+      "paragraph2": "Instead of continuing that process manually, Boyo Apps built software around it.",
+      "paragraph3": "The result is an internal tool that takes a simple meal description and turns it into structured, reviewable information — reusable modules, organized ingredients, adjusted quantities, and connected nutritional data. The professional describes what they need, and the software handles the structure."
+    },
+    "screenshotLabels": {
+      "step1": "Describe the meal naturally",
+      "step2": "Review structured information"
+    },
+    "flow": {
+      "input": "Input",
+      "inputExample": "Customer or professional information",
+      "rules": "Your Business Rules",
+      "rulesExample": "Templates, calculations, saved data",
+      "output": "Output",
+      "outputExample": "Structured results"
+    },
+    "demo": {
+      "title": "See the Workflow in Action",
+      "subtitle": "This simplified demo uses predefined data to show how a custom tool can turn inputs into useful business outputs."
+    },
+    "imagine": {
+      "title": "Now imagine this built around your business.",
+      "list": "Estimates. Reports. Customer requests. Project plans. Calculations. Documents. Internal processes.",
+      "closing": "You know the process. We build the tool."
+    },
+    "sections": {
+      "spreadsheet": {
+        "title": "Replace complicated spreadsheets with software built for your workflow",
+        "paragraph1": "Spreadsheets are great until a business process starts requiring multiple sheets, repeated calculations, copied information, templates and manual checks. That's when things break — formulas get overwritten, version control disappears, and nobody is sure which copy has the right numbers.",
+        "paragraph2": "A custom Boyo Apps tool replaces that complexity with a purpose-built interface: structured forms, automatic calculations, saved templates, role-based access, and one source of truth your whole team can depend on."
+      },
+      "turnInfo": {
+        "title": "Turn customer information into estimates, reports and documents",
+        "paragraph1": "Your inputs don't have to be nutritional ingredients. A contractor might enter project measurements and job notes. A consultant might enter client information. A service business might start with a customer request.",
+        "paragraph2": "The pattern is the same: structured input, your business rules applied automatically, and organized output ready to use."
+      }
+    },
+    "industryExamples": {
+      "contractor": {
+        "label": "Contractor",
+        "input": "Project details",
+        "rules": "Materials + labor + business rules",
+        "output": "Estimate"
+      },
+      "consultant": {
+        "label": "Consultant",
+        "input": "Client information",
+        "rules": "Templates + professional workflow",
+        "output": "Report"
+      },
+      "serviceBusiness": {
+        "label": "Service Business",
+        "input": "Customer request",
+        "rules": "Services + pricing + scheduling rules",
+        "output": "Quote / Job"
+      }
+    },
+    "broaderLesson": {
+      "title": "Your business doesn't need to be in nutrition.",
+      "description": "The value comes from taking a process your business already understands and building software around it. Every industry has repetitive workflows that could be faster, more consistent, and easier to manage with the right custom tool."
+    },
+    "process": {
+      "label": "HOW WE WORK",
+      "title": "You show us the workflow. We build the tool.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Show Us Your Workflow",
+          "description": "Tell us what you're doing today and which parts take the most time."
+        },
+        {
+          "step": "02",
+          "title": "We Find the Opportunity",
+          "description": "We identify where a custom tool could remove repetitive steps or make the process easier."
+        },
+        {
+          "step": "03",
+          "title": "We Build Around Your Business",
+          "description": "Boyo Apps designs and builds a tool specifically around your workflow."
+        },
+        {
+          "step": "04",
+          "title": "You Stay in Control",
+          "description": "The goal isn't to replace your expertise. It's to give you better tools for using it."
+        }
+      ]
+    },
+    "cta": {
+      "title": "What Are You Still Doing the Hard Way?",
+      "description": "Tell us about the part of your business where you regularly say \"There has to be an easier way to do this.\"",
+      "button": "Tell Us What's Slowing You Down"
+    }
+  },
+  "spreadsheetReplacement": {
+    "pageTitle": "Replace Spreadsheets with Custom Software | Boyo Apps",
+    "metaDescription": "Your spreadsheet has outgrown its purpose. Boyo Apps replaces critical spreadsheets with custom-built software — structured forms, automatic calculations, role-based access, and one source of truth.",
+    "hero": {
+      "label": "SPREADSHEET REPLACEMENT",
+      "title": "Replace Your Critical Spreadsheet with Software That Actually Fits",
+      "description": "Your business runs on a spreadsheet that was never designed to be business software. It works until it doesn't — until three people edit it at once, a formula breaks, or nobody knows which version has the right numbers. Boyo Apps builds custom software around the workflow your spreadsheet is trying to handle."
+    },
+    "problem": {
+      "label": "THE PROBLEM",
+      "title": "When your spreadsheet becomes your system",
+      "paragraph1": "It always starts the same way. Someone creates a spreadsheet to track something simple. Then tabs get added. Formulas multiply. Macros appear. Before long, five people depend on it daily, and nobody fully understands how it works.",
+      "paragraph2": "That's not a spreadsheet anymore. That's business software you didn't design — and it shows.",
+      "signs": [
+        {
+          "title": "Multiple people edit at once",
+          "description": "Two team members update the same cell. Someone's changes overwrite another's. Version control disappears."
+        },
+        {
+          "title": "Formulas break without warning",
+          "description": "A row gets deleted, a column shifts, and suddenly your calculations are wrong. Nobody catches it until the numbers look off."
+        },
+        {
+          "title": "No access control",
+          "description": "Everyone can see everything. Pricing, salaries, client details — all in one unprotected file that gets emailed around."
+        },
+        {
+          "title": "Critical data lives in free-text cells",
+          "description": "Notes, statuses, and categories are typed by hand. 'Done', 'complete', 'finished' all mean the same thing but nobody enters them the same way."
+        },
+        {
+          "title": "Reporting means copy-paste",
+          "description": "Every Monday morning, someone exports, formats, and emails the same report. It takes an hour. It could take a click."
+        },
+        {
+          "title": "Training new staff takes too long",
+          "description": "The spreadsheet 'works' — but only if you know where everything is hidden. Onboarding a new hire means shadowing someone for a week."
+        }
+      ]
+    },
+    "beforeAfter": {
+      "label": "WHAT CHANGES",
+      "title": "Before and after",
+      "scenarios": [
+        {
+          "before": {
+            "title": "Before: Shared spreadsheet",
+            "items": [
+              "Google Sheet with 12 tabs and 200+ rows",
+              "Staff update status by typing into cells",
+              "Owner filters by status each morning",
+              "No search, no permissions, no audit trail"
+            ]
+          },
+          "after": {
+            "title": "After: Custom web app",
+            "items": [
+              "Clean form-based interface for data entry",
+              "Status updates with a single click",
+              "Dashboard shows priorities automatically",
+              "Full search, role-based access, change history"
+            ]
+          }
+        },
+        {
+          "before": {
+            "title": "Before: Commission tracker",
+            "items": [
+              "Excel file with a tab per month",
+              "Formulas calculate commission rates",
+              "Formulas break when rows are added",
+              "Two hours at month-end fixing errors"
+            ]
+          },
+          "after": {
+            "title": "After: Commission system",
+            "items": [
+              "Sales logged as they happen",
+              "Commissions calculated automatically",
+              "Report generates in one click",
+              "Accurate every time, no manual fixes"
+            ]
+          }
+        }
+      ]
+    },
+    "process": {
+      "label": "HOW IT WORKS",
+      "title": "From spreadsheet to software in 5 steps",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Share your spreadsheet",
+          "description": "Send us the file. We'll review the structure, the formulas, and the workflow to understand what it actually does."
+        },
+        {
+          "step": "02",
+          "title": "We map the workflow",
+          "description": "We identify every data field, calculation, rule, and user role. We ask questions about what breaks and what matters most."
+        },
+        {
+          "step": "03",
+          "title": "We design the solution",
+          "description": "You see the proposed interface before anything is built. Forms, dashboards, reports — designed around your actual process."
+        },
+        {
+          "step": "04",
+          "title": "We build and iterate",
+          "description": "Short build cycles. You see progress along the way. Feedback happens in real time, not after a long development cycle."
+        },
+        {
+          "step": "05",
+          "title": "Migrate and launch",
+          "description": "Your existing data moves into the new system. We run both in parallel until you're confident. Then the spreadsheet retires."
+        }
+      ]
+    },
+    "whoFor": {
+      "label": "WHO THIS IS FOR",
+      "title": "Does this sound like you?",
+      "items": [
+        "Your team shares a spreadsheet that multiple people depend on daily",
+        "You've added so many tabs and formulas that the file is fragile",
+        "You spend time every week fixing, formatting, or manually processing data",
+        "You need permissions but can't control who sees what in a spreadsheet",
+        "You've considered SaaS tools but they don't match your actual workflow",
+        "You know the spreadsheet needs to become real software but don't know where to start"
+      ]
+    },
+    "pricing": {
+      "label": "INVESTMENT",
+      "title": "What does it cost?",
+      "paragraph1": "Every workflow is different. A focused internal tool can be relatively small, while replacing a business-critical spreadsheet used by an entire team can become a larger software project.",
+      "paragraph2": "After reviewing your spreadsheet and understanding how your team uses it, we'll recommend an approach and give you a clear project price before development begins."
+    },
+    "faq": {
+      "label": "COMMON QUESTIONS",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "question": "How long does a spreadsheet replacement take?",
+          "answer": "A typical project runs 3–6 weeks from first conversation to working software. We start with the core workflow and add features iteratively."
+        },
+        {
+          "question": "What happens to our existing data?",
+          "answer": "Your data migrates into the new system. We run both in parallel for a period to make sure nothing is lost. The old spreadsheet is archived, never deleted."
+        },
+        {
+          "question": "Can we still use the spreadsheet alongside the new tool?",
+          "answer": "Yes. We recommend a parallel-run period where both systems operate. Once you're confident the new tool works correctly, the spreadsheet goes read-only."
+        },
+        {
+          "question": "What if our spreadsheet is too complex to replace?",
+          "answer": "Complex spreadsheets can actually be strong candidates for custom software because their formulas, rules, and workflows give us a starting point for understanding how the business already operates."
+        },
+        {
+          "question": "Do we need to know what technology to use?",
+          "answer": "No. You tell us about the spreadsheet and the workflow. We recommend the right approach and explain why. You make the decisions based on clear options."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to retire your spreadsheet?",
+      "description": "Send us the spreadsheet that's holding your business back. We'll review it, ask a few questions, and come back with a clear plan.",
+      "button": "Tell Us About Your Spreadsheet"
     }
   },
   "about": {
@@ -324,11 +665,11 @@
         ]
       }
     },
-    "finalCta": "Start Your Project →"
+    "finalCta": "Tell Us What's Slowing You Down"
   },
   "contact": {
-    "pageTitle": "Have an App Idea?",
-    "description": "Let's turn it into something people can actually use. Tell us about your business, the problem you're trying to solve, and what you'd like to build.",
+    "pageTitle": "Tell Us About Your Workflow",
+    "description": "You might already have the perfect idea for a custom tool without realizing it. Tell us the part of your business where you regularly say \"There has to be an easier way to do this.\"",
     "faqTitle": "Frequently Asked Questions",
     "faqDescription": "Quick answers before we hop on a call.",
     "faqs": [
@@ -374,7 +715,7 @@
         "name": "Name",
         "email": "Email",
         "company": "Company",
-        "projectType": "What would you like to build?",
+        "projectType": "What part of your business would you like to make easier?",
         "message": "Tell us about your project",
         "budget": "Approximate Budget",
         "timeline": "Target Timeline"
@@ -383,16 +724,8 @@
         "name": "Your name",
         "email": "you@example.com",
         "company": "Your company (optional)",
-        "message": "Describe your project, goals, and any requirements..."
-      },
-      "projectTypes": {
-        "select": "Select an option",
-        "mobileApp": "Mobile App",
-        "businessApp": "Business Application",
-        "webApp": "Web Application",
-        "saas": "SaaS Product",
-        "existingApp": "Existing Application Improvement",
-        "notSure": "Not Sure Yet"
+        "message": "Describe the process that takes too long, the work you repeat, or the workflow you'd like to simplify...",
+        "projectType": "Tell us about the process that takes too long, the work you repeat, or the workflow you'd like to simplify..."
       },
       "budgetOptions": {
         "select": "Select a range",
@@ -412,7 +745,7 @@
         "exploring": "Exploring an idea"
       },
       "honeypot": "Do not fill this field",
-      "submit": "Tell Us About Your Project",
+      "submit": "Tell Us What's Slowing You Down",
       "sending": "Sending…",
       "error": "Something went wrong. Please try again later."
     },
