@@ -106,12 +106,12 @@ export default async function Home({ params }: Props) {
                     <span className="h-2.5 w-2.5 rounded-full bg-emerald-400" />
                     <span className="ml-2 text-[11px] font-semibold text-muted">Vendrex POS — Dashboard</span>
                   </div>
-                  <div className="aspect-[16/10] bg-white">
+                  <div className="aspect-[734/416] bg-white">
                     <Image
-                      src="/images/screenshots/vendrex-dashboard.svg"
+                      src="/images/screenshots/vendrex-tablet.webp"
                       alt="Vendrex POS business management dashboard showing sales, inventory and reporting"
-                      width={1200}
-                      height={750}
+                      width={734}
+                      height={416}
                       className="h-full w-full object-cover"
                       priority
                     />
@@ -120,29 +120,16 @@ export default async function Home({ params }: Props) {
                 <div className="mx-auto -mt-1 h-3 w-[55%] rounded-b-lg border border-t-0 border-border/60 bg-surface shadow-sm" />
               </div>
 
-              <div className="hero-device absolute -bottom-4 -left-4 z-20 w-[38%] max-w-[200px] transition-transform duration-300 hover:scale-[1.03] lg:-bottom-6 lg:-left-8">
-                <div className="overflow-hidden rounded-[1.8rem] border-[3px] border-primary bg-primary p-1.5 shadow-2xl shadow-primary/25">
-                  <div className="overflow-hidden rounded-[1.5rem] bg-white">
-                    <Image
-                      src="/images/screenshots/tally-cart.svg"
-                      alt="Tally Cart shared grocery list and budget tracking application"
-                      width={360}
-                      height={760}
-                      className="h-full w-full object-cover"
-                    />
-                  </div>
-                </div>
-              </div>
 
               <div className="hero-device absolute -bottom-4 -right-4 z-20 w-[38%] max-w-[200px] transition-transform duration-300 hover:scale-[1.03] lg:-bottom-6 lg:-right-8">
                 <div className="overflow-hidden rounded-[1.8rem] border-[3px] border-primary bg-primary p-1.5 shadow-2xl shadow-primary/25">
-                  <div className="overflow-hidden rounded-[1.5rem] bg-white">
+                  <div className="overflow-hidden rounded-[1.5rem] bg-white aspect-[9/17]">
                     <Image
-                      src="/images/screenshots/solar-align.svg"
-                      alt="Solar Align Pro solar panel alignment and ROI optimization tool"
-                      width={360}
-                      height={760}
-                      className="h-full w-full object-cover"
+                      src="/images/screenshots/vendrex-phone.webp"
+                      alt="Vendrex POS dashboard on a phone showing today's sales, net profit and cash in till"
+                      width={238}
+                      height={414}
+                      className="h-full w-full object-cover object-top"
                     />
                   </div>
                 </div>
@@ -175,9 +162,8 @@ export default async function Home({ params }: Props) {
               {featuredProducts.map((product) => {
                 const iconSrc = productIcons[product.slug];
                 return (
-                  <a
+                  <div
                     key={product.slug}
-                    href={`/work/${product.slug}/`}
                     className="group relative flex flex-col justify-between rounded-2xl border border-border/80 bg-white p-8 transition-all duration-300 hover:-translate-y-2 hover:border-accent/30 hover:shadow-2xl hover:shadow-accent/10"
                   >
                     <div>
@@ -198,7 +184,12 @@ export default async function Home({ params }: Props) {
                         {productsT(`${product.slug}.category`)}
                       </p>
                       <h3 className="mt-2 text-xl font-bold text-primary group-hover:text-accent transition-colors">
-                        {product.name}
+                        <Link
+                          href={`/work/${product.slug}/`}
+                          className="after:absolute after:inset-0 after:content-['']"
+                        >
+                          {product.name}
+                        </Link>
                       </h3>
                       <p className="mt-3 text-sm leading-relaxed text-muted">
                         {productsT(`${product.slug}.shortDescription`)}
@@ -208,7 +199,7 @@ export default async function Home({ params }: Props) {
                           href={product.googlePlay}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="mt-4 inline-flex items-center gap-1.5 text-xs font-medium text-accent hover:text-accent-dark"
+                          className="relative z-10 mt-4 inline-flex items-center gap-1.5 text-xs font-medium text-accent hover:text-accent-dark"
                         >
                           <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M11.5 4.45c-.02-.26-.19-.49-.45-.57-.23-.07-.47.04-.61.23l-2.3 3.01c-.25.33-.53.38-.81.15-.14-.12-.28-.26-.44-.41-.25-.23-.55-.23-.82 0-.16.15-.3.29-.44.41-.28.23-.55.29-.81.15L6.98 5.55c-.14-.19-.37-.28-.61-.23-.26.08-.43.31-.45.57-.05.72-.08 1.46-.08 2.19 0 2.85.27 5.57.8 8.12.14.67.7 1.09 1.14.67.52-.5 1.17-.82 1.84-.82.35 0 .7.12 1 .32.5.34.86.86 1.07 1.42.22.62.19 1.29-.1 1.87-.32.65-.85 1.07-1.43 1.16-.07.01-.13 0-.19-.02-.41-.14-.76-.38-1.02-.7-.3-.4-.5-.9-.54-1.42a28.9 28.9 0 0 1-.04-1.71c0-.39 0-.77-.02-1.15-.02-.6-.04-1.2-.05-1.8zm7.86 10.04c-.56.58-1.38.94-2.25 1.05-.88.11-1.75-.09-2.5-.54-.74-.45-1.29-1.13-1.59-1.91-.3-.78-.34-1.58-.11-2.34.27-.86.84-1.47 1.58-1.8.73-.33 1.53-.39 2.31-.16.78.23 1.39.75 1.76 1.35.32.51.4 1.08.25 1.65-.15.59-.6.96-1.14 1.15zM8.42 15.9c.53-.61 1.25-1 2.12-1.17.88-.17 1.76.07 2.5.64.74.58 1.31 1.44 1.62 2.39.32.97.37 1.97.1 2.92-.3.97-.94 1.67-1.73 2.07-.78.4-1.61.45-2.44.12-.84-.33-1.49-.96-1.87-1.75-.38-.79-.45-1.66-.15-2.46.32-.82.94-1.39 1.7-1.71zM9.12 9.04c-.19.19-.33.43-.4.69-.12.42-.05.87.18 1.2.23.32.56.5.93.5.38 0 .71-.18.93-.5.22-.33.3-.78.11-1.2-.19-.42-.45-.66-.71-.85-.26-.18-.56-.25-.9-.25-.34 0-.64.07-.9.22-.27.15-.45.38-.52.66z" />
@@ -225,7 +216,7 @@ export default async function Home({ params }: Props) {
                         <polyline points="12 5 19 12 12 19" />
                       </svg>
                     </div>
-                  </a>
+                  </div>
                 );
               })}
             </div>
@@ -416,8 +407,8 @@ export default async function Home({ params }: Props) {
                     <Image
                       src={locale === "fr" ? "/images/nutritional_tool/nutritional_tool_screenshot_fr.webp" : "/images/nutritional_tool/nutritional_tool_screenshot_en.webp"}
                       alt={locale === "fr" ? "Outil de nutrition sur mesure montrant la description d'un repas et les ingr\u00e9dients structur\u00e9s g\u00e9n\u00e9r\u00e9s avec quantit\u00e9s, cat\u00e9gories et informations nutritionnelles" : "Custom nutrition tool showing meal description input and generated structured ingredients with quantities, categories and nutritional information"}
-                      width={1200}
-                      height={750}
+                      width={734}
+                      height={416}
                       className="w-full object-cover"
                     />
                     <div className="absolute top-4 left-4 flex flex-col gap-2 sm:flex-row">
@@ -545,12 +536,12 @@ export default async function Home({ params }: Props) {
                     <span className="h-2.5 w-2.5 rounded-full bg-emerald-400" />
                     <span className="ml-2 text-[11px] font-semibold text-muted">Vendrex POS</span>
                   </div>
-                  <div className="aspect-[16/10] bg-white">
+                  <div className="aspect-[734/416] bg-white">
                     <Image
-                      src="/images/screenshots/vendrex-dashboard.svg"
+                      src="/images/screenshots/vendrex-tablet.webp"
                       alt="Vendrex POS dashboard showing sales metrics, inventory and reporting"
-                      width={1200}
-                      height={750}
+                      width={734}
+                      height={416}
                       className="h-full w-full object-cover"
                     />
                   </div>
@@ -576,40 +567,27 @@ export default async function Home({ params }: Props) {
                       <span className="h-2 w-2 rounded-full bg-emerald-400" />
                       <span className="ml-1.5 text-[10px] font-medium text-muted">Vendrex</span>
                     </div>
-                    <div className="aspect-[16/9] bg-white">
+                    <div className="aspect-[734/416] bg-white">
                       <Image
-                        src="/images/screenshots/vendrex-dashboard.svg"
+                        src="/images/screenshots/vendrex-tablet.webp"
                         alt="Vendrex POS application showing inventory management and sales tracking"
-                        width={1200}
-                        height={750}
+                        width={734}
+                        height={416}
                         className="h-full w-full object-cover"
                       />
                     </div>
                   </div>
 
-                  <div className="absolute -bottom-6 -left-4 z-20 w-[35%] max-w-[160px] transition-transform duration-300 hover:scale-105">
-                    <div className="overflow-hidden rounded-[1.5rem] border-[3px] border-primary bg-primary p-1 shadow-2xl shadow-primary/25">
-                      <div className="overflow-hidden rounded-[1.2rem] bg-white">
-                        <Image
-                          src="/images/screenshots/tally-cart.svg"
-                          alt="Tally Cart mobile application"
-                          width={360}
-                          height={760}
-                          className="h-full w-full object-cover"
-                        />
-                      </div>
-                    </div>
-                  </div>
 
                   <div className="absolute -bottom-6 -right-4 z-20 w-[35%] max-w-[160px] transition-transform duration-300 hover:scale-105">
                     <div className="overflow-hidden rounded-[1.5rem] border-[3px] border-primary bg-primary p-1 shadow-2xl shadow-primary/25">
-                      <div className="overflow-hidden rounded-[1.2rem] bg-white">
+                      <div className="overflow-hidden rounded-[1.2rem] bg-white aspect-[9/17]">
                         <Image
-                          src="/images/screenshots/solar-align.svg"
-                          alt="Solar Align Pro mobile application"
-                          width={360}
-                          height={760}
-                          className="h-full w-full object-cover"
+                          src="/images/screenshots/vendrex-phone.webp"
+                          alt="Vendrex POS dashboard on a phone showing today's sales, net profit and cash in till"
+                          width={238}
+                          height={414}
+                          className="h-full w-full object-cover object-top"
                         />
                       </div>
                     </div>
